@@ -1,0 +1,226 @@
+body {
+    margin: 0px;
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: #f9fafb;
+}
+
+nav {
+    grid-column: col-start/span 12;
+    grid-row: 1;
+}
+
+#logo {
+    margin: auto;
+}
+
+#club_name {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+header {
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(8px + 2vmin);
+    justify-content: center;
+    background-color: #e02528;
+    box-shadow: 0px 1px 20px rgb(78, 78, 78);
+}
+
+.add-calendar a {
+    color:#e02528;
+    letter-spacing: 20px; 
+}
+
+#header-nav,
+#header-nav a,
+#header-nav a:link,
+#header-nav a:visited {
+    color: white;
+    padding: 8px;
+    letter-spacing: 5px;
+}
+
+#header-nav a:hover {
+    background-color: #ec797b;
+}
+
+nav {
+    font-weight: bold;
+}
+
+#header-nav {
+    margin-bottom: 4px;
+}
+
+#nav-social a,
+footer a {
+    color: white;
+    font-size: larger;
+}
+
+#nav-social a:hover,
+footer a:hover {
+    opacity: 0.7;
+}
+
+.content {
+    font-size: calc(7px + 2vmin);
+    margin: 20px auto auto;
+    position: relative;
+    text-align: left;
+    padding: 10px;
+    padding-top: 0px;
+    width: 80%;
+    padding-bottom: 20px;
+}
+
+.section {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px dashed gray;
+}
+
+#events-section {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px dashed gray;
+}
+
+.event-with-poster {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-gap: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px;
+    margin-bottom: 20px;
+}
+
+.event { /*event with no poster*/
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px;
+    margin-bottom: 20px;
+}
+
+.event-poster img {
+    height: 700px;
+}
+
+.event-with-poster-details {
+    padding: 10px;    
+}
+
+.section-title {
+    text-align: center;
+    letter-spacing: 5px;
+    text-decoration: black wavy underline;
+}
+
+footer {
+    border-top: 3px #c40729 solid;
+    letter-spacing: 2px;
+    color: #ffffff;
+    background-color: #222222;
+    margin: 0px;
+    padding-top: 5px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 1vmin);
+    justify-content: center;
+}
+
+a {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+}
+
+
+/*
+Code for button to go top top
+source: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+*/
+#top_btn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: red;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#top_btn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        width: 95%;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .event-with-poster {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 5px;
+    }
+
+    .event-poster img {
+        width: 100%;
+    }
+
+    #top_btn {
+        right: 0px;
+    }
+}
