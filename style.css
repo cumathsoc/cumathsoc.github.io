@@ -30,13 +30,14 @@ header {
     flex-direction: column;
     font-size: calc(8px + 2vmin);
     justify-content: center;
-    background-color: #e02528;
+    /*    background-color: #e02528; */
+    background-color: #d82131;
     box-shadow: 0px 1px 20px rgb(78, 78, 78);
 }
 
 .add-calendar a {
-    color:#e02528;
-    letter-spacing: 20px; 
+    color: #e02528;
+    letter-spacing: 20px;
 }
 
 #header-nav,
@@ -89,14 +90,14 @@ footer a:hover {
     border-top: 1px dashed gray;
 }
 
-#events-section {
+#news-section {
     width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
     border-top: 1px dashed gray;
 }
 
-.event-with-poster {
+.news-with-poster {
     display: grid;
     grid-template-columns: 40% 60%;
     grid-gap: 10px;
@@ -107,7 +108,48 @@ footer a:hover {
     margin-bottom: 20px;
 }
 
-.event { /*event with no poster*/
+.merch-with-img {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-gap: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px;
+    margin-bottom: 20px;
+    font-size: calc(5px + 2vmin);
+}
+
+.merch-img br {
+    display: block;
+    content: ""; 
+    margin-top: 0; 
+}
+
+.merch-thumbs {
+    display: grid;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-content: center;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.merch-thumbs div {
+    width: 65%;
+}
+
+.merch-thumbs img {
+    position: relative;
+    width: 100%;
+}
+
+.merch-main img {
+    width: calc(550px + 2vmin);
+}
+
+.news {
+    /*news with no poster*/
     background-color: white;
     padding: 10px;
     border-radius: 10px;
@@ -115,12 +157,12 @@ footer a:hover {
     margin-bottom: 20px;
 }
 
-.event-poster img {
+.news-poster img {
     height: 700px;
 }
 
-.event-with-poster-details {
-    padding: 10px;    
+.news-with-poster-details {
+    padding: 10px;
 }
 
 .section-title {
@@ -160,6 +202,29 @@ a:hover {
     color: purple;
 }
 
+#resources h2 {
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+
+.price {
+    color: #e42c00;
+}
+
+.product-color {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    width: 50px;
+}
+
+.color-circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+}
 
 /*
 Code for button to go top top
@@ -199,14 +264,68 @@ source: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
     /* Add a dark-grey background on hover */
 }
 
-@media only screen and (max-width: 600px) {
+/*
+Code for button to go top top
+source: https://www.w3schools.com/howto/howto_css_tooltip.asp
+*/
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    font-size: small;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 1000px) {
     .content {
         width: 95%;
         padding: 10px;
         text-align: left;
     }
 
-    .event-with-poster {
+    .news-with-poster,
+    .merch-with-img {
         display: grid;
         grid-template-columns: auto;
         grid-gap: 10px;
@@ -216,11 +335,21 @@ source: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
         box-shadow: 4px 4px 5px;
     }
 
-    .event-poster img {
+    .news-poster img,
+    .merch-main img {
         width: 100%;
     }
 
     #top_btn {
-        right: 0px;
+        right: 10px;
+    }
+}
+
+/*Laptops between 1000-1800px*/
+@media only screen and (min-width: 1000px) and  (max-width: 1800px) {
+    .content {
+        width: 90%;
+        padding: 10px;
+        text-align: left;
     }
 }
