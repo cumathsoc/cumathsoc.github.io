@@ -33,3 +33,8 @@ function to_top() {
   }
 
 })(window, document, undefined);
+
+function changeMerchColor(color){
+  // TODO: handle which merch is shown on the screen
+  console.log("merch button: " + color + " was clicked.");
+}
