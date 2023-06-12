@@ -34,8 +34,6 @@ function to_top() {
 
 })(window, document, undefined);
 
-
-
 function changeMerchColor(color){
   let frontShirt = document.getElementById('front-shirt');
   let front1Shirt = document.getElementById('front1-shirt');
