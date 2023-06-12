@@ -33,3 +33,25 @@ function to_top() {
   }
 
 })(window, document, undefined);
+
+
+
+function changeMerchColor(color){
+  let frontShirt = document.getElementById('front-shirt');
+  let front1Shirt = document.getElementById('front1-shirt');
+  let backShirt = document.getElementById('back-shirt');
+  let tshirtColor = document.getElementById('tshirt-color');
+  
+  if(color === 'red'){
+    tshirtColor.innerText = 'Red'
+    backShirt.src = 'images/merch/back-red-shirt.jpg'
+    frontShirt.src = 'images/merch/front-red-shirt.jpg'
+    front1Shirt.src = 'images/merch/front-red-shirt.jpg'
+  }
+  if(color === 'black'){
+    tshirtColor.innerText = 'Black'
+    backShirt.src = 'images/merch/back-black-shirt.jpg'
+    frontShirt.src = 'images/merch/front-black-shirt.jpg'
+    front1Shirt.src = 'images/merch/front-black-shirt.jpg'
+  }
+}
