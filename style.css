@@ -224,6 +224,7 @@ a:hover {
     border-radius: 50%;
     text-align: center;
     align-items: center;
+    cursor: pointer;
 }
 
 /*
