@@ -142,10 +142,12 @@ footer a:hover {
 .merch-thumbs img {
     position: relative;
     width: 100%;
+    cursor: pointer;
 }
 
 .merch-main img {
     width: calc(550px + 2vmin);
+    cursor: pointer;
 }
 
 .news {
@@ -159,6 +161,7 @@ footer a:hover {
 
 .news-poster img {
     height: 700px;
+    cursor: pointer;
 }
 
 .news-with-poster-details {
