@@ -63,16 +63,18 @@ function changeMerchColor(color){
   backShirt.classList.remove('selected-merch-thumbnail');
   frontShirt.classList.add('selected-merch-thumbnail');
 }
-  if(color === 'red'){
-    tshirtColor.innerText = 'Red'
-    backShirt.src = 'images/merch/back-red-shirt.jpg'
-    frontShirt.src = 'images/merch/front-red-shirt.jpg'
-    front1Shirt.src = 'images/merch/front-red-shirt.jpg'
+
+function changeMainMerchView(side) {
+  let mainShirt = document.getElementById('main-shirt');
+  let clickedShirt = document.getElementById(side + '-shirt');
+  mainShirt.src = clickedShirt.src;
+
+  clickedShirt.classList.add('selected-merch-thumbnail');
+
+  if (side == 'front') {
+    document.getElementById('back-shirt').classList.remove('selected-merch-thumbnail');
   }
-  if(color === 'black'){
-    tshirtColor.innerText = 'Black'
-    backShirt.src = 'images/merch/back-black-shirt.jpg'
-    frontShirt.src = 'images/merch/front-black-shirt.jpg'
-    front1Shirt.src = 'images/merch/front-black-shirt.jpg'
+  else {
+    document.getElementById('front-shirt').classList.remove('selected-merch-thumbnail');
   }
 }
