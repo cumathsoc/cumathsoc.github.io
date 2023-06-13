@@ -53,11 +53,22 @@
 
             <div class="merch-with-img">
                 <div class = "merch-img">
-                    <div class="merch-main"><img id="front-shirt" src="images/merch/front-black-shirt.jpg"></div>
+                    <div class="merch-main"><img id="main-shirt" src="images/merch/front-black-shirt.jpg"></div>
                     <br />
                     <div class="merch-thumbs">
-                        <div><img id="front1-shirt" src="images/merch/front-black-shirt.jpg"></div>
-                        <div><img id="back-shirt" src="images/merch/back-black-shirt.jpg"></div>
+                        <div>
+                            <img
+                                id="front-shirt" 
+                                class="selected-merch-thumbnail" 
+                                onclick="changeMainMerchView('front')"
+                                src="images/merch/front-black-shirt.jpg">
+                        </div>
+                        <div>
+                            <img
+                                id="back-shirt" 
+                                onclick="changeMainMerchView('back')"
+                                src="images/merch/back-black-shirt.jpg">
+                        </div>
                     </div>
                 </div>
                 <div class="news-with-poster-details">
@@ -65,10 +76,21 @@
                     <span class="price">$20.00</span> <b>members</b><br />
                     <span class="price">$25.00</span> <b>for non-members</b><br />
                     <b>Size:</b> S, M, L, XL<br />
-                    <b>Color:</b> <span id = "tshirt-color">Black</span>
-                    <div class = "product-color">
-                        <button onclick="changeMerchColor('black')" class="color-circle" style="background-color:black"></button>
-                        <button onclick="changeMerchColor('red')" class="color-circle" style="background-color:red"></button>
+                    <b>Color:</b> <span id = "merch-color">Black</span>
+                    <div class="product-color">
+                        <button
+                            class="color-circle"
+                            onclick="changeMerchColor('black')"
+                            onmouseover="handleHoverColor('black')" 
+                            onmouseleave="handleHoverExitColor('black')"
+                            style="background-color:black">
+                        </button>
+                        <button
+                            class="color-circle"
+                            onclick="changeMerchColor('red')"
+                            onmouseover="handleHoverColor('red')"
+                            onmouseleave="handleHoverExitColor('red')"
+                            style="background-color:red"></button>
                     </div>
                     <br/>
                     <b>Description:</b> A 100% cotton t-shirt filled with different math equations. Can you name every

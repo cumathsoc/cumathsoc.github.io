@@ -34,22 +34,47 @@ function to_top() {
 
 })(window, document, undefined);
 
+var colorStore = 'black';
+
+function handleHoverColor(color) {
+  let merchColor = document.getElementById('merch-color');
+  colorStore = merchColor.innerText;
+  merchColor.innerText = color.charAt(0).toUpperCase() + color.slice(1);
+}
+
+function handleHoverExitColor(color) {
+  let merchColor = document.getElementById('merch-color');
+  merchColor.innerText = colorStore.charAt(0).toUpperCase() + colorStore.slice(1);
+}
+
 function changeMerchColor(color){
+  let mainShirt = document.getElementById('main-shirt');
   let frontShirt = document.getElementById('front-shirt');
-  let front1Shirt = document.getElementById('front1-shirt');
   let backShirt = document.getElementById('back-shirt');
-  let tshirtColor = document.getElementById('tshirt-color');
+  let merchColor = document.getElementById('merch-color');
   
-  if(color === 'red'){
-    tshirtColor.innerText = 'Red'
-    backShirt.src = 'images/merch/back-red-shirt.jpg'
-    frontShirt.src = 'images/merch/front-red-shirt.jpg'
-    front1Shirt.src = 'images/merch/front-red-shirt.jpg'
+  mainShirt.src = 'images/merch/front-' + color + '-shirt.jpg';
+  frontShirt.src = 'images/merch/front-' + color + '-shirt.jpg';
+  backShirt.src = 'images/merch/back-' + color + '-shirt.jpg';
+  merchColor.innerText = color.charAt(0).toUpperCase() + color.slice(1);
+
+  colorStore = color;
+
+  backShirt.classList.remove('selected-merch-thumbnail');
+  frontShirt.classList.add('selected-merch-thumbnail');
+}
+
+function changeMainMerchView(side) {
+  let mainShirt = document.getElementById('main-shirt');
+  let clickedShirt = document.getElementById(side + '-shirt');
+  mainShirt.src = clickedShirt.src;
+
+  clickedShirt.classList.add('selected-merch-thumbnail');
+
+  if (side == 'front') {
+    document.getElementById('back-shirt').classList.remove('selected-merch-thumbnail');
   }
-  if(color === 'black'){
-    tshirtColor.innerText = 'Black'
-    backShirt.src = 'images/merch/back-black-shirt.jpg'
-    frontShirt.src = 'images/merch/front-black-shirt.jpg'
-    front1Shirt.src = 'images/merch/front-black-shirt.jpg'
+  else {
+    document.getElementById('front-shirt').classList.remove('selected-merch-thumbnail');
   }
 }
