@@ -83,6 +83,7 @@ function changeMerchColor(color) {
   else {
     frontShirt.classList.remove('selected-merch-thumbnail');
     backShirt.classList.add('selected-merch-thumbnail');
+  }
   backShirt.classList.remove('selected-merch-thumbnail');
   frontShirt.classList.add('selected-merch-thumbnail');
 
