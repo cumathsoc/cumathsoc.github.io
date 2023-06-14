@@ -97,22 +97,9 @@ footer a:hover {
     border-top: 1px dashed gray;
 }
 
-.news-with-poster {
+.merch-with-img, .news-with-poster {
     display: grid;
-    grid-template-columns: 40% 60%;
-    grid-gap: 10px;
-    background-color: white;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 4px 4px 5px;
-    margin-bottom: 20px;
-}
-
-.merch-with-img {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    grid-gap: 10px;
-    background-color: white;
+    grid-template-columns: 1fr 1fr;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 4px 4px 5px;
@@ -145,8 +132,12 @@ footer a:hover {
     cursor: pointer;
 }
 
-.merch-main img {
-    width: calc(550px + 2vmin);
+.merch-main img, .news-poster img {
+    object-fit: contain;
+    max-width:100%;
+    min-width: 95%;
+    max-height:100%;
+    min-height: 100%;
     cursor: pointer;
 }
 
@@ -165,14 +156,13 @@ footer a:hover {
     margin-bottom: 20px;
 }
 
-
-.news-poster img {
-    height: 800px;
-    cursor: pointer;
-}
-
 .news-with-poster-details {
     padding: 10px;
+    padding-top: 0px;
+}
+
+.news-with-poster-details h3, .news-with-poster-details h2, .merch-img, .news-poster {
+    margin-top: 0.75em;
 }
 
 .section-title {
@@ -373,16 +363,6 @@ source: https://www.w3schools.com/howto/howto_css_tooltip.asp
     .merch-with-img {
         display: grid;
         grid-template-columns: auto;
-        grid-gap: 10px;
-        background-color: white;
-        padding: 10px;
-        border-radius: 10px;
-        box-shadow: 4px 4px 5px;
-    }
-
-    .news-poster img,
-    .merch-main img {
-        width: 100%;
     }
 
     #top_btn {
@@ -431,60 +411,3 @@ source: https://www.w3schools.com/howto/howto_css_tooltip.asp
     }
 }
 
-/*Laptops between 1000-1800px*/
-@media only screen and (min-width: 1000px) and  (max-width: 1200px) {
-    .news-with-poster {
-        grid-template-columns: 50% 50%
-        padding-right: 10px;
-    }
-
-    /*Laptops between 1000-1800px*/
-    @media only screen and (min-width: 1000px) and (max-width: 1200px) {
-        .news-with-poster {
-            grid-template-columns: 50% 50%
-        }
-
-        .news-poster img {
-            height: 600px;
-        }
-    }
-
-    @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-        .news-with-poster {
-            grid-template-columns: 50% 50%
-        }
-
-        .news-poster img {
-            height: 650px;
-        }
-    }
-
-    @media only screen and (min-width: 1200px) and (max-width: 1400px) {
-        .news-with-poster {
-            grid-template-columns: 50% 50%
-        }
-
-        .news-poster img {
-            height: 650px;
-        }
-    }
-
-    @media only screen and (min-width: 1400px) and (max-width: 1600px) {
-        .news-with-poster {
-            grid-template-columns: 40% 60%
-        }
-
-        .news-poster img {
-            height: 650px;
-        }
-    }
-
-    @media only screen and (min-width: 1600px) and (max-width: 1800px) {
-        .news-with-poster {
-            grid-template-columns: 40% 60%
-        }
-
-        .news-poster img {
-            height: 700px;
-        }
-    }
