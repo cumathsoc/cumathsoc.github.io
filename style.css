@@ -150,8 +150,11 @@ footer a:hover {
     cursor: pointer;
 }
 
-.news,
-.merch {
+.selected-merch-thumbnail {
+    border: 8px solid #2b2b2b;
+}
+
+.news, .merch {
     /*news with no poster*/
     background-color: white;
     padding: 10px;
@@ -424,6 +427,14 @@ source: https://www.w3schools.com/howto/howto_css_tooltip.asp
     .new,
     .merch {
         padding-left: 10px;
+        padding-right:10px;
+    }
+}
+
+/*Laptops between 1000-1800px*/
+@media only screen and (min-width: 1000px) and  (max-width: 1200px) {
+    .news-with-poster {
+        grid-template-columns: 50% 50%
         padding-right: 10px;
     }
 
