@@ -16,25 +16,31 @@ function scrollFunction() {
 }
 
 // When the user clicks on the button, scroll to the top of the document
-function to_top() {
+function toTop() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 } 
 (function(window, document, undefined) {
 
-  // code that should be taken care of right away
-
   window.onload = init;
 
   function init(){
-    // the code to be called when the dom has loaded
-    // #document has its nodesA
     top_button = document.getElementById("top_btn");
   }
 
 })(window, document, undefined);
 
+
 var colorStore = 'black';
+
+function toggleMenu() {
+  let menu = document.getElementById("header-nav");
+  if (menu.style.display === "block") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "block";
+  }
+}
 
 function handleHoverColor(color) {
   let merchColor = document.getElementById('merch-color');
