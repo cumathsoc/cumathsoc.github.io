@@ -13,7 +13,7 @@ nav {
     margin: auto;
 }
 
-#club_name {
+#club-name {
     padding: 0px;
     margin-top: 0px;
     margin-bottom: 10px;
@@ -79,7 +79,7 @@ footer a:hover {
     text-align: left;
     padding: 10px;
     padding-top: 0px;
-    width: 80%;
+    width: 90%;
     padding-bottom: 20px;
 }
 
@@ -150,17 +150,20 @@ footer a:hover {
     cursor: pointer;
 }
 
-.news {
+.news, .merch {
     /*news with no poster*/
     background-color: white;
     padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 10px;
     box-shadow: 4px 4px 5px;
     margin-bottom: 20px;
 }
 
+
 .news-poster img {
-    height: 700px;
+    height: 800px;
     cursor: pointer;
 }
 
@@ -323,11 +326,30 @@ source: https://www.w3schools.com/howto/howto_css_tooltip.asp
     opacity: 1;
 }
 
+.hamburger-nav {
+    display: none; 
+    color:white;
+    position: absolute;
+    padding-right: 16px;
+    padding-top: 10px;
+    right: 0;
+    top: 0;
+}
+  
+.hamburger-nav:hover {
+    color: black;
+}
+
 @media only screen and (max-width: 1000px) {
     .content {
         width: 95%;
         padding: 10px;
         text-align: left;
+    }
+
+    .news-with-poster-details, .news-with-poster-details h2 {
+        margin-top: 0px;
+        padding-top: 0px;
     }
 
     .news-with-poster,
@@ -347,15 +369,95 @@ source: https://www.w3schools.com/howto/howto_css_tooltip.asp
     }
 
     #top_btn {
-        right: 10px;
+        right: 6px;
+        margin-bottom:20px;
     }
+
+    nav a {
+        display: block;
+    }
+
+    #club-name {
+        font-size: 1em;
+        letter-spacing: 2px;
+    }
+
+    .hamburger-nav {
+        display: block;
+    }
+
+    #logo img {
+        width: 60px;
+        height: 60pxm;
+        position: absolute;
+        left:0px;
+        right: 0px;
+    }
+    #header-nav {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 1600px) {
+    .content {
+        width: 95%;
+        text-align: left;
+        font-size: calc(5px + 2vmin);
+    }
+
+    .new, .merch {
+        padding-left: 10px;
+        padding-right:10px;
 }
 
 /*Laptops between 1000-1800px*/
-@media only screen and (min-width: 1000px) and  (max-width: 1800px) {
-    .content {
-        width: 90%;
-        padding: 10px;
-        text-align: left;
+@media only screen and (min-width: 1000px) and  (max-width: 1200px) {
+    .news-with-poster {
+        grid-template-columns: 50% 50%
+    }
+
+    .news-poster img {
+        height: 600px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and  (max-width: 1400px) {
+    .news-with-poster {
+        grid-template-columns: 50% 50%
+    }
+
+    .news-poster img {
+        height: 650px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and  (max-width: 1400px) {
+    .news-with-poster {
+        grid-template-columns: 50% 50%
+    }
+
+    .news-poster img {
+        height: 650px;
+    }
+}
+
+@media only screen and (min-width: 1400px) and  (max-width: 1600px) {
+    .news-with-poster {
+        grid-template-columns: 40% 60%
+    }
+
+    .news-poster img {
+        height: 650px;
+    }
+}
+
+@media only screen and (min-width: 1600px) and  (max-width: 1800px) {
+    .news-with-poster {
+        grid-template-columns: 40% 60%
+    }
+
+    .news-poster img {
+        height: 700px;
     }
 }
