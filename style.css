@@ -122,8 +122,8 @@ footer a:hover {
 
 .merch-img br {
     display: block;
-    content: ""; 
-    margin-top: 0; 
+    content: "";
+    margin-top: 0;
 }
 
 .merch-thumbs {
@@ -148,6 +148,10 @@ footer a:hover {
 .merch-main img {
     width: calc(550px + 2vmin);
     cursor: pointer;
+}
+
+.selected-merch-thumbnail {
+    border: 8px solid #2b2b2b;
 }
 
 .news, .merch {
@@ -224,6 +228,10 @@ a:hover {
     width: 50px;
 }
 
+.selected-color {
+    border: 1px solid black;
+}
+
 .color-circle {
     width: 25px;
     height: 25px;
@@ -232,7 +240,14 @@ a:hover {
     align-items: center;
     cursor: pointer;
     border: none;
+}
 
+#shirt-black-23,
+#shirt-red-23 {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 2px;
 }
 
 /*
@@ -308,6 +323,7 @@ source: https://www.w3schools.com/howto/howto_css_tooltip.asp
     transition: opacity 0.3s;
 }
 
+
 /* Tooltip arrow */
 .tooltip .tooltiptext::after {
     content: "";
@@ -327,15 +343,15 @@ source: https://www.w3schools.com/howto/howto_css_tooltip.asp
 }
 
 .hamburger-nav {
-    display: none; 
-    color:white;
+    display: none;
+    color: white;
     position: absolute;
     padding-right: 16px;
     padding-top: 10px;
     right: 0;
     top: 0;
 }
-  
+
 .hamburger-nav:hover {
     color: black;
 }
@@ -347,7 +363,8 @@ source: https://www.w3schools.com/howto/howto_css_tooltip.asp
         text-align: left;
     }
 
-    .news-with-poster-details, .news-with-poster-details h2 {
+    .news-with-poster-details,
+    .news-with-poster-details h2 {
         margin-top: 0px;
         padding-top: 0px;
     }
@@ -370,7 +387,7 @@ source: https://www.w3schools.com/howto/howto_css_tooltip.asp
 
     #top_btn {
         right: 6px;
-        margin-bottom:20px;
+        margin-bottom: 20px;
     }
 
     nav a {
@@ -390,9 +407,10 @@ source: https://www.w3schools.com/howto/howto_css_tooltip.asp
         width: 60px;
         height: 60pxm;
         position: absolute;
-        left:0px;
+        left: 0px;
         right: 0px;
     }
+
     #header-nav {
         display: none;
     }
@@ -406,58 +424,67 @@ source: https://www.w3schools.com/howto/howto_css_tooltip.asp
         font-size: calc(5px + 2vmin);
     }
 
-    .new, .merch {
+    .new,
+    .merch {
         padding-left: 10px;
         padding-right:10px;
+    }
 }
 
 /*Laptops between 1000-1800px*/
 @media only screen and (min-width: 1000px) and  (max-width: 1200px) {
     .news-with-poster {
         grid-template-columns: 50% 50%
+        padding-right: 10px;
     }
 
-    .news-poster img {
-        height: 600px;
-    }
-}
+    /*Laptops between 1000-1800px*/
+    @media only screen and (min-width: 1000px) and (max-width: 1200px) {
+        .news-with-poster {
+            grid-template-columns: 50% 50%
+        }
 
-@media only screen and (min-width: 1200px) and  (max-width: 1400px) {
-    .news-with-poster {
-        grid-template-columns: 50% 50%
-    }
-
-    .news-poster img {
-        height: 650px;
-    }
-}
-
-@media only screen and (min-width: 1200px) and  (max-width: 1400px) {
-    .news-with-poster {
-        grid-template-columns: 50% 50%
+        .news-poster img {
+            height: 600px;
+        }
     }
 
-    .news-poster img {
-        height: 650px;
-    }
-}
+    @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+        .news-with-poster {
+            grid-template-columns: 50% 50%
+        }
 
-@media only screen and (min-width: 1400px) and  (max-width: 1600px) {
-    .news-with-poster {
-        grid-template-columns: 40% 60%
-    }
-
-    .news-poster img {
-        height: 650px;
-    }
-}
-
-@media only screen and (min-width: 1600px) and  (max-width: 1800px) {
-    .news-with-poster {
-        grid-template-columns: 40% 60%
+        .news-poster img {
+            height: 650px;
+        }
     }
 
-    .news-poster img {
-        height: 700px;
+    @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+        .news-with-poster {
+            grid-template-columns: 50% 50%
+        }
+
+        .news-poster img {
+            height: 650px;
+        }
     }
-}
+
+    @media only screen and (min-width: 1400px) and (max-width: 1600px) {
+        .news-with-poster {
+            grid-template-columns: 40% 60%
+        }
+
+        .news-poster img {
+            height: 650px;
+        }
+    }
+
+    @media only screen and (min-width: 1600px) and (max-width: 1800px) {
+        .news-with-poster {
+            grid-template-columns: 40% 60%
+        }
+
+        .news-poster img {
+            height: 700px;
+        }
+    }
