@@ -150,6 +150,10 @@ footer a:hover {
     cursor: pointer;
 }
 
+.selected-merch-thumbnail {
+    border: 8px solid #2b2b2b;
+}
+
 .news {
     /*news with no poster*/
     background-color: white;
