@@ -55,24 +55,34 @@ function handleHoverExitColor(color) {
   merchColor.innerText = colorStore.charAt(0).toUpperCase() + colorStore.slice(1);
 }
 
+var sideStore = 'front';
+
 function changeMerchColor(color) {
+
   let mainShirt = document.getElementById('main-shirt');
   let frontShirt = document.getElementById('front-shirt');
   let backShirt = document.getElementById('back-shirt');
   let merchColor = document.getElementById('merch-color');
+  
 
   let blackCircleClassList = document.getElementById("shirt-black-23").classList;
   let redCircleClassList = document.getElementById("shirt-red-23").classList;
 
-  mainShirt.src = 'images/merch/front-' + color + '-shirt.jpg';
+  mainShirt.src = 'images/merch/' + sideStore + '-' + color + '-shirt.jpg';
   frontShirt.src = 'images/merch/front-' + color + '-shirt.jpg';
   backShirt.src = 'images/merch/back-' + color + '-shirt.jpg';
   merchColor.innerText = color.charAt(0).toUpperCase() + color.slice(1);
 
   colorStore = color;
 
-  backShirt.classList.remove('selected-merch-thumbnail');
-  frontShirt.classList.add('selected-merch-thumbnail');
+  if (sideStore == 'front') {
+    backShirt.classList.remove('selected-merch-thumbnail');
+    frontShirt.classList.add('selected-merch-thumbnail');
+  }
+  else {
+    frontShirt.classList.remove('selected-merch-thumbnail');
+    backShirt.classList.add('selected-merch-thumbnail');
+  }
 
   if (color === "black") {
     blackCircleClassList.add("selected-color");
@@ -84,10 +94,12 @@ function changeMerchColor(color) {
   }
 }
 
+
 function changeMainMerchView(side) {
   let mainShirt = document.getElementById('main-shirt');
   let clickedShirt = document.getElementById(side + '-shirt');
   mainShirt.src = clickedShirt.src;
+  sideStore = side;
 
   clickedShirt.classList.add('selected-merch-thumbnail');
 
