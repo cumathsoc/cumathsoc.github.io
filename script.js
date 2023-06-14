@@ -64,12 +64,11 @@ function changeMerchColor(color) {
   let backShirt = document.getElementById('back-shirt');
   let merchColor = document.getElementById('merch-color');
   
-  mainShirt.src = 'images/merch/' + sideStore + '-' + color + '-shirt.jpg';
 
   let blackCircleClassList = document.getElementById("shirt-black-23").classList;
   let redCircleClassList = document.getElementById("shirt-red-23").classList;
 
-  mainShirt.src = 'images/merch/front-' + color + '-shirt.jpg';
+  mainShirt.src = 'images/merch/' + sideStore + '-' + color + '-shirt.jpg';
   frontShirt.src = 'images/merch/front-' + color + '-shirt.jpg';
   backShirt.src = 'images/merch/back-' + color + '-shirt.jpg';
   merchColor.innerText = color.charAt(0).toUpperCase() + color.slice(1);
@@ -84,8 +83,6 @@ function changeMerchColor(color) {
     frontShirt.classList.remove('selected-merch-thumbnail');
     backShirt.classList.add('selected-merch-thumbnail');
   }
-  backShirt.classList.remove('selected-merch-thumbnail');
-  frontShirt.classList.add('selected-merch-thumbnail');
 
   if (color === "black") {
     blackCircleClassList.add("selected-color");
