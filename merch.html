@@ -18,8 +18,8 @@
 
 <body>
     <header>
-        <div id = "logo"><a href="index.html"><img src="images/logo/logo.png" /></a></div>
-        <a href = "javascript:void(0);" class="hamburger-nav" onclick="toggleMenu()"><i class = "fa fa-bars"></i></a>
+        <div id="logo"><a href="index.html"><img src="images/logo/logo.png" /></a></div>
+        <a href="javascript:void(0);" class="hamburger-nav" onclick="toggleMenu()"><i class="fa fa-bars"></i></a>
         <h1 id="club-name">CarletonU Math Society</h1>
         <nav id="header-nav">
             <a href="index.html">News</a>
@@ -30,8 +30,8 @@
         <nav id="nav-social">
             <a href="https://discord.gg/4ttYNMWkVw"><i class="fa-brands fa-discord"></i></a>
         </nav>
-    </header> 
-    <button onclick="to_top()" id="top_btn" title="Go to top">Top</button>
+    </header>
+    <button onclick="toTop()" id="top_btn" title="Go to top">Top</button>
     <div class="section">
         <div class="content">
 
@@ -53,21 +53,16 @@
 
 
             <div class="merch-with-img">
-                <div class = "merch-img">
+                <div class="merch-img">
                     <div class="merch-main"><img id="main-shirt" src="images/merch/front-black-shirt.jpg"></div>
                     <br />
                     <div class="merch-thumbs">
                         <div>
-                            <img
-                                id="front-shirt" 
-                                class="selected-merch-thumbnail" 
-                                onclick="changeMainMerchView('front')"
-                                src="images/merch/front-black-shirt.jpg">
+                            <img id="front-shirt" class="selected-merch-thumbnail"
+                                onclick="changeMainMerchView('front')" src="images/merch/front-black-shirt.jpg">
                         </div>
                         <div>
-                            <img
-                                id="back-shirt" 
-                                onclick="changeMainMerchView('back')"
+                            <img id="back-shirt" onclick="changeMainMerchView('back')"
                                 src="images/merch/back-black-shirt.jpg">
                         </div>
                     </div>
@@ -77,23 +72,21 @@
                     <span class="price">$20.00</span> <b>members</b><br />
                     <span class="price">$25.00</span> <b>for non-members</b><br />
                     <b>Size:</b> S, M, L, XL<br />
-                    <b>Color:</b> <span id = "merch-color">Black</span>
+                    <b>Color:</b> <span id="merch-color">Black</span>
                     <div class="product-color">
-                        <button
-                            class="color-circle"
-                            onclick="changeMerchColor('black')"
-                            onmouseover="handleHoverColor('black')" 
-                            onmouseleave="handleHoverExitColor('black')"
-                            style="background-color:black">
-                        </button>
-                        <button
-                            class="color-circle"
-                            onclick="changeMerchColor('red')"
-                            onmouseover="handleHoverColor('red')"
-                            onmouseleave="handleHoverExitColor('red')"
-                            style="background-color:red"></button>
+                        <div id="shirt-black-23">
+                            <div class = "color-circle" onclick="changeMerchColor('black')"
+                                onmouseover="handleHoverColor('black')" onmouseleave="handleHoverExitColor('black')"
+                                style="background-color:black">
+                        </div>
+                        </div>
+                        <div id="shirt-red-23">
+                            <div class="color-circle" onclick="changeMerchColor('red')"
+                                onmouseover="handleHoverColor('red')" onmouseleave="handleHoverExitColor('red')"
+                                style="background-color:red"></div>
+                        </div>
                     </div>
-                    <br/>
+                    <br />
                     <b>Description:</b> A 100% cotton t-shirt filled with different math equations. Can you name every
                     equation in the t-shirt?
                 </div>
