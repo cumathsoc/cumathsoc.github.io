@@ -99,7 +99,7 @@ footer a:hover {
 
 .merch-with-img, .news-with-poster {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 4fr;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 4px 4px 5px;
@@ -411,3 +411,9 @@ source: https://www.w3schools.com/howto/howto_css_tooltip.asp
     }
 }
 
+@media only screen and (min-width: 1800px) {
+  .merch-with-img, .news-with-poster {
+    grid-template-columns: 4fr 7fr;
+    gap: 2em;
+  }
+}
