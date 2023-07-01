@@ -97,7 +97,8 @@ footer a:hover {
     border-top: 1px dashed gray;
 }
 
-.merch-with-img, .news-with-poster {
+.merch-with-img,
+.news-with-poster {
     display: grid;
     grid-template-columns: 3fr 4fr;
     padding: 10px;
@@ -122,6 +123,10 @@ footer a:hover {
     padding: 10px;
 }
 
+.non-selected-merch-thumbnail:hover {
+    opacity: 0.7;
+}
+
 .merch-thumbs div {
     width: 65%;
 }
@@ -132,20 +137,44 @@ footer a:hover {
     cursor: pointer;
 }
 
-.merch-main img, .news-poster img {
+#main-shirt-wrapper,
+.merch-main img, 
+.news-poster img {
     object-fit: contain;
-    max-width:100%;
+    max-width: 100%;
     min-width: 95%;
-    max-height:100%;
+    max-height: 100%;
     min-height: 100%;
     cursor: pointer;
 }
 
-.selected-merch-thumbnail {
-    border: 8px solid #2b2b2b;
+#main-shirt-wrapper {
+    min-height: auto;
 }
 
-.news, .merch {
+.selected-merch-thumbnail {
+    border: 5px solid #2b2b2b;
+}
+
+div.zoom {
+    background-position: 50% 50%;
+    position: relative;
+    overflow: hidden;
+    cursor: zoom-in;
+}
+
+div.zoom img:hover {
+    opacity: 0;
+}
+
+div.zoom img {
+    transition: opacity 0.5s;
+    display: block;
+    width: 100%;
+}
+
+.news,
+.merch {
     /*news with no poster*/
     background-color: white;
     padding: 10px;
@@ -161,7 +190,10 @@ footer a:hover {
     padding-top: 0px;
 }
 
-.news-with-poster-details h3, .news-with-poster-details h2, .merch-img, .news-poster {
+.news-with-poster-details h3,
+.news-with-poster-details h2,
+.merch-img,
+.news-poster {
     margin-top: 0.75em;
 }
 
@@ -172,6 +204,7 @@ footer a:hover {
 }
 
 footer {
+    bottom: 0;
     border-top: 3px #c40729 solid;
     letter-spacing: 2px;
     color: #ffffff;
@@ -238,6 +271,36 @@ a:hover {
     width: 25px;
     height: 25px;
     padding: 2px;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    font-size: larger;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom: 5px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    margin-bottom: 5px;
 }
 
 /*
@@ -407,13 +470,15 @@ source: https://www.w3schools.com/howto/howto_css_tooltip.asp
     .new,
     .merch {
         padding-left: 10px;
-        padding-right:10px;
+        padding-right: 10px;
     }
 }
 
 @media only screen and (min-width: 1800px) {
-  .merch-with-img, .news-with-poster {
-    grid-template-columns: 4fr 7fr;
-    gap: 2em;
-  }
+
+    .merch-with-img,
+    .news-with-poster {
+        grid-template-columns: 4fr 7fr;
+        gap: 2em;
+    }
 }

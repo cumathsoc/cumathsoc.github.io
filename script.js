@@ -26,7 +26,6 @@ function toTop() {
 
   function init() {
     top_button = document.getElementById("top_btn");
-    document.getElementById("shirt-black-23").classList.add("selected-color");
 
   }
 
@@ -58,7 +57,7 @@ function handleHoverExitColor(color) {
 var sideStore = 'front';
 
 function changeMerchColor(color) {
-
+  let merchMain = document.getElementById('main-shirt-wrapper');
   let mainShirt = document.getElementById('main-shirt');
   let frontShirt = document.getElementById('front-shirt');
   let backShirt = document.getElementById('back-shirt');
@@ -69,6 +68,7 @@ function changeMerchColor(color) {
   let redCircleClassList = document.getElementById("shirt-red-23").classList;
 
   mainShirt.src = 'images/merch/' + sideStore + '-' + color + '-shirt.jpg';
+  merchMain.style.backgroundImage = "url('" + mainShirt.src + "')";
   frontShirt.src = 'images/merch/front-' + color + '-shirt.jpg';
   backShirt.src = 'images/merch/back-' + color + '-shirt.jpg';
   merchColor.innerText = color.charAt(0).toUpperCase() + color.slice(1);
@@ -96,17 +96,22 @@ function changeMerchColor(color) {
 
 
 function changeMainMerchView(side) {
+  let zoomShirt = document.getElementById('main-shirt-wrapper')
   let mainShirt = document.getElementById('main-shirt');
   let clickedShirt = document.getElementById(side + '-shirt');
   mainShirt.src = clickedShirt.src;
+  zoomShirt.style.backgroundImage = "url('" + mainShirt.src + "')";
   sideStore = side;
 
   clickedShirt.classList.add('selected-merch-thumbnail');
-
+  clickedShirt.classList.remove('non-selected-merch-thumbnail');
   if (side == 'front') {
     document.getElementById('back-shirt').classList.remove('selected-merch-thumbnail');
+    document.getElementById('back-shirt').classList.add('non-selected-merch-thumbnail');
   }
   else {
     document.getElementById('front-shirt').classList.remove('selected-merch-thumbnail');
+    document.getElementById('front-shirt').classList.add('non-selected-merch-thumbnail');
   }
 }
+

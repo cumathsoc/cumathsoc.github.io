@@ -6,7 +6,8 @@
     <title>CU Math Society</title>
     <meta name="og:title" content="CarletonU Math Society">
     <meta name="og:image" content="https://cumathsoc.github.io/images/logo/logo-square.png">
-    <meta name="og:description" content="CarletonU Student Math Society dedicated to bringing students and faculty of Mathematics together">
+    <meta name="og:description"
+        content="CarletonU Student Math Society dedicated to bringing students and faculty of Mathematics together">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="CarletonU Math Society, CarletonU, Math, Stats, CUMathSoc">
     <meta name="description" content="CarletonU Student Math Society Merch">
@@ -16,7 +17,49 @@
     <link rel="icon" type="image/png" href="images/logo/logo.png">
     <!--I am lazy to make a proper favicon-->
     <script charset="utf-8" src="script.js"></script>
+    <script src="scripts/merch.js"></script>
     <link rel="stylesheet" href="style.css" />
+    <style>
+        .ribbon {
+            width: 60px;
+            font-size: 14px;
+            padding: 4px;
+            position: absolute;
+            right: -25px;
+            top: -12px;
+            text-align: center;
+            border-radius: 25px;
+            transform: rotate(20deg);
+            background-color: #ff9800;
+            color: white;
+        }
+
+        .ribbon-soldout {
+            width: 60px;
+            font-size: 14px;
+            padding: 4px;
+            position: absolute;
+            right: -25px;
+            top: -12px;
+            text-align: center;
+            border-radius: 25px;
+            transform: rotate(20deg);
+            background-color: red;
+            color: white;
+        }
+
+        .merch-title {
+            border: none;
+            border-radius: 5px;
+            padding: 12px 20px;
+            width: fit-content;
+            font-size: 1.5em;
+            cursor: pointer;
+            background-color: #282A35;
+            color: white;
+            position: relative;
+        }
+    </style>
 </head>
 
 <body>
@@ -40,7 +83,7 @@
 
             <h2 class="section-title">Merch</h2>
             <div class="merch">
-                <h2>MathSoc Membership</h2>
+                <div class="merch-title">MathSoc Membership <span class="ribbon">Coming Soon</span></div>
                 <p><span class="price">$5.00</span></p>
                 Supports club activities and comes with perks:
                 <ul>
@@ -57,7 +100,9 @@
 
             <div class="merch-with-img">
                 <div class="merch-img">
-                    <div class="merch-main"><img id="main-shirt" src="images/merch/front-black-shirt.jpg"></div>
+                    <div id = "main-shirt-wrapper" class="merch-main zoom" onmousemove="zoom(event)" style = "background-image: url(images/merch/front-black-shirt.jpg)">
+                        <img id="main-shirt" src="images/merch/front-black-shirt.jpg">
+                    </div>
                     <br />
                     <div class="merch-thumbs">
                         <div>
@@ -65,23 +110,23 @@
                                 onclick="changeMainMerchView('front')" src="images/merch/front-black-shirt.jpg">
                         </div>
                         <div>
-                            <img id="back-shirt" onclick="changeMainMerchView('back')"
-                                src="images/merch/back-black-shirt.jpg">
+                            <img id="back-shirt" class="non-selected-merch-thumbnail"
+                                onclick="changeMainMerchView('back')" src="images/merch/back-black-shirt.jpg">
                         </div>
                     </div>
                 </div>
                 <div class="news-with-poster-details">
-                    <h2>T-Shirts (SOLD OUT)</h2>
+                    <div class="merch-title">T-Shirts <span class="ribbon-soldout">SOLD OUT</span></div>
                     <span class="price">$20.00</span> <b>members</b><br />
                     <span class="price">$25.00</span> <b>for non-members</b><br />
                     <b>Size:</b> S, M, L, XL<br />
                     <b>Color:</b> <span id="merch-color">Black</span>
                     <div class="product-color">
                         <div id="shirt-black-23">
-                            <div class = "color-circle" onclick="changeMerchColor('black')"
+                            <div class="color-circle" onclick="changeMerchColor('black')"
                                 onmouseover="handleHoverColor('black')" onmouseleave="handleHoverExitColor('black')"
                                 style="background-color:black">
-                        </div>
+                            </div>
                         </div>
                         <div id="shirt-red-23">
                             <div class="color-circle" onclick="changeMerchColor('red')"
