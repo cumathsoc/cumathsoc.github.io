@@ -38,65 +38,63 @@
         </nav>
     </header>
     <button onclick="toTop()" id="top_btn" title="Go to top">Top</button>
-    <div class="section">
-        <div class="content">
+    <div class="content">
 
-            <h2 class="section-title">Merch</h2>
-            <div class="merch">
-                <div class="merch-title">MathSoc Membership <span class="ribbon">Coming Soon</span></div>
-                <p><span class="price">$5.00</span></p>
-                Supports club activities and comes with perks:
-                <ul>
-                    <li>Free Food</a></li>
-                    <li>Up to 25% off on Merch</li>
-                    <li>50% Discount on Books</li>
-                    <li>Access to Grad Lounge??? (TBD)</li>
-                </ul>
+        <h2 class="section-title">Merch</h2>
+        <div class="merch">
+            <div class="merch-title">MathSoc Membership <span class="ribbon">Coming Soon</span></div>
+            <p><span class="price">$5.00</span></p>
+            Supports club activities and comes with perks:
+            <ul>
+                <li>Free Food</a></li>
+                <li>Up to 25% off on Merch</li>
+                <li>50% Discount on Books</li>
+                <li>Access to Grad Lounge??? (TBD)</li>
+            </ul>
 
-                To become a member, fill out the <a href="">form</a> and pay the yearly $5 membership fees. It's worth the money.
+            To become a member, fill out the <a href="">form</a> and pay the yearly $5 membership fees. It's worth the money.
+        </div>
+
+
+        <div class="merch-with-img">
+            <div class="merch-img">
+                <div id = "main-shirt-wrapper" class="merch-main zoom" onmousemove="zoom(event)" style = "background-image: url(images/merch/front-black-shirt.jpg)">
+                    <img id="main-shirt" src="images/merch/front-black-shirt.jpg">
+                </div>
+                <br />
+                <div class="merch-thumbs">
+                    <div>
+                        <img id="front-shirt" class="selected-merch-thumbnail"
+                            onclick="changeMainMerchView('front')" src="images/merch/front-black-shirt.jpg">
+                    </div>
+                    <div>
+                        <img id="back-shirt" class="non-selected-merch-thumbnail"
+                            onclick="changeMainMerchView('back')" src="images/merch/back-black-shirt.jpg">
+                    </div>
+                </div>
             </div>
-
-
-            <div class="merch-with-img">
-                <div class="merch-img">
-                    <div id = "main-shirt-wrapper" class="merch-main zoom" onmousemove="zoom(event)" style = "background-image: url(images/merch/front-black-shirt.jpg)">
-                        <img id="main-shirt" src="images/merch/front-black-shirt.jpg">
+            <div class="news-with-poster-details">
+                <div class="merch-title">T-Shirts <span class="ribbon-soldout">SOLD OUT</span></div>
+                <span class="price">$20.00</span> <b>members</b><br />
+                <span class="price">$25.00</span> <b>for non-members</b><br />
+                <b>Size:</b> S, M, L, XL<br />
+                <b>Color:</b> <span id="merch-color">Black</span>
+                <div class="product-color">
+                    <div id="shirt-black-23" class = "selected-color">
+                        <div class="color-circle" onclick="changeMerchColor('black')"
+                            onmouseover="handleHoverColor('black')" onmouseleave="handleHoverExitColor('black')"
+                            style="background-color:black">
+                        </div>
                     </div>
-                    <br />
-                    <div class="merch-thumbs">
-                        <div>
-                            <img id="front-shirt" class="selected-merch-thumbnail"
-                                onclick="changeMainMerchView('front')" src="images/merch/front-black-shirt.jpg">
-                        </div>
-                        <div>
-                            <img id="back-shirt" class="non-selected-merch-thumbnail"
-                                onclick="changeMainMerchView('back')" src="images/merch/back-black-shirt.jpg">
-                        </div>
+                    <div id="shirt-red-23">
+                        <div class="color-circle" onclick="changeMerchColor('red')"
+                            onmouseover="handleHoverColor('red')" onmouseleave="handleHoverExitColor('red')"
+                            style="background-color:red"></div>
                     </div>
                 </div>
-                <div class="news-with-poster-details">
-                    <div class="merch-title">T-Shirts <span class="ribbon-soldout">SOLD OUT</span></div>
-                    <span class="price">$20.00</span> <b>members</b><br />
-                    <span class="price">$25.00</span> <b>for non-members</b><br />
-                    <b>Size:</b> S, M, L, XL<br />
-                    <b>Color:</b> <span id="merch-color">Black</span>
-                    <div class="product-color">
-                        <div id="shirt-black-23" class = "selected-color">
-                            <div class="color-circle" onclick="changeMerchColor('black')"
-                                onmouseover="handleHoverColor('black')" onmouseleave="handleHoverExitColor('black')"
-                                style="background-color:black">
-                            </div>
-                        </div>
-                        <div id="shirt-red-23">
-                            <div class="color-circle" onclick="changeMerchColor('red')"
-                                onmouseover="handleHoverColor('red')" onmouseleave="handleHoverExitColor('red')"
-                                style="background-color:red"></div>
-                        </div>
-                    </div>
-                    <br />
-                    <b>Description:</b> A 100% cotton t-shirt filled with different math equations. Can you name every
-                    equation in the t-shirt?
-                </div>
+                <br />
+                <b>Description:</b> A 100% cotton t-shirt filled with different math equations. Can you name every
+                equation in the t-shirt?
             </div>
         </div>
     </div>
