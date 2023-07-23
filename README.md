@@ -5,3 +5,7 @@ CUMathSoc is CarletonU Math Society run by students. We aim to enirch student's 
 ## TechStack
 
 This is run and created by Math students. As of 2023, the website is coded in HTML, CSS, and Javascript. The goal is to not make the website overly complex with many dependencies and backend. This site will be a static site for the moment for simplicity and for operational cost (i.e. Github and Github pages are free). For future generations taking over the website, it is not expected that the students have much web programming background so we do not want them to have a steep learning curve and figure out how React works and etc. Things could change for the future generation but as of 2023, we (i.e. @zakuarbor) felt it's best to keep it simple.
+
+## Generating Events and News
+To add an event or news, edit `events.json` and move old events to `events-archive.json` to remove clutter. 
+Copy google, outlook, and the link for ICS from [https://parcel.io/tools/calendar](https://parcel.io/tools/calendar) to create calendar event links. To locally test, reading the README file under `test/`
