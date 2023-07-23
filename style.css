@@ -108,35 +108,6 @@ footer a:hover {
     font-size: calc(5px + 2vmin);
 }
 
-.merch-img br {
-    display: block;
-    content: "";
-    margin-top: 0;
-}
-
-.merch-thumbs {
-    display: grid;
-    margin-left: 20%;
-    margin-right: 20%;
-    align-content: center;
-    grid-template-columns: auto auto;
-    padding: 10px;
-}
-
-.non-selected-merch-thumbnail:hover {
-    opacity: 0.7;
-}
-
-.merch-thumbs div {
-    width: 65%;
-}
-
-.merch-thumbs img {
-    position: relative;
-    width: 100%;
-    cursor: pointer;
-}
-
 #main-shirt-wrapper,
 .merch-main img, 
 .news-poster img {
@@ -146,31 +117,6 @@ footer a:hover {
     max-height: 100%;
     min-height: 100%;
     cursor: pointer;
-}
-
-#main-shirt-wrapper {
-    min-height: auto;
-}
-
-.selected-merch-thumbnail {
-    border: 5px solid #2b2b2b;
-}
-
-div.zoom {
-    background-position: 50% 50%;
-    position: relative;
-    overflow: hidden;
-    cursor: zoom-in;
-}
-
-div.zoom img:hover {
-    opacity: 0;
-}
-
-div.zoom img {
-    transition: opacity 0.5s;
-    display: block;
-    width: 100%;
 }
 
 .news,
@@ -183,6 +129,28 @@ div.zoom img {
     border-radius: 10px;
     box-shadow: 4px 4px 5px;
     margin-bottom: 20px;
+}
+
+#view-news-archive {
+    background-color: white;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    border: #333 1px solid;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a#view-news-archive-link{
+    color: black;
+}
+
+#view-news-archive:hover {
+    background-color: #555;
+    color: white;
 }
 
 .news-with-poster-details {
@@ -201,6 +169,7 @@ div.zoom img {
     text-align: center;
     letter-spacing: 5px;
     text-decoration: black wavy underline;
+    font-size: 2em;
 }
 
 footer {
@@ -238,39 +207,6 @@ a:hover {
 #resources h2 {
     letter-spacing: 3px;
     text-decoration: underline;
-}
-
-.price {
-    color: #e42c00;
-}
-
-.product-color {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 10px;
-    width: 50px;
-}
-
-.selected-color {
-    border: 1px solid black;
-}
-
-.color-circle {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    text-align: center;
-    align-items: center;
-    cursor: pointer;
-    border: none;
-}
-
-#shirt-black-23,
-#shirt-red-23 {
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    padding: 2px;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
@@ -376,6 +312,25 @@ source: https://www.w3schools.com/howto/howto_css_tooltip.asp
     transition: opacity 0.3s;
 }
 
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px;
+}
+
+.alert-danger a {
+    color: #114edd;
+}
+
+.alert-danger a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
 
 /* Tooltip arrow */
 .tooltip .tooltiptext::after {
@@ -408,6 +363,7 @@ source: https://www.w3schools.com/howto/howto_css_tooltip.asp
 .hamburger-nav:hover {
     color: black;
 }
+
 
 @media only screen and (max-width: 1000px) {
     .content {

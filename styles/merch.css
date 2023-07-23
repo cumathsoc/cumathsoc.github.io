@@ -1,0 +1,145 @@
+#main-shirt-wrapper {
+    min-height: auto;
+}
+
+.selected-merch-thumbnail {
+    border: 5px solid #2b2b2b;
+}
+
+div.zoom {
+    background-position: 50% 50%;
+    position: relative;
+    overflow: hidden;
+    cursor: zoom-in;
+}
+
+div.zoom img:hover {
+    opacity: 0;
+}
+
+div.zoom img {
+    transition: opacity 0.5s;
+    display: block;
+    width: 100%;
+}
+
+#main-shirt-wrapper {
+    min-height: auto;
+}
+
+.selected-merch-thumbnail {
+    border: 5px solid #2b2b2b;
+}
+
+div.zoom {
+    background-position: 50% 50%;
+    position: relative;
+    overflow: hidden;
+    cursor: zoom-in;
+}
+
+div.zoom img:hover {
+    opacity: 0;
+}
+
+div.zoom img {
+    transition: opacity 0.5s;
+    display: block;
+    width: 100%;
+}
+
+.price {
+    color: #e42c00;
+}
+
+.product-color {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    width: 50px;
+}
+
+.selected-color {
+    border: 1px solid black;
+}
+
+.color-circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+}
+
+#shirt-black-23,
+#shirt-red-23 {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+}
+
+.ribbon {
+    width: 60px;
+    font-size: 14px;
+    padding: 4px;
+    position: absolute;
+    right: -25px;
+    top: -12px;
+    text-align: center;
+    border-radius: 25px;
+    transform: rotate(20deg);
+    background-color: #ff9800;
+    color: white;
+}
+
+.ribbon-soldout {
+    width: 60px;
+    font-size: 14px;
+    padding: 4px;
+    position: absolute;
+    right: -25px;
+    top: -12px;
+    text-align: center;
+    border-radius: 25px;
+    transform: rotate(20deg);
+    background-color: red;
+    color: white;
+}
+
+.merch-title {
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    width: fit-content;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: #282A35;
+    color: white;
+    position: relative;
+}
+
+.merch-thumbs {
+    display: grid;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-content: center;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.non-selected-merch-thumbnail:hover {
+    opacity: 0.7;
+}
+
+.merch-thumbs div {
+    width: 65%;
+}
+
+.merch-thumbs img {
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+}
