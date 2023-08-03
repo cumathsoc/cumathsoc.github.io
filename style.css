@@ -367,18 +367,20 @@ source: https://www.w3schools.com/howto/howto_css_tooltip.asp
 
 #linux {
   margin: auto;
+  text-align: center;
+  font-size: 150px;
+  font-weight: bold;
 }
 
 #linux img {
   height: 150px;
 }
 
-#linux span {
-  font-size: 150px;
-  font-weight: bold;
-}
-
 @media only screen and (max-width: 1000px) {
+    #linux {
+      font-size: 75px;
+    }
+
     #linux img {
       height: 75px;
     }
