@@ -365,7 +365,26 @@ source: https://www.w3schools.com/howto/howto_css_tooltip.asp
 }
 
 
+#linux {
+  margin: auto;
+}
+
+#linux img {
+  height: 150px;
+}
+
+#linux span {
+  font-size: 150px;
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 1000px) {
+    #linux img {
+      height: 75px;
+    }
+    #linux span {
+      font-size: 75px;
+    }
     .content {
         width: 95%;
         padding: 10px;
@@ -438,3 +457,4 @@ source: https://www.w3schools.com/howto/howto_css_tooltip.asp
         gap: 2em;
     }
 }
+
