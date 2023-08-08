@@ -19,6 +19,7 @@
     <!--I am lazy to make a proper favicon-->
     <script charset="utf-8" src="script.js"></script>
     <script src="scripts/news.js"></script>
+    <script src="scripts/data/events.js"></script>
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -51,9 +52,7 @@
 </body>
 
 <script>
-    //host json file on a server to test locally
-    //fetchEvents("http://localhost:3001/events");
-    fetchEvents("")
+    populateEvents(events);
 </script>
 
 </html>
