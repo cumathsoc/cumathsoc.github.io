@@ -42,3 +42,11 @@ function toggleMenu() {
   }
 }
 
+
+function showTux() {
+  document.getElementById("tux").style.display = "block";
+}
+
+function hideTux() {
+  document.getElementById("tux").style.display = "";
+}

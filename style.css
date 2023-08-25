@@ -383,6 +383,15 @@ source: https://www.w3schools.com/howto/howto_css_tooltip.asp
   margin-bottom: 5px;
 }
 
+#tux {
+  position: fixed;
+  display: none;
+  top: 5px;
+  left: 5px;
+  z-index: 10;
+  width: 40px;
+}
+
 footer p {
   margin-bottom:5px;
 }
