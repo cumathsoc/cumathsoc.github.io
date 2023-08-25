@@ -50,3 +50,13 @@ function showTux() {
 function hideTux() {
   document.getElementById("tux").style.display = "";
 }
+
+function piTime() {
+  let date = new Date();
+  if ((date.getHours() == 3 || date.getHours() == 15) && date.getMinutes() == 14) {
+    let tux = document.getElementById("tux");
+    tux.style.display = "block";
+    tux.style.backgroundColor = 'white';
+    tux.style.animation = "walk 60s linear";
+  }
+}
