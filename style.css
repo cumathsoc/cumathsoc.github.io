@@ -370,6 +370,7 @@ source: https://www.w3schools.com/howto/howto_css_tooltip.asp
   text-align: center;
   font-size: 150px;
   font-weight: bold;
+  color: #f9fafb;
 }
 
 #linux img {

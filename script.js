@@ -51,6 +51,14 @@ function hideTux() {
   document.getElementById("tux").style.display = "";
 }
 
+function showLinuxText() {
+  document.getElementById("linux").style.color = "black";
+}
+
+function hideLinuxText() {
+  document.getElementById("linux").style.color = "#f9fafb";
+}
+
 function piTime() {
   let date = new Date();
   if ((date.getHours() == 3 || date.getHours() == 15) && date.getMinutes() == 14) {
