@@ -366,15 +366,12 @@ source: https://www.w3schools.com/howto/howto_css_tooltip.asp
 
 
 #linux {
-  margin: auto;
-  text-align: center;
-  font-size: 150px;
   font-weight: bold;
-  color: #f9fafb;
+  /*color: #f9fafb;*/
 }
 
 #linux img {
-  height: 150px;
+  height: 1em;
 }
 
 .secret {

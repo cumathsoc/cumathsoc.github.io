@@ -16,7 +16,7 @@ let events = [
 {
   "type": "news",
   "title": "MathSoc Membership",
-  "desc": "At the start of Fall 2023, we will be accepting new members. Becoming a member supports club activities and encourages us to make Math @ CarletonU a better experience!<p>Not only does it help us, it comes with perks as well:</p><ul><li>Free Food</a></li><li>Up to 25% off on Merch</li><li>50% Discount on Books</li><li>Access to Grad Lounge??? (TBD)</li></ul>To become a member, fill out the <a href=''>form</a> and pay the yearly $5 membership fees. It's worth the money."
+  "desc": "At the start of Fall 2023, we will be accepting new members. Becoming a member supports club activities and encourages us to make Math @ CarletonU a better experience!<p>Not only does it help us, it comes with perks as well:</p><ul><li>Free Food</a></li><li>Up to 25% off on Merch</li><li>50% Discount on Books</li><li>Access to Grad Lounge??? (TBD)</li></ul>To become a member, come to any MathSoc events and pay the yearly $5 membership fees. "
 },
 {
   "type": "news-poster",
@@ -32,7 +32,7 @@ let events = [
       "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART:20230905T150000Z%0ADTEND:20230905T200000Z%0ASUMMARY:Math%20Soc%20%40%20Club%20Expo%0ADESCRIPTION:Come%20and%20connect%20with%20us.%20Merch%20and%20membership%20can%20be%20purchase.%0ALOCATION:Fieldhouse%0AEND:VEVENT%0AEND:VCALENDAR%0A"
   }   
 },
-{
+/*{
   "type": "news-poster",
   "title": "The Powerhouse of Problem Solving: Why Computer Science Triumphs over Mathematics",
   "presentor": "Nwxt--",
@@ -45,7 +45,7 @@ let events = [
       "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART:20230918T203000Z%0ADTEND:20230918T213000Z%0ASUMMARY:A%20Unique%20Closed-Form%20Solution%20to%20the%20External%20Grazing%20Problem%0ADESCRIPTION:Speaker%3A%20Nwxt--%0ALOCATION:HP4351%0AEND:VEVENT%0AEND:VCALENDAR%0A"
   },
   "img": "images/events/troll-poster2.png"
-},
+},*/
 {
   "type": "news",
   "title": "A Unique Closed-Form Solution to the External Grazing Problem",
