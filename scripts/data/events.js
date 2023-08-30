@@ -16,7 +16,7 @@ let events = [
 {
   "type": "news",
   "title": "MathSoc Membership",
-  "desc": "At the start of Fall 2023, we will be accepting new members. Becoming a member supports club activities and encourages us to make Math @ CarletonU a better experience!<p>Not only does it help us, it comes with perks as well:</p><ul><li>Free Food</a></li><li>Up to 25% off on Merch</li><li>50% Discount on Books</li><li>Access to Grad Lounge??? (TBD)</li></ul>To become a member, come to any MathSoc events and pay the yearly $5 membership fees. "
+  "desc": "At the start of Fall 2023, we will be accepting new members. Becoming a member supports club activities and encourages us to make Math @ CarletonU a better experience!<p>Not only does it help us, it comes with perks as well:</p><ul><li>Free Food at our events</li><li>Discount price for Books and Merchs</li><li>Early purchase of merchandise</li><li>Access to resources such as Course Outlines and Honours project template</li></ul>To become a member, come to any MathSoc events and pay the yearly $5 membership fees. "
 },
 {
   "type": "news-poster",
