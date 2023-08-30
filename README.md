@@ -9,3 +9,10 @@ This is run and created by Math students. As of 2023, the website is coded in HT
 ## Generating Events and News
 To add an event or news, edit `scripts/data/events.js` and move old events to `events-archive.js` to remove clutter. 
 Copy google, outlook, and the link for ICS from [https://parcel.io/tools/calendar](https://parcel.io/tools/calendar) to create calendar event links. To locally test, reading the README file under `test/`
+
+## Posters
+
+Posters can be created using any photo editing software. For the Fall 2023 term, Gimp will be used as it is free and open source that runs well on Linux. 
+
+QR code are created using: https://www.qrcode-monkey.com/
+No trackers can be utilized to gather metrics such as number of scans and the device OS as premium account would be required.
