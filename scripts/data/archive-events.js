@@ -60,4 +60,17 @@ let events = [
   },
   "img": "images/events/troll-poster2.png"
 },*/
+{
+  "type": "news",
+  "title": "A Unique Closed-Form Solution to the External Grazing Problem",
+  "presentor": "C. L",
+  "date": "Wednesday, April 12 2023",
+  "location": "Herzberg (HP) 4351",
+  "desc": "<b>Abstract:</b> In this talk, we direct our attention to two recreational mathematics problems, the internal and external grazing goat problem. The former was solved recently in terms of a ratio of contour integrals, and we will derive a new closed-form solution to the latter. It turns out that a problem that is able to be stated in such simple terms will have an incredibly complex solution to the latter.",
+  "calendar": {
+      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230412T203000Z%2F20230412T213000Z&details=Speaker%3A%20C.%20L&location=HP4351&text=A%20Unique%20Closed-Form%20Solution%20to%20the%20External%20Grazing%20Problem",
+      "outlook": "https://outlook.live.com/calendar/0/action/compose?body=Speaker%3A%20C.%20L&enddt=2023-04-12T21%3A30%3A00%2B00%3A00&location=HP4351&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-04-12T20%3A30%3A00%2B00%3A00&subject=A%20Unique%20Closed-Form%20Solution%20to%20the%20External%20Grazing%20Problem",
+      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART:20230412T203000Z%0ADTEND:20230412T213000Z%0ASUMMARY:A%20Unique%20Closed-Form%20Solution%20to%20the%20External%20Grazing%20Problem%0ADESCRIPTION:Speaker%3A%20C.%20L%0ALOCATION:HP4351%0AEND:VEVENT%0AEND:VCALENDAR%0A"
+  }
+}
 ]
