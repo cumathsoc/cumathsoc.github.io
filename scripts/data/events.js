@@ -22,7 +22,7 @@ let events = [
   "type": "news-poster",
   "title": "BBQ & Book SALE",
   "presentor": "",
-  "date": "Thursday Sept. 7 2023 (10am-5:30pm)",
+  "date": "Thursday September 7 2023 (10am-5:30pm)",
   "location": "In front of Herzberg (HP)",
   "desc": "Come to our student BBQ and buy math books. You can also get your Math & Stat Society membership which comes with free food.",
   "img": "images/events/bbq-poster.png",
