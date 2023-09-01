@@ -38,7 +38,7 @@ let events = [
   "presentor": "",
   "date": "Tuesday September 5 2023 (11am-4pm)",
   "location": "Fieldhouse",
-  "desc": "<p>Come to Club Expo and connect with the Math Society and learn about us</p>Membership can be made ($5 Cash) and we are doing a merch clearance. Come and buy some merchs from us.",
+  "desc": "<p>Come to Club Expo and connect with the Math Society and learn about us.</p>Membership can be purchased for $5.",
   "img": "images/events/club-expo-2023.png",
   "calendar": {
       "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230905T150000Z%2F20230905T200000Z&details=Come%20and%20connect%20with%20us.%20Merch%20and%20membership%20can%20be%20purchase.&location=Fieldhouse&text=Math%20Soc%20%40%20Club%20Expo",
