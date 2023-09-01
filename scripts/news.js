@@ -1,6 +1,6 @@
 function creat_news_body(e) {
     let html = "<h3>" + e.title + "</h3>";
-    if ("presentor" in e) {
+    if ("presentor" in e && e.presentor.length != 0) {
         html += "<b>Presentor:</b> " + e.presentor + "<br/>";
     }
     if ("date" in e) {
