@@ -19,6 +19,7 @@
     <!--I am lazy to make a proper favicon-->
     <script charset="utf-8" src="script.js"></script>
     <script charset="utf-8" src="scripts/video.js"></script>
+    <script>var videos = {};</script>
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -41,7 +42,19 @@
     <button onclick="toTop()" id="top_btn" title="Go to top">Top</button>
     <div class="content">
         <h2 class="section-title">Videos</h2>
-        <div class="video-content">
+        <div id = 'video-login' class = "video-content">
+          <h3>LOGIN</h3>
+            <p>Only Registered members of MathSoc will have access to the videos. Please contact us via <a href = 'https://discord.gg/4ttYNMWkVw'>discord</a> if there are any issues.</p>
+            <center>
+            <form action = '' onsubmit='getVideos(videos); return false;'>
+              <label for = "stud-id">Student Number: </label><input id = "stud-id" name = "stud-id" type = "text" placeholder = "student id" size = '9' pattern="1\d{8}" title = "Enter your 9 digit student number" required>
+              <input id = 'submit-id' type = "submit" value = "Enter">
+              <div id = 'login-error'><b>Error:</b> Your student number is not recognized. If you believe you are authorized to view this page, please contact us on <a href = 'https://discord.gg/4ttYNMWkVw'>discord</a></div>
+            </form>
+            </center>
+    </div>
+
+        <div id = 'current-video' class="video-content">
           <p id = "latest-video-tag"><b>Latest:</b> <span id = 'latest-video-title'></span></p>
           <div id = "display-video">
             <center>
@@ -51,7 +64,7 @@
             </center>
           </div>
         </div>
-      <div class = "video-content">  
+      <div id = 'prev-video' class = "video-content">  
         <p id = "list-video-tag"><b>Previous Videos:</b></p>
         <div id = "list-videos"></div>
       </div>
@@ -66,8 +79,6 @@
 </body>
 
 <script>
-    var videos = {}
-    getVideos(videos);
     piTime();
 </script>
 

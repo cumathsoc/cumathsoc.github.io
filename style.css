@@ -119,6 +119,27 @@ footer a:hover {
     cursor: pointer;
 }
 
+#stud_id {
+  padding: 5px;
+}
+
+#submit-id {
+  padding: 5px;
+}
+
+#login-error {
+  margin-top: 10px;
+  border: 2px solid #FF3131;
+  width: fit-content;
+  block-size: fit-content;
+  padding: 5px;
+  display: none;
+}
+
+#current-video, #prev-video {
+  display: none;
+}
+
 #list-video-tag, #latest-video-tag {
   text-align: center;
 }
