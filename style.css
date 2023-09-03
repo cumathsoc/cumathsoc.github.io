@@ -151,6 +151,14 @@ footer a:hover {
   margin: 10px;
 }
 
+.video-item {
+  cursor: pointer;
+}
+
+.video-item:hover {
+  text-decoration: underline;
+}
+
 #video-desc {
   background-color: #e6e6e6;
   border-radius: 10px;
