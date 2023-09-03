@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>CU Math Society</title>
+    <meta name="og:title" content="CarletonU Math Society">
+    <meta name="og:image" content="https://cumathsoc.github.io/images/logo/logo-square.png">
+    <meta name="og:description"
+        content="CarletonU Student Math Society dedicated to bringing students and faculty of Mathematics together">
+    <meta name="keywords" content="CarletonU Math Society, CarletonU, Math, Stats, CUMathSoc">
+    <meta name="description" content="CarletonU Student Math Society">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="rOqniYc2bAhykxGviu6xy96hSdAlxScfPeYfZqXcX9c" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="images/logo/logo.png">
+    <!--I am lazy to make a proper favicon-->
+    <script charset="utf-8" src="script.js"></script>
+    <script charset="utf-8" src="scripts/video.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <img src = 'images/tux.png' id = "tux"/>
+    <header>
+        <div id="logo"><a href="index.html"><img src="images/logo/logo.png" /></a></div>
+        <a href="javascript:void(0);" class="hamburger-nav" onclick="toggleMenu()"><i class="fa fa-bars"></i></a>
+        <h1 id="club-name">CU Math & Stat Society</h1>
+        <nav id="header-nav">
+            <a href="index.html">News</a>
+            <a href="resources.html">Resources</a>
+            <a href="merch.html">Merch</a>
+            <a href="about.html">About</a>
+        </nav>
+        <nav id="nav-social">
+            <a href="https://discord.gg/4ttYNMWkVw"><i class="fa-brands fa-discord"></i></a>
+        </nav>
+    </header>
+    <button onclick="toTop()" id="top_btn" title="Go to top">Top</button>
+    <div class="content">
+        <h2 class="section-title">Videos</h2>
+        <div class="video-content">
+          <p id = "latest-video-tag"><b>Latest:</b> <span id = 'latest-video-title'></span></p>
+          <div id = "display-video">
+            <center>
+            <iframe id = 'video-iframe' src="https://www.youtube-nocookie.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p id = "video-title"></p>
+            <div id = 'video-desc'></div>
+            </center>
+          </div>
+        </div>
+      <div class = "video-content">  
+        <p id = "list-video-tag"><b>Previous Videos:</b></p>
+        <div id = "list-videos"></div>
+      </div>
+    </div>
+
+    <footer>
+        <p>Join CarletonU Math Society on <a href="https://discord.gg/4ttYNMWkVw" onmouseover="showTux()" onmouseout="hideTux()"><i
+                    class="fa-brands fa-discord"></i></a></p>
+
+        <div class = "secret">Linux for Life</div>
+    </footer>
+</body>
+
+<script>
+    var videos = {}
+    getVideos(videos);
+    piTime();
+</script>
+
+</html>
