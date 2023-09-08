@@ -14,9 +14,15 @@ let events = [
   }   
 },
 {
+  "type": "news-poster",
+  "title": "Become a Student Rep",
+  "desc": "The Math and Stat Society is looking for first and second year student representives to <b>promote</b> club events to their peers. You can sign up at our <a href = 'https://docs.google.com/forms/d/1qXrEkLrXUdqVB-WTH8PlsFh1iXLHh51q_gYzaJbvQq8'>Student Rep Form</a>.",
+  "img": "images/events/year-rep.png"
+},
+{
   "type": "news",
   "title": "MathSoc Membership",
-  "desc": "At the start of Fall 2023, we will be accepting new members. Becoming a member supports club activities and encourages us to make Math @ CarletonU a better experience!<p>Not only does it help us, it comes with perks as well:</p><ul><li>Complementary Food at our events</li><li>Discount price for Books and Merchs</li></ul>To become a member, come to any MathSoc events and pay the yearly $5 membership fees. "
+  "desc": "At the start of Fall 2023, we will be accepting new members. Becoming a member supports club activities and encourages us to make Math @ CarletonU a better experience!<p>Not only does it help us, it comes with perks as well:</p><ul><li>Complementary Food at our events</li><li>Discount price for Books and Merchs</li></ul>To become a member, come to any MathSoc events and pay the yearly $5 membership fees."
 },
 {
   "type": "news-finished",
