@@ -24,6 +24,12 @@ let events = [
   "desc": "Thanks to everyone who came and signed up for membership. There were way more interest than we initially thought. We look forward seeing you at future events.",
   "img": "images/events/bbq-photo.jpg",
 },
+{
+  "type": "news-finished",
+  "title": "Carleton Expo",
+  "desc": "Thanks to everyone who came and signed up for membership despite the scorching heat at Fieldhouse.",
+  "img": "images/events/expo-photo.jpg",
+},
 /*{
   "type": "news-poster",
   "title": "The Powerhouse of Problem Solving: Why Computer Science Triumphs over Mathematics",
