@@ -13,7 +13,7 @@ const getVideos = async() => {
       let error_dom = document.getElementById('login-error');
       let discord = "https://discord.gg/4ttYNMWkVw";
       let msg = "The number is not registered. If you believe you are authorized to view this page, please contact us on <a href = '" + discord + "'>discord</a>";
-      if ("env" in data['error']) {
+      if ("env" in data['error'] && data['error']['env']) {
         msg = "An error occurred on our end. We apologize for the inconvenience. Please contact us on <a href = '"+ discord + "'>discord</a>"
       }
       error_dom.innerHTML = "<b>Error: </b>" + msg;
