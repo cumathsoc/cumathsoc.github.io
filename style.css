@@ -189,7 +189,8 @@ footer a:hover {
 
 .video-content,
 .news,
-.merch {
+.merch,
+.news-finished {
     /*news with no poster*/
     background-color: white;
     padding: 10px;
@@ -225,6 +226,18 @@ a#view-news-archive-link{
 .news-with-poster-details {
     padding: 10px;
     padding-top: 0px;
+}
+
+.news-finished img {
+  width: 80%;
+  margin: auto;
+}
+
+.news-finished .title {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
 }
 
 .news-with-poster-details h3,
@@ -576,7 +589,6 @@ footer p {
     #header-nav {
         display: none;
     }
-
 }
 
 @media only screen and (max-width: 1600px) {
@@ -587,6 +599,7 @@ footer p {
     }
 
     .new,
+    .news-finished,
     .merch {
         padding-left: 10px;
         padding-right: 10px;
@@ -610,6 +623,10 @@ footer p {
   }
   #video-desc {
     width: 1000px;
+  }
+  
+  .news-finished img {
+    width: 900px;
   }
 }
 

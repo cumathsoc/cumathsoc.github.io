@@ -29,6 +29,17 @@ function creat_news_poster(event) {
     return html;
 }
 
+function creat_news_finished(event) {
+  let html = "<div class='news-finished'>";
+  html += "<center>";
+  html += "<img src='" + event.img + "'>";
+  html += "<p class = 'title'>" + event.title + "</p>";
+  html += "</center>";
+  html += "<p class = 'desc'>" + event.desc + "</p>";
+  html += "</div>";
+  return html;
+}
+
 function creat_news(event) {
     let html = "<div class='news'>";
     html += creat_news_body(event);
@@ -53,6 +64,9 @@ function populateEvents(events) {
         }
         else if (event.type == "news-poster") {
             html += creat_news_poster(event);
+        }
+        else if (event.type == "news-finished") {
+          html += creat_news_finished(event);
         }
     }
     console.log(html);
