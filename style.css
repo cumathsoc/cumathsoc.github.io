@@ -532,16 +532,6 @@ footer p {
 }
 
 @media only screen and (max-width: 1000px) {
-    #linux {
-      font-size: 75px;
-    }
-
-    #linux img {
-      height: 75px;
-    }
-    #linux span {
-      font-size: 75px;
-    }
     .content {
         width: 95%;
         padding: 10px;
