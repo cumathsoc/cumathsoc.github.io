@@ -16,7 +16,7 @@ let events = [
 {
   "type": "news-poster",
   "title": "Become a Student Representatives",
-  "desc": "Text: We are looking for first and second year student representatives in the society to help boost student initiatives and promote events to their peers. If you are interested in taking on more leadership roles, you can apply to <a href = 'https://docs.google.com/forms/d/1qXrEkLrXUdqVB-WTH8PlsFh1iXLHh51q_gYzaJbvQq8'>the Representatives Nomination Form</a>. The deadline is September 25.",
+  "desc": "We are looking for first and second year student representatives in the society to help boost student initiatives and promote events to their peers. If you are interested in taking on more leadership roles, you can apply to <a href = 'https://docs.google.com/forms/d/1qXrEkLrXUdqVB-WTH8PlsFh1iXLHh51q_gYzaJbvQq8'>the Representatives Nomination Form</a>. The deadline is September 25.",
   "img": "images/events/year-rep.png"
 },
 {
