@@ -8,29 +8,39 @@
 
 
 <url>
-  <loc>https://cumathsoc.github.io/</loc>
-  <lastmod>2023-06-22T02:08:06+00:00</lastmod>
+  <loc>https://cumathsoc.ca/</loc>
+  <lastmod>2023-09-13T01:40:00+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://cumathsoc.github.io/index.html</loc>
-  <lastmod>2023-06-22T02:08:06+00:00</lastmod>
+  <loc>https://cumathsoc.ca/index.html</loc>
+  <lastmod>2023-09-13T01:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://cumathsoc.github.io/resources.html</loc>
-  <lastmod>2023-06-22T02:08:06+00:00</lastmod>
+  <loc>https://cumathsoc.ca/resources.html</loc>
+  <lastmod>2023-09-13T01:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://cumathsoc.github.io/merch.html</loc>
-  <lastmod>2023-06-22T02:08:06+00:00</lastmod>
+  <loc>https://cumathsoc.ca/merch.html</loc>
+  <lastmod>2023-09-13T01:40:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://cumathsoc.github.io/about.html</loc>
-  <lastmod>2023-06-22T02:08:06+00:00</lastmod>
+  <loc>https://cumathsoc.ca/about.html</loc>
+  <lastmod>2023-09-13T01:40:00+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cumathsoc.ca/news-archive.html</loc>
+  <lastmod>2023-09-13T01:40:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cumathsoc.ca/pdfs/ConstitutionBylaws_CUMathStatSoc2023.pdf</loc>
+  <lastmod>2023-09-13T01:40:00+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
