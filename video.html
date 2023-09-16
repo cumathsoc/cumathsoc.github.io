@@ -47,7 +47,7 @@
             <p>Only Registered members of MathSoc will have access to the videos. Please contact us via <a href = 'https://discord.gg/4ttYNMWkVw'>discord</a> if there are any issues.</p>
             <center>
             <form action = '' onsubmit='getVideos(videos); return false;'>
-              <label for = "stud-id">Student Number: </label><input id = "stud-id" name = "stud-id" type = "text" placeholder = "student id" size = '9' pattern="1\d{8}" title = "Enter your 9 digit student number" required>
+              <label for = "stud-id">Student Number: </label><input id = "stud-id" name = "stud-id" type = "text" placeholder = "student id" size = '9' pattern="1\d{8}|3\d{8}" title = "Enter your 9 digit student number" required>
               <input id = 'submit-id' type = "submit" value = "Enter">
               <div id = 'login-error'></div>
             </form>
