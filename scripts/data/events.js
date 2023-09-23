@@ -15,6 +15,20 @@ let events = [
 },
 {
   "type": "news-poster",
+  "title": "Celebrating 60th Anniversary of the Faculty of Science",
+  "presentor": "",
+  "date": "",
+  "location": "",
+  "desc": "Happy 60th Anniversary of the Faculty of Science. Thanks for the invite.",
+  "img": "images/events/60th-ann.jpg",
+  "calendar": {
+      "google": "",
+      "outlook": "",
+      "apple": ""
+  }
+},
+{
+  "type": "news-poster",
   "title": "The Pigeonhole Principle: Pigeons, Prime NUmbers and Old Socks: What Do They Have In Common?",
   "presentor": "Dr. James Bondar",
   "date": "Tuesday September 19 2023",
