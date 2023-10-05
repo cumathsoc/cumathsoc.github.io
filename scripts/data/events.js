@@ -15,6 +15,20 @@ let events = [
 },
 {
   "type": "news-poster",
+  "title": "Infinite Cycles in Graph Theory",
+  "presentor": "Bobby Miraftab",
+  "date": "October 10 2023",
+  "location": "Herzberg (HP) 3422",
+  "desc": "<b>Abstract:</b> Hamiltonicity is a well-known and popular topic in graph theory. In a finite graph, a cycle is considered hamiltonian if it visits each vertex exactly once. However, when we shift our focus to infinite graphs, defining a cycle becomes less straightforward within an infinite setting. In this talk, we explore various approaches to define infinite cycles in infinite graphs. Additionally, we provide a concise summary of the results we have obtained concerning infinite hamiltonian cycles in graphs with a certain level of symmetries.",
+  "img": "images/talks/2023-10-10-miraftab.png",
+  "calendar": {
+      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20231010T200000Z%2F20231010T213000Z&details=Presentor%3A%20Bobby%20Mirafta%0AAbstract%3A%20Hamiltonicity%20is%20a%20well-known%20and%20popular%20topic%20in%20graph%20theory.%20In%20a%20finite%20graph%2C%20a%20cycle%20is%20considered%20hamiltonian%20if%20it%20visits%20each%20vertex%20exactly%20once.%20However%2C%20when%20we%20shift%20our%20focus%20to%20infinite%20graphs%2C%20defining%20a%20cycle%20becomes%20less%20straightforward%20within%20an%20infinite%20setting.%20In%20this%20talk%2C%20we%20explore%20various%20approaches%20to%20define%20infinite%20cycles%20in%20infinite%20graphs.%20Additionally%2C%20we%20provide%20a%20concise%20summary%20of%20the%20results%20we%20have%20obtained%20concerning%20infinite%20hamiltonian%20cycles%20in%20graphs%20with%20a%20certain%20level%20of%20symmetries.&location=HP3422&text=CUMathSoc%20-%20Infinite%20Cycles%20in%20Graph%20Theory",
+      "outlook": "https://outlook.office.com/calendar/0/action/compose?body=Presentor%3A%20Bobby%20Mirafta%0AAbstract%3A%20Hamiltonicity%20is%20a%20well-known%20and%20popular%20topic%20in%20graph%20theory.%20In%20a%20finite%20graph%2C%20a%20cycle%20is%20considered%20hamiltonian%20if%20it%20visits%20each%20vertex%20exactly%20once.%20However%2C%20when%20we%20shift%20our%20focus%20to%20infinite%20graphs%2C%20defining%20a%20cycle%20becomes%20less%20straightforward%20within%20an%20infinite%20setting.%20In%20this%20talk%2C%20we%20explore%20various%20approaches%20to%20define%20infinite%20cycles%20in%20infinite%20graphs.%20Additionally%2C%20we%20provide%20a%20concise%20summary%20of%20the%20results%20we%20have%20obtained%20concerning%20infinite%20hamiltonian%20cycles%20in%20graphs%20with%20a%20certain%20level%20of%20symmetries.&enddt=2023-10-10T21%3A30%3A00%2B00%3A00&location=HP3422&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-10-10T20%3A00%3A00%2B00%3A00&subject=CUMathSoc%20-%20Infinite%20Cycles%20in%20Graph%20Theory",
+      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART:20231010T200000Z%0ADTEND:20231010T213000Z%0ASUMMARY:CUMathSoc%20-%20Infinite%20Cycles%20in%20Graph%20Theory%0ADESCRIPTION:Presentor%3A%20Bobby%20Mirafta%5CnAbstract%3A%20Hamiltonicity%20is%20a%20well-known%20and%20popular%20topic%20in%20graph%20theory.%20In%20a%20finite%20graph%2C%20a%20cycle%20is%20considered%20hamiltonian%20if%20it%20visits%20each%20vertex%20exactly%20once.%20However%2C%20when%20we%20shift%20our%20focus%20to%20infinite%20graphs%2C%20defining%20a%20cycle%20becomes%20less%20straightforward%20within%20an%20infinite%20setting.%20In%20this%20talk%2C%20we%20explore%20various%20approaches%20to%20define%20infinite%20cycles%20in%20infinite%20graphs.%20Additionally%2C%20we%20provide%20a%20concise%20summary%20of%20the%20results%20we%20have%20obtained%20concerning%20infinite%20hamiltonian%20cycles%20in%20graphs%20with%20a%20certain%20level%20of%20symmetries.%0ALOCATION:HP3422%0AEND:VEVENT%0AEND:VCALENDAR%0A"
+  }
+},
+{
+  "type": "news-poster",
   "title": "Solving Matrix Problems with Quivers",
   "presentor": "Colin Ingalls",
   "date": "October 03 2023",
@@ -25,35 +39,6 @@ let events = [
       "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20231003T200000Z%2F20231003T213000Z&details=Presenter%3A%20Colin%20Ingalls%0AAbstract%3A%20Often%20we%20have%20a%20situation%20where%20we%20have%20some%20matrices%20that%20we%20can%20write%20in%20a%20nicer%20way%20by%20different%20choosing%20bases.%20We%20will%20show%20how%20quivers%20%28directed%20graphs%29%20and%20their%20path%20algebras%20can%20be%20used%20to%20solve%5EZsome%20of%20these%20problems.&location=HP3422&text=MathSoc%20-%20Solving%20Matrix%20Problems%20with%20Quivers",
       "outlook": "https://outlook.office.com/calendar/0/action/compose?body=Presenter%3A%20Colin%20Ingalls%0AAbstract%3A%20Often%20we%20have%20a%20situation%20where%20we%20have%20some%20matrices%20that%20we%20can%20write%20in%20a%20nicer%20way%20by%20different%20choosing%20bases.%20We%20will%20show%20how%20quivers%20%28directed%20graphs%29%20and%20their%20path%20algebras%20can%20be%20used%20to%20solve%5EZsome%20of%20these%20problems.&enddt=2023-10-03T21%3A30%3A00%2B00%3A00&location=HP3422&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-10-03T20%3A00%3A00%2B00%3A00&subject=MathSoc%20-%20Solving%20Matrix%20Problems%20with%20Quivers",
       "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART:20231003T200000Z%0ADTEND:20231003T213000Z%0ASUMMARY:MathSoc%20-%20Solving%20Matrix%20Problems%20with%20Quivers%0ADESCRIPTION:Presenter%3A%20Colin%20Ingalls%5CnAbstract%3A%20Often%20we%20have%20a%20situation%20where%20we%20have%20some%20matrices%20that%20we%20can%20write%20in%20a%20nicer%20way%20by%20different%20choosing%20bases.%20We%20will%20show%20how%20quivers%20(directed%20graphs)%20and%20their%20path%20algebras%20can%20be%20used%20to%20solve%5EZsome%20of%20these%20problems.%0ALOCATION:HP3422%0AEND:VEVENT%0AEND:VCALENDAR%0A"
-  }   
-},
-
-{
-  "type": "news-poster",
-  "title": "October Pancake Breakfast",
-  "presentor": "",
-  "date": "Tuesday October 3 2023",
-  "location": "Outside Herzberg (HP) 3422",
-  "desc": "We will also be holding our first pancake breakfast next week on Tuesday October 3rd from 10 AM to 2 PM right outside the Math Tutorial Centre (HP 3422). Come join us for some delicious pancakes with your friends and fellow members!",
-  "img": "images/events/pancake-oct.png",
-  "calendar": {
-      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20231003T140000Z%2F20231003T180000Z&details=We%20will%20also%20be%20holding%20our%20first%20pancake%20breakfast%20next%20week%20on%20Tuesday%20October%203rd%20from%2010%20AM%20to%202%20PM%20right%20outside%20the%20Math%20Tutorial%20Centre%20%28HP%203422%29.%20Come%20join%20us%20for%20some%20delicious%20pancakes%20with%20your%20friends%20and%20fellow%20members%21&location=Outside%20of%20HP3422&text=MathSoc%20Talk%202%20-%20October%20Pancake%20Breakfast",
-      "outlook": "https://outlook.office.com/calendar/0/action/compose?body=We%20will%20also%20be%20holding%20our%20first%20pancake%20breakfast%20next%20week%20on%20Tuesday%20October%203rd%20from%2010%20AM%20to%202%20PM%20right%20outside%20the%20Math%20Tutorial%20Centre%20%28HP%203422%29.%20Come%20join%20us%20for%20some%20delicious%20pancakes%20with%20your%20friends%20and%20fellow%20members%21&enddt=2023-10-03T18%3A00%3A00%2B00%3A00&location=Outside%20of%20HP3422&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-10-03T14%3A00%3A00%2B00%3A00&subject=MathSoc%20Talk%202%20-%20October%20Pancake%20Breakfast",
-      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART:20231003T140000Z%0ADTEND:20231003T180000Z%0ASUMMARY:MathSoc%20Talk%202%20-%20October%20Pancake%20Breakfast%0ADESCRIPTION:We%20will%20also%20be%20holding%20our%20first%20pancake%20breakfast%20next%20week%20on%20Tuesday%20October%203rd%20from%2010%20AM%20to%202%20PM%20right%20outside%20the%20Math%20Tutorial%20Centre%20(HP%203422).%20Come%20join%20us%20for%20some%20delicious%20pancakes%20with%20your%20friends%20and%20fellow%20members!%0ALOCATION:Outside%20of%20HP3422%0AEND:VEVENT%0AEND:VCALENDAR%0A"
-  }
-},
-{
-  "type": "news-poster",
-  "title": "Chaos: Finding Order in Disorder",
-  "presentor": "Dave Amundsen",
-  "date": "Tuesday September 26 2023",
-  "location": "Herzberg (HP) 3422",
-  "desc": "<b>Abstract:</b> From the \"butterfly effect\" of weather prediction, to the vagaries of the stock market and the intricate beauty of snowflakes, examples of chaotic behavior surround us. But what is chaos? Is it a manifestation of some underlying random process? Is it a \"catch all\" for effects which we do not know or cannot resolve? In this presentation, I will talk about the mathematical notions behind chaos, and how it applies to a wide range of everyday phenomena. You will learn that behind the mysterious, seemingly random nature of chaos can lie a rich, intricate structure.  With this comes deeper understanding but such complexity also brings limitations. Through various examples we will explore how order emerges from disorder!",
-  "img": "images/talks/2023-09-26-amundsen.png",
-  "calendar": {
-      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230926T200000Z%2F20230926T213000Z&details=From%20the%20%22butterfly%20effect%22%20of%20weather%20prediction%2C%20to%20the%20vagaries%20of%20the%20stock%20market%20and%20the%20intricate%20beauty%20of%20snowflakes%2C%20examples%20of%20chaotic%20behavior%20surround%20us.%20But%20what%20is%20chaos%3F%20Is%20it%20a%20manifestation%20of%20some%20underlying%20random%20process%3F%20Is%20it%20a%20%22catch%20all%22%20for%20effects%20which%20we%20do%20not%20know%20or%20cannot%20resolve%3F%20In%20this%20presentation%2C%20I%20will%20talk%20about%20the%20mathematical%20notions%20behind%20chaos%2C%20and%20how%20it%20applies%20to%20a%20wide%20range%20of%20everyday%20phenomena.%20You%20will%20learn%20that%20behind%20the%20mysterious%2C%20seemingly%20random%20nature%20of%20chaos%20can%20lie%20a%20rich%2C%20intricate%20structure.%20With%20this%20comes%20deeper%20understanding%20but%20such%20complexity%20also%20brings%20limitations.%20Through%20various%20examples%20we%20will%20explore%20how%20order%20emerges%20from%20disorder%21&location=HP3422&text=MathSoc%20Talk%202%20-%20Chaos%3A%20Finding%20Order%20in%20Disorder",
-      "outlook": "https://outlook.office.com/calendar/0/action/compose?body=From%20the%20%22butterfly%20effect%22%20of%20weather%20prediction%2C%20to%20the%20vagaries%20of%20the%20stock%20market%20and%20the%20intricate%20beauty%20of%20snowflakes%2C%20examples%20of%20chaotic%20behavior%20surround%20us.%20But%20what%20is%20chaos%3F%20Is%20it%20a%20manifestation%20of%20some%20underlying%20random%20process%3F%20Is%20it%20a%20%22catch%20all%22%20for%20effects%20which%20we%20do%20not%20know%20or%20cannot%20resolve%3F%20In%20this%20presentation%2C%20I%20will%20talk%20about%20the%20mathematical%20notions%20behind%20chaos%2C%20and%20how%20it%20applies%20to%20a%20wide%20range%20of%20everyday%20phenomena.%20You%20will%20learn%20that%20behind%20the%20mysterious%2C%20seemingly%20random%20nature%20of%20chaos%20can%20lie%20a%20rich%2C%20intricate%20structure.%20With%20this%20comes%20deeper%20understanding%20but%20such%20complexity%20also%20brings%20limitations.%20Through%20various%20examples%20we%20will%20explore%20how%20order%20emerges%20from%20disorder%21&enddt=2023-09-26T21%3A30%3A00%2B00%3A00&location=HP3422&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-09-26T20%3A00%3A00%2B00%3A00&subject=MathSoc%20Talk%202%20%28Chaos%20-%20Finding%20Order%20in%20Disorder%29",
-      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART:20230926T200000Z%0ADTEND:20230926T213000Z%0ASUMMARY:MathSoc%20Talk%202%20-%20Chaos%3A%20Finding%20Order%20in%20Disorder%0ADESCRIPTION:From%20the%20%22butterfly%20effect%22%20of%20weather%20prediction%2C%20to%20the%20vagaries%20of%20the%20stock%20market%20and%20the%20intricate%20beauty%20of%20snowflakes%2C%20examples%20of%20chaotic%20behavior%20surround%20us.%20But%20what%20is%20chaos%3F%20Is%20it%20a%20manifestation%20of%20some%20underlying%20random%20process%3F%20Is%20it%20a%20%22catch%20all%22%20for%20effects%20which%20we%20do%20not%20know%20or%20cannot%20resolve%3F%20In%20this%20presentation%2C%20I%20will%20talk%20about%20the%20mathematical%20notions%20behind%20chaos%2C%20and%20how%20it%20applies%20to%20a%20wide%20range%20of%20everyday%20phenomena.%20You%20will%20learn%20that%20behind%20the%20mysterious%2C%20seemingly%20random%20nature%20of%20chaos%20can%20lie%20a%20rich%2C%20intricate%20structure.%20With%20this%20comes%20deeper%20understanding%20but%20such%20complexity%20also%20brings%20limitations.%20Through%20various%20examples%20we%20will%20explore%20how%20order%20emerges%20from%20disorder!%0ALOCATION:HP3422%0AEND:VEVENT%0AEND:VCALENDAR%0A"
   }   
 },
 {
@@ -71,27 +56,9 @@ let events = [
   }
 },
 {
-  "type": "news-poster",
-  "title": "Become a Student Representatives",
-  "desc": "We are looking for first and second year student representatives in the society to help boost student initiatives and promote events to their peers. If you are interested in taking on more leadership roles, you can apply to <a href = 'https://docs.google.com/forms/d/1qXrEkLrXUdqVB-WTH8PlsFh1iXLHh51q_gYzaJbvQq8'>the Representatives Nomination Form</a>. The deadline is September 25.",
-  "img": "images/events/year-rep.png"
-},
-{
   "type": "news",
   "title": "MathSoc Membership",
   "desc": "At the start of Fall 2023, we will be accepting new members. Becoming a member supports club activities and encourages us to make Math @ CarletonU a better experience!<p>Not only does it help us, it comes with perks as well:</p><ul><li>Complementary Food at our events</li><li>Discount price for Books and Merchs</li></ul>To become a member, come to any MathSoc events and pay the yearly $5 membership fees."
-},
-{
-  "type": "news-finished",
-  "title": "BBQ & Book SALE Event",
-  "desc": "Thanks to everyone who came and signed up for membership. There were way more interest than we initially thought. We look forward seeing you at future events.",
-  "img": "images/events/bbq-photo.jpg",
-},
-{
-  "type": "news-finished",
-  "title": "Carleton Expo",
-  "desc": "Thanks to everyone who came and signed up for membership despite the scorching heat at Fieldhouse.",
-  "img": "images/events/expo-photo.jpg",
 },
 /*{
   "type": "news-poster",
