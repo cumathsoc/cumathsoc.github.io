@@ -607,6 +607,9 @@ footer p {
 }
 
 @media only screen and (min-width: 1200px) {
+  #display-video {
+    width: 90%;
+  }
   #display-video iframe {
     width: 1000px;
     height: 562.5px;
@@ -621,7 +624,7 @@ footer p {
 }
 
 @media only screen and (min-width: 1800px) {
-
+    #display-video 
     .merch-with-img,
     .news-with-poster {
         grid-template-columns: 4fr 7fr;
