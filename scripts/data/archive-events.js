@@ -15,6 +15,35 @@ let events = [
 },
 {
   "type": "news-poster",
+  "title": "Solving Matrix Problems with Quivers",
+  "presentor": "Colin Ingalls",
+  "date": "October 03 2023",
+  "location": "Herzberg (HP) 3422",
+  "desc": "<b>Abstract:</b> Often we have a situation where we have some matrices that we can write in a nicer way by different choosing bases. We will show how quivers (directed graphs) and their path algebras can be used to solve some of these problems.",
+  "img": "images/talks/2023-10-03-ingalls.png",
+  "calendar": {
+      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20231003T200000Z%2F20231003T213000Z&details=Presenter%3A%20Colin%20Ingalls%0AAbstract%3A%20Often%20we%20have%20a%20situation%20where%20we%20have%20some%20matrices%20that%20we%20can%20write%20in%20a%20nicer%20way%20by%20different%20choosing%20bases.%20We%20will%20show%20how%20quivers%20%28directed%20graphs%29%20and%20their%20path%20algebras%20can%20be%20used%20to%20solve%5EZsome%20of%20these%20problems.&location=HP3422&text=MathSoc%20-%20Solving%20Matrix%20Problems%20with%20Quivers",
+      "outlook": "https://outlook.office.com/calendar/0/action/compose?body=Presenter%3A%20Colin%20Ingalls%0AAbstract%3A%20Often%20we%20have%20a%20situation%20where%20we%20have%20some%20matrices%20that%20we%20can%20write%20in%20a%20nicer%20way%20by%20different%20choosing%20bases.%20We%20will%20show%20how%20quivers%20%28directed%20graphs%29%20and%20their%20path%20algebras%20can%20be%20used%20to%20solve%5EZsome%20of%20these%20problems.&enddt=2023-10-03T21%3A30%3A00%2B00%3A00&location=HP3422&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-10-03T20%3A00%3A00%2B00%3A00&subject=MathSoc%20-%20Solving%20Matrix%20Problems%20with%20Quivers",
+      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART:20231003T200000Z%0ADTEND:20231003T213000Z%0ASUMMARY:MathSoc%20-%20Solving%20Matrix%20Problems%20with%20Quivers%0ADESCRIPTION:Presenter%3A%20Colin%20Ingalls%5CnAbstract%3A%20Often%20we%20have%20a%20situation%20where%20we%20have%20some%20matrices%20that%20we%20can%20write%20in%20a%20nicer%20way%20by%20different%20choosing%20bases.%20We%20will%20show%20how%20quivers%20(directed%20graphs)%20and%20their%20path%20algebras%20can%20be%20used%20to%20solve%5EZsome%20of%20these%20problems.%0ALOCATION:HP3422%0AEND:VEVENT%0AEND:VCALENDAR%0A"
+  }   
+},
+{
+  "type": "news-poster",
+  "title": "Celebrating 60th Anniversary of the Faculty of Science",
+  "presentor": "",
+  "date": "",
+  "location": "",
+  "desc": "Happy 60th Anniversary of the Faculty of Science. Thanks for the invite.",
+  "img": "images/events/60th-ann.jpg",
+  "calendar": {
+      "google": "",
+      "outlook": "",
+      "apple": ""
+  }
+},
+
+{
+  "type": "news-poster",
   "title": "October Pancake Breakfast",
   "presentor": "",
   "date": "Tuesday October 3 2023",
@@ -41,7 +70,6 @@ let events = [
       "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART:20230926T200000Z%0ADTEND:20230926T213000Z%0ASUMMARY:MathSoc%20Talk%202%20-%20Chaos%3A%20Finding%20Order%20in%20Disorder%0ADESCRIPTION:From%20the%20%22butterfly%20effect%22%20of%20weather%20prediction%2C%20to%20the%20vagaries%20of%20the%20stock%20market%20and%20the%20intricate%20beauty%20of%20snowflakes%2C%20examples%20of%20chaotic%20behavior%20surround%20us.%20But%20what%20is%20chaos%3F%20Is%20it%20a%20manifestation%20of%20some%20underlying%20random%20process%3F%20Is%20it%20a%20%22catch%20all%22%20for%20effects%20which%20we%20do%20not%20know%20or%20cannot%20resolve%3F%20In%20this%20presentation%2C%20I%20will%20talk%20about%20the%20mathematical%20notions%20behind%20chaos%2C%20and%20how%20it%20applies%20to%20a%20wide%20range%20of%20everyday%20phenomena.%20You%20will%20learn%20that%20behind%20the%20mysterious%2C%20seemingly%20random%20nature%20of%20chaos%20can%20lie%20a%20rich%2C%20intricate%20structure.%20With%20this%20comes%20deeper%20understanding%20but%20such%20complexity%20also%20brings%20limitations.%20Through%20various%20examples%20we%20will%20explore%20how%20order%20emerges%20from%20disorder!%0ALOCATION:HP3422%0AEND:VEVENT%0AEND:VCALENDAR%0A"
   }   
 },
-
 {
   "type": "news-poster",
   "title": "Become a Student Representatives",
@@ -61,11 +89,6 @@ let events = [
       "outlook": "https://outlook.office.com/calendar/0/action/compose?body=It%20is%20often%20said%20that%20the%20best%20mathematics%20starts%20with%20very%20simple%20ideas.%20This%20is%20true%20of%20the%20pigeonhole%20principle%20which%20we%20first%20encounter%20as%20a%20riddle%20which%20can%20be%20solved%20by%20elementary%20school%20students.%20The%20applications%20of%20this%20simple%20principle%20lead%20in%20many%20directions%3A%20graph%20theory%2C%20the%20behaviour%20of%20billards%20balls%2C%20prime%20numbers%2C%20...%20Some%20of%20these%20applications%20are%20deep%20and%20difficult%20and%20others%20are%20light%20and%20entertaining%20puzzles.%20We%20shall%20spend%20most%20of%20our%20time%20with%20the%20latter.%20Everyone%20is%20welcome%21%0A%0ADr.%20James%20Bondar&enddt=2023-09-19T21%3A30%3A00%2B00%3A00&location=HP3422&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-09-19T20%3A00%3A00%2B00%3A00&subject=MathSoc%20Colloquium%3A%20Pigeonhole%20Principle",
       "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART:20230919T200000Z%0ADTEND:20230919T213000Z%0ASUMMARY:MathSoc%20Colloquium%3A%20Pigeonhole%20Principle%0ADESCRIPTION:It%20is%20often%20said%20that%20the%20best%20mathematics%20starts%20with%20very%20simple%20ideas.%20This%20is%20true%20of%20the%20pigeonhole%20principle%20which%20we%20first%20encounter%20as%20a%20riddle%20which%20can%20be%20solved%20by%20elementary%20school%20students.%20The%20applications%20of%20this%20simple%20principle%20lead%20in%20many%20directions%3A%20graph%20theory%2C%20the%20behaviour%20of%20billards%20balls%2C%20prime%20numbers%2C%20...%20Some%20of%20these%20applications%20are%20deep%20and%20difficult%20and%20others%20are%20light%20and%20entertaining%20puzzles.%20We%20shall%20spend%20most%20of%20our%20time%20with%20the%20latter.%20Everyone%20is%20welcome!%5Cn%5CnDr.%20James%20Bondar%0ALOCATION:HP3422%0AEND:VEVENT%0AEND:VCALENDAR%0A"
   }   
-},
-{
-  "type": "news",
-  "title": "MathSoc Membership",
-  "desc": "At the start of Fall 2023, we will be accepting new members. Becoming a member supports club activities and encourages us to make Math @ CarletonU a better experience!<p>Not only does it help us, it comes with perks as well:</p><ul><li>Complementary Food at our events</li><li>Discount price for Books and Merchs</li></ul>To become a member, come to any MathSoc events and pay the yearly $5 membership fees. "
 },
 {
   "type": "news-finished",

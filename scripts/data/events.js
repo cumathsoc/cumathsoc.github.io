@@ -28,34 +28,6 @@ let events = [
   }
 },
 {
-  "type": "news-poster",
-  "title": "Solving Matrix Problems with Quivers",
-  "presentor": "Colin Ingalls",
-  "date": "October 03 2023",
-  "location": "Herzberg (HP) 3422",
-  "desc": "<b>Abstract:</b> Often we have a situation where we have some matrices that we can write in a nicer way by different choosing bases. We will show how quivers (directed graphs) and their path algebras can be used to solve some of these problems.",
-  "img": "images/talks/2023-10-03-ingalls.png",
-  "calendar": {
-      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20231003T200000Z%2F20231003T213000Z&details=Presenter%3A%20Colin%20Ingalls%0AAbstract%3A%20Often%20we%20have%20a%20situation%20where%20we%20have%20some%20matrices%20that%20we%20can%20write%20in%20a%20nicer%20way%20by%20different%20choosing%20bases.%20We%20will%20show%20how%20quivers%20%28directed%20graphs%29%20and%20their%20path%20algebras%20can%20be%20used%20to%20solve%5EZsome%20of%20these%20problems.&location=HP3422&text=MathSoc%20-%20Solving%20Matrix%20Problems%20with%20Quivers",
-      "outlook": "https://outlook.office.com/calendar/0/action/compose?body=Presenter%3A%20Colin%20Ingalls%0AAbstract%3A%20Often%20we%20have%20a%20situation%20where%20we%20have%20some%20matrices%20that%20we%20can%20write%20in%20a%20nicer%20way%20by%20different%20choosing%20bases.%20We%20will%20show%20how%20quivers%20%28directed%20graphs%29%20and%20their%20path%20algebras%20can%20be%20used%20to%20solve%5EZsome%20of%20these%20problems.&enddt=2023-10-03T21%3A30%3A00%2B00%3A00&location=HP3422&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-10-03T20%3A00%3A00%2B00%3A00&subject=MathSoc%20-%20Solving%20Matrix%20Problems%20with%20Quivers",
-      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART:20231003T200000Z%0ADTEND:20231003T213000Z%0ASUMMARY:MathSoc%20-%20Solving%20Matrix%20Problems%20with%20Quivers%0ADESCRIPTION:Presenter%3A%20Colin%20Ingalls%5CnAbstract%3A%20Often%20we%20have%20a%20situation%20where%20we%20have%20some%20matrices%20that%20we%20can%20write%20in%20a%20nicer%20way%20by%20different%20choosing%20bases.%20We%20will%20show%20how%20quivers%20(directed%20graphs)%20and%20their%20path%20algebras%20can%20be%20used%20to%20solve%5EZsome%20of%20these%20problems.%0ALOCATION:HP3422%0AEND:VEVENT%0AEND:VCALENDAR%0A"
-  }   
-},
-{
-  "type": "news-poster",
-  "title": "Celebrating 60th Anniversary of the Faculty of Science",
-  "presentor": "",
-  "date": "",
-  "location": "",
-  "desc": "Happy 60th Anniversary of the Faculty of Science. Thanks for the invite.",
-  "img": "images/events/60th-ann.jpg",
-  "calendar": {
-      "google": "",
-      "outlook": "",
-      "apple": ""
-  }
-},
-{
   "type": "news",
   "title": "MathSoc Membership",
   "desc": "At the start of Fall 2023, we will be accepting new members. Becoming a member supports club activities and encourages us to make Math @ CarletonU a better experience!<p>Not only does it help us, it comes with perks as well:</p><ul><li>Complementary Food at our events</li><li>Discount price for Books and Merchs</li></ul>To become a member, come to any MathSoc events and pay the yearly $5 membership fees."
