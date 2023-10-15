@@ -15,6 +15,20 @@ let events = [
 },
 {
   "type": "news-poster",
+  "title": "Infinite Cycles in Graph Theory",
+  "presentor": "Bobby Miraftab",
+  "date": "October 10 2023",
+  "location": "Herzberg (HP) 3422",
+  "desc": "<b>Abstract:</b> Hamiltonicity is a well-known and popular topic in graph theory. In a finite graph, a cycle is considered hamiltonian if it visits each vertex exactly once. However, when we shift our focus to infinite graphs, defining a cycle becomes less straightforward within an infinite setting. In this talk, we explore various approaches to define infinite cycles in infinite graphs. Additionally, we provide a concise summary of the results we have obtained concerning infinite hamiltonian cycles in graphs with a certain level of symmetries.",
+  "img": "images/talks/2023-10-10-miraftab.png",
+  "calendar": {
+      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20231010T200000Z%2F20231010T213000Z&details=Presentor%3A%20Bobby%20Mirafta%0AAbstract%3A%20Hamiltonicity%20is%20a%20well-known%20and%20popular%20topic%20in%20graph%20theory.%20In%20a%20finite%20graph%2C%20a%20cycle%20is%20considered%20hamiltonian%20if%20it%20visits%20each%20vertex%20exactly%20once.%20However%2C%20when%20we%20shift%20our%20focus%20to%20infinite%20graphs%2C%20defining%20a%20cycle%20becomes%20less%20straightforward%20within%20an%20infinite%20setting.%20In%20this%20talk%2C%20we%20explore%20various%20approaches%20to%20define%20infinite%20cycles%20in%20infinite%20graphs.%20Additionally%2C%20we%20provide%20a%20concise%20summary%20of%20the%20results%20we%20have%20obtained%20concerning%20infinite%20hamiltonian%20cycles%20in%20graphs%20with%20a%20certain%20level%20of%20symmetries.&location=HP3422&text=CUMathSoc%20-%20Infinite%20Cycles%20in%20Graph%20Theory",
+      "outlook": "https://outlook.office.com/calendar/0/action/compose?body=Presentor%3A%20Bobby%20Mirafta%0AAbstract%3A%20Hamiltonicity%20is%20a%20well-known%20and%20popular%20topic%20in%20graph%20theory.%20In%20a%20finite%20graph%2C%20a%20cycle%20is%20considered%20hamiltonian%20if%20it%20visits%20each%20vertex%20exactly%20once.%20However%2C%20when%20we%20shift%20our%20focus%20to%20infinite%20graphs%2C%20defining%20a%20cycle%20becomes%20less%20straightforward%20within%20an%20infinite%20setting.%20In%20this%20talk%2C%20we%20explore%20various%20approaches%20to%20define%20infinite%20cycles%20in%20infinite%20graphs.%20Additionally%2C%20we%20provide%20a%20concise%20summary%20of%20the%20results%20we%20have%20obtained%20concerning%20infinite%20hamiltonian%20cycles%20in%20graphs%20with%20a%20certain%20level%20of%20symmetries.&enddt=2023-10-10T21%3A30%3A00%2B00%3A00&location=HP3422&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-10-10T20%3A00%3A00%2B00%3A00&subject=CUMathSoc%20-%20Infinite%20Cycles%20in%20Graph%20Theory",
+      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART:20231010T200000Z%0ADTEND:20231010T213000Z%0ASUMMARY:CUMathSoc%20-%20Infinite%20Cycles%20in%20Graph%20Theory%0ADESCRIPTION:Presentor%3A%20Bobby%20Mirafta%5CnAbstract%3A%20Hamiltonicity%20is%20a%20well-known%20and%20popular%20topic%20in%20graph%20theory.%20In%20a%20finite%20graph%2C%20a%20cycle%20is%20considered%20hamiltonian%20if%20it%20visits%20each%20vertex%20exactly%20once.%20However%2C%20when%20we%20shift%20our%20focus%20to%20infinite%20graphs%2C%20defining%20a%20cycle%20becomes%20less%20straightforward%20within%20an%20infinite%20setting.%20In%20this%20talk%2C%20we%20explore%20various%20approaches%20to%20define%20infinite%20cycles%20in%20infinite%20graphs.%20Additionally%2C%20we%20provide%20a%20concise%20summary%20of%20the%20results%20we%20have%20obtained%20concerning%20infinite%20hamiltonian%20cycles%20in%20graphs%20with%20a%20certain%20level%20of%20symmetries.%0ALOCATION:HP3422%0AEND:VEVENT%0AEND:VCALENDAR%0A"
+  }
+},
+{
+  "type": "news-poster",
   "title": "Solving Matrix Problems with Quivers",
   "presentor": "Colin Ingalls",
   "date": "October 03 2023",
