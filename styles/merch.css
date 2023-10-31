@@ -1,5 +1,10 @@
-#y23-shirt-main-wrapper, #y22-shirt-main-wrapper  {
+#y23-shirt-main-wrapper, #y22-shirt-main-wrapper, #y23-sweater-main-wrapper  {
     min-height: auto;
+    background-repeat: no-repeat;
+}
+
+#y23-shirt-main-wrapper {
+  background: none !important;
 }
 
 .selected-merch-thumbnail {
@@ -21,10 +26,6 @@ div.zoom img {
     transition: opacity 0.5s;
     display: block;
     width: 100%;
-}
-
-#y23-shirt-main-wrapper, #y22-shirt-main-wrapper {
-    min-height: auto;
 }
 
 .selected-merch-thumbnail {
@@ -131,6 +132,17 @@ div.zoom img {
     padding: 10px;
 }
 
+.merch-thumbs-3 {
+    display: grid;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+
+
 .non-selected-merch-thumbnail:hover {
     opacity: 0.7;
 }
@@ -139,7 +151,11 @@ div.zoom img {
     width: 65%;
 }
 
-.merch-thumbs img {
+.merch-thumbs-3 div {
+    width: 80%;
+}
+
+.merch-thumbs-3 img, .merch-thumbs img {
     position: relative;
     width: 100%;
     cursor: pointer;

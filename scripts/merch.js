@@ -41,7 +41,7 @@ function changeMerchColor(merch_year, merch_type, color) {
   let redCircleClassList = document.getElementById(root_id + "red").classList;
 
   mainMerch.src = 'images/merch/' + root_id + sideStore + '-' + color + '.jpg';
-  merchMain.style.backgroundImage = "url('" + mainMerch.src + "')";
+ // merchMain.style.backgroundImage = "url('" + mainMerch.src + "')";
   frontMerch.src = 'images/merch/' + root_id + 'front-' + color + '.jpg';
   backMerch.src = 'images/merch/' + root_id + 'back-' + color + '.jpg';
   merchColor.innerText = color.charAt(0).toUpperCase() + color.slice(1);

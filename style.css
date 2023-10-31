@@ -108,7 +108,6 @@ footer a:hover {
     font-size: calc(5px + 2vmin);
 }
 
-#main-shirt-wrapper,
 .merch-main img, 
 .news-poster img {
     object-fit: contain;
@@ -117,6 +116,7 @@ footer a:hover {
     max-height: 100%;
     min-height: 100%;
     cursor: pointer;
+    background-repeat: no-repeat;
 }
 
 #stud_id {

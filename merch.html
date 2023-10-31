@@ -57,6 +57,93 @@
 
     <div class="merch-with-img">
         <div class="merch-img">
+            <div id="y23-sweater-main-wrapper" class="merch-main" 
+>
+                <img id="y23-sweater-main" src="images/merch/y23-sweater-front-black.jpg">
+            </div>
+            <br />
+            <div class="merch-thumbs-3">
+                <div>
+                    <img id="y23-sweater-front" class="selected-merch-thumbnail" onclick="changeMainMerchView('y23', 'sweater','front')"
+                        src="images/merch/y23-sweater-front-black.jpg">
+                </div>
+                <div>
+                    <img id="y23-sweater-back" class="non-selected-merch-thumbnail"
+                        onclick="changeMainMerchView('y23', 'sweater', 'back')" src="images/merch/y23-sweater-back-black.jpg">
+                </div>
+                <div>
+                    <img id="y23-sweater-side" class="non-selected-merch-thumbnail"
+                        onclick="changeMainMerchView('y23', 'sweater', 'side')" src="images/merch/y23-sweater-side-black.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="news-with-poster-details">
+            <div class="merch-title">T-Shirts <span class="ribbon-soldout">SOLD OUT</span></div>
+            <span class="price">$20.00</span> <b>members</b><br />
+            <span class="price">$25.00</span> <b>for non-members</b><br />
+            <b>Size:</b> S, M, L, XL<br />
+            <b>Color:</b> <span id="y23-sweater-merch-color">Black</span>
+            <div class="product-color">
+                <div id="y23-sweater-black" class="selected-color">
+                    <div class="color-circle" onclick="changeMerchColor('y23', 'sweater', 'black')"
+                        onmouseover="handleHoverColor('y23', 'sweater', 'black')" onmouseleave="handleHoverExitColor('y23', 'sweater', 'black')"
+                        style="background-color:black">
+                    </div>
+                </div>
+                <div id="y23-sweater-red">
+                    <div class="color-circle" onclick="changeMerchColor('y23', 'sweater', 'red')" onmouseover="handleHoverColor('y23', 'sweater', 'red')"
+                        onmouseleave="handleHoverExitColor('y23', 'sweater', 'red')" style="background-color:red"></div>
+                </div>
+            </div>
+            <br />
+            <b>Description:</b> A 100% cotton sweater filled with a torus. 
+        </div>
+    </div>
+
+    <div class="merch-with-img">
+        <div class="merch-img">
+            <div id="y23-shirt-main-wrapper" class="merch-main" 
+                style="background-image: url(images/merch/y23-shirt-front-black.jpg)">
+                <img id="y23-shirt-main" src="images/merch/y23-shirt-front-black.jpg">
+            </div>
+            <br />
+            <div class="merch-thumbs">
+                <div>
+                    <img id="y23-shirt-front" class="selected-merch-thumbnail" onclick="changeMainMerchView('y23', 'shirt','front')"
+                        src="images/merch/y23-shirt-front-black.jpg">
+                </div>
+                <div>
+                    <img id="y23-shirt-back" class="non-selected-merch-thumbnail"
+                        onclick="changeMainMerchView('y23', 'shirt', 'back')" src="images/merch/y23-shirt-back-black.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="news-with-poster-details">
+            <div class="merch-title">T-Shirts <span class="ribbon-soldout">SOLD OUT</span></div>
+            <span class="price">$20.00</span> <b>members</b><br />
+            <span class="price">$25.00</span> <b>for non-members</b><br />
+            <b>Size:</b> S, M, L, XL<br />
+            <b>Color:</b> <span id="y23-shirt-merch-color">Black</span>
+            <div class="product-color">
+                <div id="y23-shirt-black" class="selected-color">
+                    <div class="color-circle" onclick="changeMerchColor('y23', 'shirt', 'black')"
+                        onmouseover="handleHoverColor('y23', 'shirt', 'black')" onmouseleave="handleHoverExitColor('y23', 'shirt', 'black')"
+                        style="background-color:black">
+                    </div>
+                </div>
+                <div id="y23-shirt-red">
+                    <div class="color-circle" onclick="changeMerchColor('y23', 'shirt', 'red')" onmouseover="handleHoverColor('y23', 'shirt', 'red')"
+                        onmouseleave="handleHoverExitColor('y23', 'shirt', 'red')" style="background-color:red"></div>
+                </div>
+            </div>
+            <br />
+            <b>Description:</b> A 100% cotton t-shirt filled with different math equations. Can you name every
+            equation in the t-shirt?
+        </div>
+    </div>
+
+    <div class="merch-with-img">
+        <div class="merch-img">
             <div id="y22-shirt-main-wrapper" class="merch-main zoom" onmousemove="zoom(event)"
                 style="background-image: url(images/merch/y22-shirt-front-black.jpg)">
                 <img id="y22-shirt-main" src="images/merch/y22-shirt-front-black.jpg">
@@ -96,6 +183,7 @@
             equation in the t-shirt?
         </div>
     </div>
+
     </div>
 
 
