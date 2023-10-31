@@ -35,7 +35,7 @@ function changeMerchColor(merch_year, merch_type, color) {
   let frontMerch = document.getElementById(root_id + 'front');
   let backMerch = document.getElementById(root_id + 'back');
   let merchColor = document.getElementById(root_id + 'merch-color');
-
+  let sideMerch = null;
 
   let blackCircleClassList = document.getElementById(root_id + "black").classList;
   let redCircleClassList = document.getElementById(root_id + "red").classList;
@@ -44,18 +44,26 @@ function changeMerchColor(merch_year, merch_type, color) {
  // merchMain.style.backgroundImage = "url('" + mainMerch.src + "')";
   frontMerch.src = 'images/merch/' + root_id + 'front-' + color + '.jpg';
   backMerch.src = 'images/merch/' + root_id + 'back-' + color + '.jpg';
+
+  if (merch_type == "sweater") {
+    sideMerch = document.getElementById(root_id + 'side');
+    sideMerch.src = 'images/merch/' + root_id + 'side-' + color + '.jpg';
+  }
+
   merchColor.innerText = color.charAt(0).toUpperCase() + color.slice(1);
 
   colorStore = color;
 
-  if (sideStore == 'front') {
-    backMerch.classList.remove('selected-merch-thumbnail');
-    frontMerch.classList.add('selected-merch-thumbnail');
-  }
-  else {
+  if (sideStore != "front") {
     frontMerch.classList.remove('selected-merch-thumbnail');
-    backMerch.classList.add('selected-merch-thumbnail');
   }
+  if (sideStore != "back") {
+    backMerch.classList.remove('selected-merch-thumbnail');
+  }
+  if (sideMerch !== null && sideStore != "side") {
+    sideMerch.classList.remove('selected-merch-thumbnail');
+  }
+  document.getElementById(root_id + sideStore).classList.add('selected-merch-thumbnail');
 
   if (color === "black") {
     blackCircleClassList.add("selected-color");
@@ -80,14 +88,28 @@ function changeMainMerchView(merch_year, merch_type, side) {
 
   clickedMerch.classList.add('selected-merch-thumbnail');
   clickedMerch.classList.remove('non-selected-merch-thumbnail');
-  if (side == 'front') {
-    document.getElementById(root_id + 'back').classList.remove('selected-merch-thumbnail');
-    document.getElementById(root_id + 'back').classList.add('non-selected-merch-thumbnail');
+
+  let frontMerch = document.getElementById(root_id + 'front');
+  let backMerch = document.getElementById(root_id + 'back');
+  let sideMerch = null;
+
+  if (merch_type == "sweater") {
+    sideMerch = document.getElementById(root_id + 'side');
   }
-  else {
-    document.getElementById(root_id + 'front').classList.remove('selected-merch-thumbnail');
-    document.getElementById(root_id + 'front').classList.add('non-selected-merch-thumbnail');
+
+  if (sideStore != "front") {
+    frontMerch.classList.remove('selected-merch-thumbnail');
+    frontMerch.classList.add('non-selected-merch-thumbnail');
   }
+  if (sideStore != "back") {
+    backMerch.classList.remove('selected-merch-thumbnail');
+    backMerch.classList.add('non-selected-merch-thumbnail');
+  }
+  if (sideMerch !== null && sideStore != "side") {
+    sideMerch.classList.remove('selected-merch-thumbnail');
+    sideMerch.classList.add('non-selected-merch-thumbnail');
+  }
+  document.getElementById(root_id + sideStore).classList.add('selected-merch-thumbnail');
 }
 
 //Credits: https://codepen.io/kennethknudsen/pen/eGQKZX
