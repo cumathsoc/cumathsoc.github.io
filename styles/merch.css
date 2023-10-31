@@ -1,4 +1,4 @@
-#main-shirt-wrapper {
+#y23-shirt-main-wrapper, #y22-shirt-main-wrapper  {
     min-height: auto;
 }
 
@@ -23,7 +23,7 @@ div.zoom img {
     width: 100%;
 }
 
-#main-shirt-wrapper {
+#y23-shirt-main-wrapper, #y22-shirt-main-wrapper {
     min-height: auto;
 }
 
@@ -73,8 +73,10 @@ div.zoom img {
     border: none;
 }
 
-#shirt-black-23,
-#shirt-red-23 {
+#y23-shirt-black,
+#y22-shirt-black,
+#y23-shirt-red,
+#y22-shirt-red {
     border-radius: 50%;
     width: 25px;
     height: 25px;

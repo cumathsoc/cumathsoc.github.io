@@ -1,43 +1,60 @@
 var colorStore = 'black';
 var sideStore = 'front';
 
-function handleHoverColor(color) {
-  let merchColor = document.getElementById('merch-color');
+/*
+MERCH NAMING CONVENTION
+  * <merch_year>-<merch_type>-<color/side>
+  * Example: y22-shirt-black
+  * y22 means year 2022
+*/
+
+function buildRootId(merch_year, merch_type) {
+  return merch_year + '-' + merch_type + '-';
+}
+
+function handleHoverColor(merch_year, merch_type, color) {
+  let root_id = buildRootId(merch_year, merch_type);
+
+  let merchColor = document.getElementById(root_id + 'merch-color');
   colorStore = merchColor.innerText;
   merchColor.innerText = color.charAt(0).toUpperCase() + color.slice(1);
 }
 
-function handleHoverExitColor(color) {
-  let merchColor = document.getElementById('merch-color');
+function handleHoverExitColor(merch_year, merch_type, color) {
+  let root_id = buildRootId(merch_year, merch_type);
+
+  let merchColor = document.getElementById(root_id +'merch-color');
   merchColor.innerText = colorStore.charAt(0).toUpperCase() + colorStore.slice(1);
 }
 
-function changeMerchColor(color) {
-  let merchMain = document.getElementById('main-shirt-wrapper');
-  let mainShirt = document.getElementById('main-shirt');
-  let frontShirt = document.getElementById('front-shirt');
-  let backShirt = document.getElementById('back-shirt');
-  let merchColor = document.getElementById('merch-color');
+function changeMerchColor(merch_year, merch_type, color) {
+  let root_id = buildRootId(merch_year, merch_type);
+ 
+  let merchMain = document.getElementById(root_id + 'main-wrapper');
+  let mainMerch = document.getElementById(root_id + 'main');
+  let frontMerch = document.getElementById(root_id + 'front');
+  let backMerch = document.getElementById(root_id + 'back');
+  let merchColor = document.getElementById(root_id + 'merch-color');
 
 
-  let blackCircleClassList = document.getElementById("shirt-black-23").classList;
-  let redCircleClassList = document.getElementById("shirt-red-23").classList;
+  let blackCircleClassList = document.getElementById(root_id + "black").classList;
+  let redCircleClassList = document.getElementById(root_id + "red").classList;
 
-  mainShirt.src = 'images/merch/' + sideStore + '-' + color + '-shirt.jpg';
-  merchMain.style.backgroundImage = "url('" + mainShirt.src + "')";
-  frontShirt.src = 'images/merch/front-' + color + '-shirt.jpg';
-  backShirt.src = 'images/merch/back-' + color + '-shirt.jpg';
+  mainMerch.src = 'images/merch/' + root_id + sideStore + '-' + color + '.jpg';
+  merchMain.style.backgroundImage = "url('" + mainMerch.src + "')";
+  frontMerch.src = 'images/merch/' + root_id + 'front-' + color + '.jpg';
+  backMerch.src = 'images/merch/' + root_id + 'back-' + color + '.jpg';
   merchColor.innerText = color.charAt(0).toUpperCase() + color.slice(1);
 
   colorStore = color;
 
   if (sideStore == 'front') {
-    backShirt.classList.remove('selected-merch-thumbnail');
-    frontShirt.classList.add('selected-merch-thumbnail');
+    backMerch.classList.remove('selected-merch-thumbnail');
+    frontMerch.classList.add('selected-merch-thumbnail');
   }
   else {
-    frontShirt.classList.remove('selected-merch-thumbnail');
-    backShirt.classList.add('selected-merch-thumbnail');
+    frontMerch.classList.remove('selected-merch-thumbnail');
+    backMerch.classList.add('selected-merch-thumbnail');
   }
 
   if (color === "black") {
@@ -51,23 +68,25 @@ function changeMerchColor(color) {
 }
 
 
-function changeMainMerchView(side) {
-  let zoomShirt = document.getElementById('main-shirt-wrapper')
-  let mainShirt = document.getElementById('main-shirt');
-  let clickedShirt = document.getElementById(side + '-shirt');
-  mainShirt.src = clickedShirt.src;
-  zoomShirt.style.backgroundImage = "url('" + mainShirt.src + "')";
+function changeMainMerchView(merch_year, merch_type, side) {
+  let root_id = buildRootId(merch_year, merch_type);
+
+  let zoomMerch = document.getElementById(root_id + 'main-wrapper')
+  let mainMerch = document.getElementById(root_id + 'main');
+  let clickedMerch = document.getElementById(root_id + side + '');
+  mainMerch.src = clickedMerch.src;
+  zoomMerch.style.backgroundImage = "url('" + mainMerch.src + "')";
   sideStore = side;
 
-  clickedShirt.classList.add('selected-merch-thumbnail');
-  clickedShirt.classList.remove('non-selected-merch-thumbnail');
+  clickedMerch.classList.add('selected-merch-thumbnail');
+  clickedMerch.classList.remove('non-selected-merch-thumbnail');
   if (side == 'front') {
-    document.getElementById('back-shirt').classList.remove('selected-merch-thumbnail');
-    document.getElementById('back-shirt').classList.add('non-selected-merch-thumbnail');
+    document.getElementById(root_id + 'back').classList.remove('selected-merch-thumbnail');
+    document.getElementById(root_id + 'back').classList.add('non-selected-merch-thumbnail');
   }
   else {
-    document.getElementById('front-shirt').classList.remove('selected-merch-thumbnail');
-    document.getElementById('front-shirt').classList.add('non-selected-merch-thumbnail');
+    document.getElementById(root_id + 'front').classList.remove('selected-merch-thumbnail');
+    document.getElementById(root_id + 'front').classList.add('non-selected-merch-thumbnail');
   }
 }
 

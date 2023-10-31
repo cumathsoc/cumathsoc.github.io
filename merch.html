@@ -23,14 +23,14 @@
 </head>
 
 <body>
-    <img src = 'images/tux.png' id = "tux"/>
+    <img src='images/tux.png' id="tux" />
     <header>
         <div id="logo"><a href="index.html"><img src="images/logo/logo.png" /></a></div>
         <a href="javascript:void(0);" class="hamburger-nav" onclick="toggleMenu()"><i class="fa fa-bars"></i></a>
         <h1 id="club-name">CU Math & Stat Society</h1>
         <nav id="header-nav">
             <a href="index.html">News</a>
-            <a href="video.html">Videos</a> 
+            <a href="video.html">Videos</a>
             <a href="resources.html">Resources</a>
             <a href="merch.html">Merch</a>
             <a href="about.html">About</a>
@@ -55,57 +55,58 @@
             To become a member, visit any MathSoc events and pay the yearly $5 membership fees. It's worth the money.
         </div>
 
-
-        <div class="merch-with-img">
-            <div class="merch-img">
-                <div id = "main-shirt-wrapper" class="merch-main zoom" onmousemove="zoom(event)" style = "background-image: url(images/merch/front-black-shirt.jpg)">
-                    <img id="main-shirt" src="images/merch/front-black-shirt.jpg">
-                </div>
-                <br />
-                <div class="merch-thumbs">
-                    <div>
-                        <img id="front-shirt" class="selected-merch-thumbnail"
-                            onclick="changeMainMerchView('front')" src="images/merch/front-black-shirt.jpg">
-                    </div>
-                    <div>
-                        <img id="back-shirt" class="non-selected-merch-thumbnail"
-                            onclick="changeMainMerchView('back')" src="images/merch/back-black-shirt.jpg">
-                    </div>
-                </div>
+    <div class="merch-with-img">
+        <div class="merch-img">
+            <div id="y22-shirt-main-wrapper" class="merch-main zoom" onmousemove="zoom(event)"
+                style="background-image: url(images/merch/y22-shirt-front-black.jpg)">
+                <img id="y22-shirt-main" src="images/merch/y22-shirt-front-black.jpg">
             </div>
-            <div class="news-with-poster-details">
-                <div class="merch-title">T-Shirts <span class="ribbon-soldout">SOLD OUT</span></div>
-                <span class="price">$20.00</span> <b>members</b><br />
-                <span class="price">$25.00</span> <b>for non-members</b><br />
-                <b>Size:</b> S, M, L, XL<br />
-                <b>Color:</b> <span id="merch-color">Black</span>
-                <div class="product-color">
-                    <div id="shirt-black-23" class = "selected-color">
-                        <div class="color-circle" onclick="changeMerchColor('black')"
-                            onmouseover="handleHoverColor('black')" onmouseleave="handleHoverExitColor('black')"
-                            style="background-color:black">
-                        </div>
-                    </div>
-                    <div id="shirt-red-23">
-                        <div class="color-circle" onclick="changeMerchColor('red')"
-                            onmouseover="handleHoverColor('red')" onmouseleave="handleHoverExitColor('red')"
-                            style="background-color:red"></div>
-                    </div>
+            <br />
+            <div class="merch-thumbs">
+                <div>
+                    <img id="y22-shirt-front" class="selected-merch-thumbnail" onclick="changeMainMerchView('y22', 'shirt','front')"
+                        src="images/merch/y22-shirt-front-black.jpg">
                 </div>
-                <br />
-                <b>Description:</b> A 100% cotton t-shirt filled with different math equations. Can you name every
-                equation in the t-shirt?
+                <div>
+                    <img id="y22-shirt-back" class="non-selected-merch-thumbnail"
+                        onclick="changeMainMerchView('y22', 'shirt', 'back')" src="images/merch/y22-shirt-back-black.jpg">
+                </div>
             </div>
         </div>
+        <div class="news-with-poster-details">
+            <div class="merch-title">T-Shirts <span class="ribbon-soldout">SOLD OUT</span></div>
+            <span class="price">$20.00</span> <b>members</b><br />
+            <span class="price">$25.00</span> <b>for non-members</b><br />
+            <b>Size:</b> S, M, L, XL<br />
+            <b>Color:</b> <span id="y22-shirt-merch-color">Black</span>
+            <div class="product-color">
+                <div id="y22-shirt-black" class="selected-color">
+                    <div class="color-circle" onclick="changeMerchColor('y22', 'shirt', 'black')"
+                        onmouseover="handleHoverColor('y22', 'shirt', 'black')" onmouseleave="handleHoverExitColor('y22', 'shirt', 'black')"
+                        style="background-color:black">
+                    </div>
+                </div>
+                <div id="y22-shirt-red">
+                    <div class="color-circle" onclick="changeMerchColor('y22', 'shirt', 'red')" onmouseover="handleHoverColor('y22', 'shirt', 'red')"
+                        onmouseleave="handleHoverExitColor('y22', 'shirt', 'red')" style="background-color:red"></div>
+                </div>
+            </div>
+            <br />
+            <b>Description:</b> A 100% cotton t-shirt filled with different math equations. Can you name every
+            equation in the t-shirt?
+        </div>
+    </div>
     </div>
 
+
     <footer>
-        <p>Join CarletonU Math Society on <a href="https://discord.gg/4ttYNMWkVw" onmouseover="showTux()" onmouseout="hideTux()"><i
-                    class="fa-brands fa-discord"></i></a></p>
-        <div class = "secret">Linux for Life</div>
+        <p>Join CarletonU Math Society on <a href="https://discord.gg/4ttYNMWkVw" onmouseover="showTux()"
+                onmouseout="hideTux()"><i class="fa-brands fa-discord"></i></a></p>
+        <div class="secret">Linux for Life</div>
     </footer>
 </body>
 <script>
-  piTime();
+    piTime();
 </script>
+
 </html>
