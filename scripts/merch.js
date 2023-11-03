@@ -7,7 +7,6 @@ MERCH NAMING CONVENTION
   * Example: y22-shirt-black
   * y22 means year 2022
 */
-
 function buildRootId(merch_year, merch_type) {
   return merch_year + '-' + merch_type + '-';
 }
