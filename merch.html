@@ -43,19 +43,7 @@
     <div class="content">
 
         <h2 class="section-title">Merch</h2>
-        <div class="merch">
-            <div class="merch-title">MathSoc Membership <!--<span class="ribbon">Coming Soon</span>--></div>
-            <p><span class="price">$5.00</span></p>
-            Supports club activities and comes with perks:
-            <ul>
-                <li>Complementary Food at our events</li>
-                <li>Discount price for Books and Merchs</li>
-            </ul>
-
-            To become a member, visit any MathSoc events and pay the yearly $5 membership fees. It's worth the money.
-        </div>
-
-    <div class="merch-with-img">
+        <div class="merch-with-img">
         <div class="merch-img">
             <div id="y23-sweater-main-wrapper" class="merch-main" 
 >
@@ -79,20 +67,18 @@
         </div>
         <div class="news-with-poster-details">
             <div class="merch-title">Torus Sweater<span class="ribbon">NEW</span></div>
-            <span class="price">$35.00</span> <b>members</b><br />
-            <span class="price">$45.00</span> <b>for non-members</b><br/>
-            <b>Size:</b> S, M, L, XL<br />
-            <b>Color:</b> <span id="y23-sweater-merch-color">Black</span>
+            <b>Member:</b> <span class="price">$35.00 (no tax)</span><br />
+            <b>Non-member:</b> <span class="price">$45.00 (no tax)</span><br/>
+            <b>Size:</b> XS, S, M, L, XL, XXL, XXXL<br />
+            <b>Colours:</b> <span id="y23-sweater-merch-color">Black, Red</span>
             <div class="product-color">
                 <div id="y23-sweater-black" class="selected-color">
                     <div class="color-circle" onclick="changeMerchColor('y23', 'sweater', 'black')"
-                        onmouseover="handleHoverColor('y23', 'sweater', 'black')" onmouseleave="handleHoverExitColor('y23', 'sweater', 'black')"
                         style="background-color:black">
                     </div>
                 </div>
                 <div id="y23-sweater-red">
-                    <div class="color-circle" onclick="changeMerchColor('y23', 'sweater', 'red')" onmouseover="handleHoverColor('y23', 'sweater', 'red')"
-                        onmouseleave="handleHoverExitColor('y23', 'sweater', 'red')" style="background-color:red"></div>
+                    <div class="color-circle" onclick="changeMerchColor('y23', 'sweater', 'red')" style="background-color:red"></div>
                 </div>
             </div>
             <br />
@@ -102,8 +88,7 @@
 
     <div class="merch-with-img">
         <div class="merch-img">
-            <div id="y23-shirt-main-wrapper" class="merch-main" 
-                style="background-image: url(images/merch/y23-shirt-front-black.jpg)">
+            <div id="y23-shirt-main-wrapper" class="merch-main">
                 <img id="y23-shirt-main" src="images/merch/y23-shirt-front-black.jpg">
             </div>
             <br />
@@ -120,20 +105,17 @@
         </div>
         <div class="news-with-poster-details">
             <div class="merch-title">Torus T-Shirts <span class="ribbon">NEW</span></div>
-            <span class="price">$20.00</span> <b>members</b><br />
-            <span class="price">$30.00</span> <b>for non-members</b><br />
-            <b>Size:</b> S, M, L, XL<br />
-            <b>Color:</b> <span id="y23-shirt-merch-color">Black</span>
+            <b>Member:</b> <span class="price">$20.00 (no tax)</span><br />
+            <b>Non-member:</b> <span class="price">$30.00 (no tax)</span><br />
+            <b>Size:</b> XS, S, M, L, XL, XXL, XXXL<br />
+            <b>Colours:</b> <span id="y23-shirt-merch-color">Black, Red</span>
             <div class="product-color">
                 <div id="y23-shirt-black" class="selected-color">
-                    <div class="color-circle" onclick="changeMerchColor('y23', 'shirt', 'black')"
-                        onmouseover="handleHoverColor('y23', 'shirt', 'black')" onmouseleave="handleHoverExitColor('y23', 'shirt', 'black')"
-                        style="background-color:black">
+                    <div class="color-circle" onclick="changeMerchColor('y23', 'shirt', 'black')" style="background-color:black">
                     </div>
                 </div>
                 <div id="y23-shirt-red">
-                    <div class="color-circle" onclick="changeMerchColor('y23', 'shirt', 'red')" onmouseover="handleHoverColor('y23', 'shirt', 'red')"
-                        onmouseleave="handleHoverExitColor('y23', 'shirt', 'red')" style="background-color:red"></div>
+                    <div class="color-circle" onclick="changeMerchColor('y23', 'shirt', 'red')" style="background-color:red"></div>
                 </div>
             </div>
             <br />
@@ -143,8 +125,7 @@
 
     <div class="merch-with-img">
         <div class="merch-img">
-            <div id="y22-shirt-main-wrapper" class="merch-main zoom" onmousemove="zoom(event)"
-                style="background-image: url(images/merch/y22-shirt-front-red.jpg)">
+            <div id="y22-shirt-main-wrapper" class="merch-main">
                 <img id="y22-shirt-main" src="images/merch/y22-shirt-front-red.jpg">
             </div>
             <br />
@@ -161,10 +142,13 @@
         </div>
         <div class="news-with-poster-details">
             <div class="merch-title">Equations T-Shirts</div>
-            <span class="price">$20.00</span> <b>members</b><br />
-            <span class="price">$30.00</span> <b>for non-members</b><br />
-            <b>Size:</b> S, M, L, XL<br />
-            <b>Color:</b> <span id="y22-shirt-merch-color">Red</span>
+            <b>Price:</b>
+            <ul class = "ul-price">
+              <li><b>Member:</b> <span class="price">$20.00 (no tax)</span></li>
+              <li><b>Non-member:</b> <span class="price">$30.00 (no tax)</span></li>
+            </ul>
+            <b>Size:</b> XS, S, M, L, XL, XXL, XXXL<br />
+            <b>Colours:</b> <span id="y22-shirt-merch-color">Red</span>
             <div class="product-color">
             <!--    <div id="y22-shirt-black" class="selected-color">
                     <div class="color-circle" onclick="changeMerchColor('y22', 'shirt', 'black')"
@@ -173,8 +157,7 @@
                     </div>
                 </div> -->
                 <div id="y22-shirt-red">
-                    <div class="color-circle" onclick="changeMerchColor('y22', 'shirt', 'red')" onmouseover="handleHoverColor('y22', 'shirt', 'red')"
-                        onmouseleave="handleHoverExitColor('y22', 'shirt', 'red')" style="background-color:red"></div>
+                    <div class="color-circle" onclick="changeMerchColor('y22', 'shirt', 'red')" style="background-color:red"></div>
                 </div>
             </div>
             <br />
@@ -182,7 +165,16 @@
             equation in the t-shirt?
         </div>
     </div>
-
+    <div class="merch">
+        <div class="merch-title">Annual MathSoc Membership <!--<span class="ribbon">Coming Soon</span>--></div>
+        <p><span class="price">$5.00</span></p>
+        Support our club activities and receive benefits:
+        <ul>
+            <li>Complementary Food at our events</li>
+            <li>Discount price for Books and Merch</li>
+        </ul>
+        To become a member, visit any MathSoc events and pay the annual $5 membership fees. It's worth the money.
+    </div>
     </div>
 
 

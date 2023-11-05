@@ -49,8 +49,16 @@ div.zoom img {
     width: 100%;
 }
 
+.ul-price {
+  padding-top: 0; /* Remove padding */
+  padding-bottom: 0;
+  margin-top: 0; /* Remove margins */
+  margin-bottom: 0;
+  list-style-type: none;
+}
+
 .price {
-    color: #e42c00;
+    color: black;
 }
 
 .product-color {

@@ -11,19 +11,19 @@ function buildRootId(merch_year, merch_type) {
   return merch_year + '-' + merch_type + '-';
 }
 
-function handleHoverColor(merch_year, merch_type, color) {
+/*function handleHoverColor(merch_year, merch_type, color) {
   let root_id = buildRootId(merch_year, merch_type);
 
   let merchColor = document.getElementById(root_id + 'merch-color');
   colorStore = merchColor.innerText;
   merchColor.innerText = color.charAt(0).toUpperCase() + color.slice(1);
-}
+}*/
 
 function handleHoverExitColor(merch_year, merch_type, color) {
   let root_id = buildRootId(merch_year, merch_type);
 
   let merchColor = document.getElementById(root_id +'merch-color');
-  merchColor.innerText = colorStore.charAt(0).toUpperCase() + colorStore.slice(1);
+//  merchColor.innerText = colorStore.charAt(0).toUpperCase() + colorStore.slice(1);
 }
 
 function changeMerchColor(merch_year, merch_type, color) {
@@ -49,7 +49,7 @@ function changeMerchColor(merch_year, merch_type, color) {
     sideMerch.src = 'images/merch/' + root_id + 'side-' + color + '.jpg';
   }
 
-  merchColor.innerText = color.charAt(0).toUpperCase() + color.slice(1);
+//  merchColor.innerText = color.charAt(0).toUpperCase() + color.slice(1);
 
   colorStore = color;
 
@@ -82,7 +82,7 @@ function changeMainMerchView(merch_year, merch_type, side) {
   let mainMerch = document.getElementById(root_id + 'main');
   let clickedMerch = document.getElementById(root_id + side + '');
   mainMerch.src = clickedMerch.src;
-  zoomMerch.style.backgroundImage = "url('" + mainMerch.src + "')";
+  //zoomMerch.style.backgroundImage = "url('" + mainMerch.src + "')";
   sideStore = side;
 
   clickedMerch.classList.add('selected-merch-thumbnail');
