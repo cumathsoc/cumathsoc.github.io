@@ -95,8 +95,8 @@ div.zoom img {
 }
 
 .ribbon {
-    width: 60px;
-    font-size: 14px;
+    width: 70px;
+    font-size: 25px;
     padding: 4px;
     position: absolute;
     right: -25px;
@@ -169,4 +169,11 @@ div.zoom img {
     position: relative;
     width: 100%;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .ribbon {
+    width: 60px;
+    font-size: 20px;
+  }
 }

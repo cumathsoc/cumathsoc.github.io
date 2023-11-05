@@ -224,7 +224,7 @@ a#view-news-archive-link{
 
 .news-with-poster-details {
     padding: 10px;
-    padding-top: 0px;
+    padding-top: 0.75em;
 }
 
 .news-finished img {
