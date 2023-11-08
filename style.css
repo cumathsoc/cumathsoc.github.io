@@ -110,7 +110,8 @@ footer a:hover {
 
 #main-shirt-wrapper,
 .merch-main img, 
-.news-poster img {
+.news-poster img,
+.news-poster video {
     object-fit: contain;
     max-width: 100%;
     min-width: 95%;

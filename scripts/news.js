@@ -22,7 +22,14 @@ function creat_news_body(e) {
 
 function creat_news_poster(event) {
     let html = "<div class='news-with-poster'>";
-    html += "<div class='news-poster'><img src='" + event.img + "'></div>";
+    html += "<div class='news-poster'>";
+    if ("img" in event) {
+      html += "<img src='" + event.img + "'>";
+    }
+    if ("video" in event) { //vertical video only
+      html += "<video autoplay muted loop><source src = '" + event.video + "' type='" + event.media_type + "'>Your browser does not support video</video>";
+    }
+    html += "</div>";
     html += "<div class='news-with-poster-details'>";
     html += creat_news_body(event);
     html += "</div></div>";
@@ -47,6 +54,17 @@ function creat_news(event) {
     return html;
 }
 
+function creat_news_finished_video(event) {
+  let html = "<div class='news-finished-video'>";
+  html += "<center>";
+  html += "<p class = 'title'>" + event.title + "</p>";
+  html += "<video autoplay muted loop><source src = '" + event.video + "' type='" + event.media_type + "'>Your browser does not support video</video>";
+  html += "</center>";
+  html += "</div>";
+ 
+    return html;
+}
+
 function setNewsMsgError() { 
     let elem_content = document.getElementById("news-content");
     let html = "<div class = 'alert-danger'>"
@@ -59,6 +77,7 @@ function setNewsMsgError() {
 function populateEvents(events) {
     let html = "";
     for (const event of events) {
+        console.log(event.type);
         if (event.type == "news") {
             html += creat_news(event);
         }
@@ -67,6 +86,10 @@ function populateEvents(events) {
         }
         else if (event.type == "news-finished") {
           html += creat_news_finished(event);
+        }
+        else if (event.type == "news-video") {
+          console.log("pika");
+          html += creat_news_finished_video(event);
         }
     }
     console.log(html);
