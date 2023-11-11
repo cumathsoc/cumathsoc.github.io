@@ -120,3 +120,13 @@ function zoom(e){
   y = offsetY/zoomer.offsetHeight*100
   zoomer.style.backgroundPosition = x + '% ' + y + '%';
 }
+
+function highlightOrder() {
+  console.log("pikachu");
+  let style = document.getElementById("order").style;
+  style.borderColor = "#a3cfbb";
+  style.borderWidth = "5px";
+  style.boxShadow = "0px 0px 15px #1a4331";
+  style.backgroundColor = "#d1e7dd";
+  style.color = "#1a4331";
+}

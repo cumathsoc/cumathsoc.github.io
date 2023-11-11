@@ -189,6 +189,7 @@ footer a:hover {
 .video-content,
 .news,
 .merch,
+#order,
 .news-finished {
     /*news with no poster*/
     background-color: white;
@@ -590,7 +591,8 @@ footer p {
 
     .new,
     .news-finished,
-    .merch {
+    .merch,
+    #order {
         padding-left: 10px;
         padding-right: 10px;
     }
