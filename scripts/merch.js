@@ -39,15 +39,10 @@ function changeMerchColor(merch_year, merch_type, color) {
   let blackCircleClassList = document.getElementById(root_id + "black").classList;
   let redCircleClassList = document.getElementById(root_id + "red").classList;
 
-  mainMerch.src = 'images/merch/' + root_id + sideStore + '-' + color + '.jpg';
+  mainMerch.src = 'images/merch/' + root_id + sideStore + '-' + color + '.png';
  // merchMain.style.backgroundImage = "url('" + mainMerch.src + "')";
-  frontMerch.src = 'images/merch/' + root_id + 'front-' + color + '.jpg';
-  backMerch.src = 'images/merch/' + root_id + 'back-' + color + '.jpg';
-
-  if (merch_type == "sweater") {
-    sideMerch = document.getElementById(root_id + 'side');
-    sideMerch.src = 'images/merch/' + root_id + 'side-' + color + '.jpg';
-  }
+  frontMerch.src = 'images/merch/' + root_id + 'front-' + color + '.png';
+  backMerch.src = 'images/merch/' + root_id + 'back-' + color + '.png';
 
 //  merchColor.innerText = color.charAt(0).toUpperCase() + color.slice(1);
 
@@ -58,9 +53,6 @@ function changeMerchColor(merch_year, merch_type, color) {
   }
   if (sideStore != "back") {
     backMerch.classList.remove('selected-merch-thumbnail');
-  }
-  if (sideMerch !== null && sideStore != "side") {
-    sideMerch.classList.remove('selected-merch-thumbnail');
   }
   document.getElementById(root_id + sideStore).classList.add('selected-merch-thumbnail');
 
@@ -92,10 +84,6 @@ function changeMainMerchView(merch_year, merch_type, side) {
   let backMerch = document.getElementById(root_id + 'back');
   let sideMerch = null;
 
-  if (merch_type == "sweater") {
-    sideMerch = document.getElementById(root_id + 'side');
-  }
-
   if (sideStore != "front") {
     frontMerch.classList.remove('selected-merch-thumbnail');
     frontMerch.classList.add('non-selected-merch-thumbnail');
@@ -103,10 +91,6 @@ function changeMainMerchView(merch_year, merch_type, side) {
   if (sideStore != "back") {
     backMerch.classList.remove('selected-merch-thumbnail');
     backMerch.classList.add('non-selected-merch-thumbnail');
-  }
-  if (sideMerch !== null && sideStore != "side") {
-    sideMerch.classList.remove('selected-merch-thumbnail');
-    sideMerch.classList.add('non-selected-merch-thumbnail');
   }
   document.getElementById(root_id + sideStore).classList.add('selected-merch-thumbnail');
 }
@@ -122,7 +106,6 @@ function zoom(e){
 }
 
 function highlightOrder() {
-  console.log("pikachu");
   let style = document.getElementById("order").style;
   style.borderColor = "#a3cfbb";
   style.borderWidth = "5px";
