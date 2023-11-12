@@ -23,14 +23,14 @@
 </head>
 
 <body>
-    <img src = 'images/tux.png' id = "tux"/>
+    <img src='images/tux.png' id="tux" />
     <header>
         <div id="logo"><a href="index.html"><img src="images/logo/logo.png" /></a></div>
         <a href="javascript:void(0);" class="hamburger-nav" onclick="toggleMenu()"><i class="fa fa-bars"></i></a>
         <h1 id="club-name">CU Math & Stat Society</h1>
         <nav id="header-nav">
             <a href="index.html">News</a>
-            <a href="video.html">Videos</a> 
+            <a href="video.html">Videos</a>
             <a href="resources.html">Resources</a>
             <a href="merch.html">Merch</a>
             <a href="about.html">About</a>
@@ -43,69 +43,180 @@
     <div class="content">
 
         <h2 class="section-title">Merch</h2>
-        <div class="merch">
-            <div class="merch-title">MathSoc Membership <!--<span class="ribbon">Coming Soon</span>--></div>
-            <p><span class="price">$5.00</span></p>
-            Supports club activities and comes with perks:
-            <ul>
-                <li>Complementary Food at our events</li>
-                <li>Discount price for Books and Merchs</li>
-            </ul>
 
-            To become a member, visit any MathSoc events and pay the yearly $5 membership fees. It's worth the money.
+        <a name = "order"></a>
+        <div id="order">
+          <a id="order-title" alt = "link to google order form" href = "https://forms.gle/HVXrjWBPBeRFGbkt5">ORDER HERE</a><br/>
+          (<a alt = "link to google form" href = "https://forms.gle/HVXrjWBPBeRFGbkt5">https://forms.gle/HVXrjWBPBeRFGbkt5</a>)<br/>
+          Click any of the above link to start your order
         </div>
-
-
         <div class="merch-with-img">
-            <div class="merch-img">
-                <div id = "main-shirt-wrapper" class="merch-main zoom" onmousemove="zoom(event)" style = "background-image: url(images/merch/front-black-shirt.jpg)">
-                    <img id="main-shirt" src="images/merch/front-black-shirt.jpg">
+        <div class="merch-img">
+            <div id="y23-sweater-main-wrapper" class="merch-main" 
+>
+                <img id="y23-sweater-main" src="images/merch/y23-sweater-front-black.png">
+            </div>
+            <br />
+            <div class="merch-thumbs">
+                <div>
+                    <img id="y23-sweater-front" class="selected-merch-thumbnail" onclick="changeMainMerchView('y23', 'sweater','front')"
+                        src="images/merch/y23-sweater-front-black.png">
                 </div>
-                <br />
-                <div class="merch-thumbs">
-                    <div>
-                        <img id="front-shirt" class="selected-merch-thumbnail"
-                            onclick="changeMainMerchView('front')" src="images/merch/front-black-shirt.jpg">
-                    </div>
-                    <div>
-                        <img id="back-shirt" class="non-selected-merch-thumbnail"
-                            onclick="changeMainMerchView('back')" src="images/merch/back-black-shirt.jpg">
-                    </div>
+                <div>
+                    <img id="y23-sweater-back" class="non-selected-merch-thumbnail"
+                        onclick="changeMainMerchView('y23', 'sweater', 'back')" src="images/merch/y23-sweater-back-black.png">
                 </div>
             </div>
-            <div class="news-with-poster-details">
-                <div class="merch-title">T-Shirts <span class="ribbon-soldout">SOLD OUT</span></div>
-                <span class="price">$20.00</span> <b>members</b><br />
-                <span class="price">$25.00</span> <b>for non-members</b><br />
-                <b>Size:</b> S, M, L, XL<br />
-                <b>Color:</b> <span id="merch-color">Black</span>
-                <div class="product-color">
-                    <div id="shirt-black-23" class = "selected-color">
-                        <div class="color-circle" onclick="changeMerchColor('black')"
-                            onmouseover="handleHoverColor('black')" onmouseleave="handleHoverExitColor('black')"
-                            style="background-color:black">
-                        </div>
-                    </div>
-                    <div id="shirt-red-23">
-                        <div class="color-circle" onclick="changeMerchColor('red')"
-                            onmouseover="handleHoverColor('red')" onmouseleave="handleHoverExitColor('red')"
-                            style="background-color:red"></div>
+        </div>
+        <div class="news-with-poster-details">
+            <div class="merch-title">2023 New Design Hoodie<span class="ribbon">NEW</span></div>
+            <b>Price:</b>
+            <table>
+            <tr>
+              <td><b>Member</b></td>
+              <td>$35.00 (no tax)</td>
+            </tr>
+            <tr>
+              <td><b>Non-member</b></td>
+              <td>$45.00 (no tax)</td>
+            </tr>
+            </table>
+            <b>Size:</b> XS, S, M, L, XL, XXL, XXXL<br />
+            <b>Colours:</b> <span id="y23-sweater-merch-color">Black, Red</span><br/>
+            <div class="product-color">
+                <div id="y23-sweater-black" class="selected-color">
+                    <div class="color-circle" onclick="changeMerchColor('y23', 'sweater', 'black')"
+                        style="background-color:black">
                     </div>
                 </div>
-                <br />
-                <b>Description:</b> A 100% cotton t-shirt filled with different math equations. Can you name every
-                equation in the t-shirt?
+                <div id="y23-sweater-red">
+                    <div class="color-circle" onclick="changeMerchColor('y23', 'sweater', 'red')" style="background-color:red"></div>
+                </div>
             </div>
+            <br/><b><a href = "#order" onclick="highlightOrder()">Order Product (Order button on top of page)</a></b><br/>
+            <br />
+            <b>Description:</b> Introducing our latest apparel with a brand new design! A must-have for math enthusiasts! Embrace your passion for mathematics with our sleek and comfortable hoodie, featuring the iconic MathSoc logo, and crafted from soft, high-quality fabric. Available in a range of sizes, you can wear your math pride with confidence. Get yours today and make a bold statement in the world of mathematics!
         </div>
     </div>
 
+    <div class="merch-with-img">
+        <div class="merch-img">
+            <div id="y23-shirt-main-wrapper" class="merch-main">
+                <img id="y23-shirt-main" src="images/merch/y23-shirt-front-black.png">
+            </div>
+            <br />
+            <div class="merch-thumbs">
+                <div>
+                    <img id="y23-shirt-front" class="selected-merch-thumbnail" onclick="changeMainMerchView('y23', 'shirt','front')"
+                        src="images/merch/y23-shirt-front-black.png">
+                </div>
+                <div>
+                    <img id="y23-shirt-back" class="non-selected-merch-thumbnail"
+                        onclick="changeMainMerchView('y23', 'shirt', 'back')" src="images/merch/y23-shirt-back-black.png">
+                </div>
+            </div>
+        </div>
+        <div class="news-with-poster-details">
+            <div class="merch-title">2023 New Design T-Shirt<span class="ribbon">NEW</span></div>
+            <b>Price:</b>
+            <table>
+            <tr>
+              <td><b>Member</b></td>
+              <td>$20.00 (no tax)</td>
+            </tr>
+            <tr>
+              <td><b>Non-member</b></td>
+              <td>$30.00 (no tax)</td>
+            </tr>
+            </table>
+            <b>Size:</b> XS, S, M, L, XL, XXL, XXXL<br />
+            <b>Colours:</b> <span id="y23-shirt-merch-color">Black, Red</span>
+            <div class="product-color">
+                <div id="y23-shirt-black" class="selected-color">
+                    <div class="color-circle" onclick="changeMerchColor('y23', 'shirt', 'black')" style="background-color:black">
+                    </div>
+                </div>
+                <div id="y23-shirt-red">
+                    <div class="color-circle" onclick="changeMerchColor('y23', 'shirt', 'red')" style="background-color:red"></div>
+                </div>
+            </div>
+            <br/><b><a href = "#order" onclick="highlightOrder()">Order Product</a></b><br/>
+            <br />
+            <b>Description:</b> Introducing our latest apparel with a brand new design! A must-have for math enthusiasts! Embrace your passion for mathematics with our sleek and comfortable t-shirt, featuring the iconic MathSoc logo, and crafted from soft, high-quality fabric. Available in a range of sizes, you can wear your math pride with confidence. Get yours today and make a bold statement in the world of mathematics!
+        </div>
+    </div>
+
+    <div class="merch-with-img">
+        <div class="merch-img">
+            <div id="y22-shirt-main-wrapper" class="merch-main">
+                <img id="y22-shirt-main" src="images/merch/y22-shirt-front-red.png">
+            </div>
+            <br />
+            <div class="merch-thumbs">
+                <div>
+                    <img id="y22-shirt-front" class="selected-merch-thumbnail" onclick="changeMainMerchView('y22', 'shirt','front')"
+                        src="images/merch/y22-shirt-front-red.png">
+                </div>
+                <div>
+                    <img id="y22-shirt-back" class="non-selected-merch-thumbnail"
+                        onclick="changeMainMerchView('y22', 'shirt', 'back')" src="images/merch/y22-shirt-back-red.png">
+                </div>
+            </div>
+        </div>
+        <div class="news-with-poster-details">
+            <div class="merch-title">Retro Design T-Shirt</div>
+            <b>Price:</b>
+            <table>
+            <tr>
+              <td><b>Member</b></td>
+              <td>$20.00 (no tax)</td>
+            </tr>
+            <tr>
+              <td><b>Non-member</b></td>
+              <td>$30.00 (no tax)</td>
+            </tr>
+            </table>
+
+            <b>Size:</b> XS, S, M, L, XL, XXL, XXXL<br />
+            <b>Colours:</b> <span id="y22-shirt-merch-color">Red</span>
+            <div class="product-color">
+            <!--    <div id="y22-shirt-black" class="selected-color">
+                    <div class="color-circle" onclick="changeMerchColor('y22', 'shirt', 'black')"
+                        onmouseover="handleHoverColor('y22', 'shirt', 'black')" onmouseleave="handleHoverExitColor('y22', 'shirt', 'black')"
+                        style="background-color:black">
+                    </div>
+                </div> -->
+                <div id="y22-shirt-red">
+                    <div class="color-circle" onclick="changeMerchColor('y22', 'shirt', 'red')" style="background-color:red"></div>
+                </div>
+            </div>
+            <br/><b><a href = "#order" onclick="highlightOrder()">Order Product</a></b><br/>
+            <br />
+            <b>Description:</b> We are bringing back the Retro design due to popular demands! This shirt is perfect for showcasing your knowledge in math. Embrace your love for mathematics with our stylish t-shirt, crafted from soft, high-quality fabric. Available in a range of sizes, you can wear your math pride with confidence. Get yours today and make a bold statement in the world of mathematics!
+        </div>
+    </div>
+    <div class="merch">
+        <div class="merch-title">Annual MathSoc Membership <!--<span class="ribbon">Coming Soon</span>--></div>
+        <p><span class="price">$5.00</span></p>
+        Support our club activities and receive benefits:
+        <ul>
+            <li>Complementary Food at our events</li>
+            <li>Discount price for Books and Merch</li>
+            <li>Recorded colloquia privilege</li>
+        </ul>
+        To become a member, visit any MathSoc events and pay the annual $5 membership fees. It's worth the money.
+    </div>
+    </div>
+
+
     <footer>
-        <p>Join CarletonU Math Society on <a href="https://discord.gg/4ttYNMWkVw" onmouseover="showTux()" onmouseout="hideTux()"><i
-                    class="fa-brands fa-discord"></i></a></p>
-        <div class = "secret">Linux for Life</div>
+        <p>Join CarletonU Math Society on <a href="https://discord.gg/4ttYNMWkVw" onmouseover="showTux()"
+                onmouseout="hideTux()"><i class="fa-brands fa-discord"></i></a></p>
+        <div class="secret">Linux for Life</div>
     </footer>
 </body>
 <script>
-  piTime();
+    piTime();
 </script>
+
 </html>

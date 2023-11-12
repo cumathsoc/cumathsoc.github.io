@@ -108,7 +108,6 @@ footer a:hover {
     font-size: calc(5px + 2vmin);
 }
 
-#main-shirt-wrapper,
 .merch-main img, 
 .news-poster img,
 .news-poster video {
@@ -118,6 +117,7 @@ footer a:hover {
     max-height: 100%;
     min-height: 100%;
     cursor: pointer;
+    background-repeat: no-repeat;
 }
 
 #stud_id {
@@ -190,6 +190,7 @@ footer a:hover {
 .video-content,
 .news,
 .merch,
+#order,
 .news-finished {
     /*news with no poster*/
     background-color: white;
@@ -225,7 +226,7 @@ a#view-news-archive-link{
 
 .news-with-poster-details {
     padding: 10px;
-    padding-top: 0px;
+    padding-top: 0.75em;
 }
 
 .news-finished img {
@@ -591,7 +592,8 @@ footer p {
 
     .new,
     .news-finished,
-    .merch {
+    .merch,
+    #order {
         padding-left: 10px;
         padding-right: 10px;
     }

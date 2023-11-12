@@ -1,5 +1,10 @@
-#main-shirt-wrapper {
+#y23-shirt-main-wrapper, #y22-shirt-main-wrapper, #y23-sweater-main-wrapper  {
     min-height: auto;
+    background-repeat: no-repeat;
+}
+
+#y23-shirt-main-wrapper {
+  background: none !important;
 }
 
 .selected-merch-thumbnail {
@@ -23,10 +28,6 @@ div.zoom img {
     width: 100%;
 }
 
-#main-shirt-wrapper {
-    min-height: auto;
-}
-
 .selected-merch-thumbnail {
     border: 5px solid #2b2b2b;
 }
@@ -46,10 +47,18 @@ div.zoom img {
     transition: opacity 0.5s;
     display: block;
     width: 100%;
+}
+
+.ul-price {
+  padding-top: 0; /* Remove padding */
+  padding-bottom: 0;
+  margin-top: 0; /* Remove margins */
+  margin-bottom: 0;
+  list-style-type: none;
 }
 
 .price {
-    color: #e42c00;
+    color: black;
 }
 
 .product-color {
@@ -73,8 +82,12 @@ div.zoom img {
     border: none;
 }
 
-#shirt-black-23,
-#shirt-red-23 {
+#y23-sweater-black,
+#y23-shirt-black,
+#y22-shirt-black,
+#y23-sweater-red,
+#y23-shirt-red,
+#y22-shirt-red {
     border-radius: 50%;
     width: 25px;
     height: 25px;
@@ -82,8 +95,8 @@ div.zoom img {
 }
 
 .ribbon {
-    width: 60px;
-    font-size: 14px;
+    width: 70px;
+    font-size: 25px;
     padding: 4px;
     position: absolute;
     right: -25px;
@@ -120,6 +133,30 @@ div.zoom img {
     position: relative;
 }
 
+#order {
+  text-align: center;
+  box-shadow: 0px;
+}
+
+#order-title {
+    border: 1px solid #282A35;
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px 20px;
+    width: fit-content;
+    font-size: 1.5em;
+    color: #282A35;
+    cursor: pointer;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+#order-title:hover {
+  background-color: #282A35;
+  color: white;
+}
+
 .merch-thumbs {
     display: grid;
     margin-left: 20%;
@@ -129,6 +166,17 @@ div.zoom img {
     padding: 10px;
 }
 
+.merch-thumbs-3 {
+    display: grid;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+
+
 .non-selected-merch-thumbnail:hover {
     opacity: 0.7;
 }
@@ -137,8 +185,19 @@ div.zoom img {
     width: 65%;
 }
 
-.merch-thumbs img {
+.merch-thumbs-3 div {
+    width: 80%;
+}
+
+.merch-thumbs-3 img, .merch-thumbs img {
     position: relative;
     width: 100%;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .ribbon {
+    width: 60px;
+    font-size: 20px;
+  }
 }
