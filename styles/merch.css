@@ -11,6 +11,12 @@
     border: 5px solid #2b2b2b;
 }
 
+.size-chart {
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
 div.zoom {
     background-position: 50% 50%;
     position: relative;
