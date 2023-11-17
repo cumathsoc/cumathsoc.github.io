@@ -18,8 +18,17 @@
     <link rel="icon" type="image/png" href="images/logo/logo.png">
     <!--I am lazy to make a proper favicon-->
     <script charset="utf-8" src="script.js"></script>
-    <script charset="utf-8" src="scripts/video.js"></script>
-    <script>var videos = {};</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script src="scripts/news.js"></script>
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+    </script>
+    <script charset="utf-8" src="data/gallery.js"></script>
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -32,7 +41,7 @@
         <nav id="header-nav">
             <a href="index.html">News</a>
             <a href="gallery.html">Gallery</a>
-            <a href="video.html">Videos</a> 
+            <a href="video.html">Videos</a>
             <a href="resources.html">Resources</a>
             <a href="merch.html">Merch</a>
             <a href="about.html">About</a>
@@ -43,34 +52,16 @@
     </header>
     <button onclick="toTop()" id="top_btn" title="Go to top">Top</button>
     <div class="content">
-        <h2 class="section-title">Videos</h2>
-        <div id = 'video-login' class = "video-content">
-          <h3>LOGIN</h3>
-            <p>Only Registered members of MathSoc will have access to the videos. Please contact us via <a href = 'https://discord.gg/4ttYNMWkVw'>discord</a> if there are any issues.</p>
-            <center>
-            <form action = '' onsubmit='getVideos(videos); return false;'>
-              <label for = "stud-id">Student Number: </label><input id = "stud-id" name = "stud-id" type = "text" placeholder = "student id" size = '9' pattern="1\d{8}|3\d{8}" title = "Enter your 9 digit student number" required>
-              <input id = 'submit-id' type = "submit" value = "Enter">
-              <div id = 'login-error'></div>
-            </form>
-            </center>
+        <h2 class="section-title">FROM OUR PAST EVENTS</h2>
+        <div id="news-content">
+        </div>
     </div>
 
-        <div id = 'current-video' class="video-content">
-          <p id = "latest-video-tag"><b>Latest:</b> <span id = 'latest-video-title'></span></p>
-          <div id = "display-video">
-            <center>
-            <iframe id = 'video-iframe' src="https://www.youtube-nocookie.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <p id = "video-title"></p>
-            <div id = 'video-desc'></div>
-            </center>
-          </div>
-        </div>
-      <div id = 'prev-video' class = "video-content">  
-        <p id = "list-video-tag"><b>Previous Videos:</b></p>
-        <div id = "list-videos"></div>
-      </div>
-    </div>
+    <!--<div id="view-news-archive">
+      <a href='news-archive.html' id="view-news-archive-link">
+        View Previous Events
+      </a>
+    </div>-->
 
     <footer>
         <p>Join CarletonU Math Society on <a href="https://discord.gg/4ttYNMWkVw" onmouseover="showTux()" onmouseout="hideTux()"><i
@@ -81,6 +72,7 @@
 </body>
 
 <script>
+    populateEvents(events);
     piTime();
 </script>
 

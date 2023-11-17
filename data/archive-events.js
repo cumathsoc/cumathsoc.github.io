@@ -100,21 +100,6 @@ let events = [
 },
 {
   "type": "news-poster",
-  "title": "Celebrating 60th Anniversary of the Faculty of Science",
-  "presentor": "",
-  "date": "",
-  "location": "",
-  "desc": "Happy 60th Anniversary of the Faculty of Science. Thanks for the invite.",
-  "img": "images/events/60th-ann.jpg",
-  "calendar": {
-      "google": "",
-      "outlook": "",
-      "apple": ""
-  }
-},
-
-{
-  "type": "news-poster",
   "title": "October Pancake Breakfast",
   "presentor": "",
   "date": "Tuesday October 3 2023",
@@ -162,12 +147,6 @@ let events = [
   }   
 },
 {
-  "type": "news-finished",
-  "title": "BBQ & Book SALE Event",
-  "desc": "Thanks to everyone who came and signed up for membership. There were way more interest than we initially thought. We look forward seeing you at future events.",
-  "img": "images/events/bbq-photo.jpg",
-},
-{
   "type": "news-poster",
   "title": "BBQ & Book SALE",
   "presentor": "",
@@ -180,12 +159,6 @@ let events = [
       "outlook": "https://outlook.live.com/calendar/0/action/compose?body=%2A%20BBQ%20from%2011am-4pm%0A%2A%20Purchase%20membership%0A%2A%20Buy%20Math%20books&enddt=2023-09-07T21%3A30%3A00%2B00%3A00&location=Outside%20of%20Herzberg&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-09-07T14%3A00%3A00%2B00%3A00&subject=MathSoc%20-%20BBQ%20%26%20Book%20Sale",
       "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART:20230907T140000Z%0ADTEND:20230907T213000Z%0ASUMMARY:MathSoc%20-%20BBQ%20%26%20Book%20Sale%0ADESCRIPTION:*%20BBQ%20from%2011am-4pm%5Cn*%20Purchase%20membership%5Cn*%20Buy%20Math%20books%0ALOCATION:Outside%20of%20Herzberg%0AEND:VEVENT%0AEND:VCALENDAR%0A"
   } 
-},
-{
-  "type": "news-finished",
-  "title": "Carleton Expo",
-  "desc": "Thanks to everyone who came and signed up for membership despite the scorching heat at Fieldhouse.",
-  "img": "images/events/expo-photo.jpg",
 },
 {
   "type": "news-poster",
