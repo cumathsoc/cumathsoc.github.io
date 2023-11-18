@@ -1,0 +1,87 @@
+#stud_id {
+  padding: 5px;
+}
+
+#submit-id {
+  padding: 5px;
+}
+
+#login-error {
+  margin-top: 10px;
+  border: 2px solid #FF3131;
+  width: fit-content;
+  block-size: fit-content;
+  padding: 5px;
+  display: none;
+}
+
+#current-video, #prev-video {
+  display: none;
+}
+
+#list-videos {
+  text-align: center;
+}
+
+#list-video-tag, #latest-video-tag {
+  text-align: center;
+}
+
+.video-content {
+  font-size: 0.8em;
+}
+
+#display-video {
+  position: relative;
+  margin: auto;
+}
+
+#display-video iframe {
+  margin: auto;
+  width: 600px;
+  height: 337.5px;
+}
+
+#video-title {
+  text-align: center;
+  font-weight: 600;
+  background-color: #e6e6e6;
+  border-radius: 10px;
+  font-size: 1.17em;
+  padding: 15px;
+  width: fit-content;
+  block-size: fit-content;
+  margin: 10px;
+}
+
+.video-item {
+  cursor: pointer;
+}
+
+.video-item:hover {
+  text-decoration: underline;
+}
+
+#video-desc {
+  background-color: #e6e6e6;
+  border-radius: 10px;
+  font-size: 0.9em;
+  padding: 15px;
+}
+
+.video-content,
+.news,
+.merch,
+#order,
+.news-finished {
+    /*news with no poster*/
+    background-color: white;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px;
+    margin-bottom: 20px;
+}
+
+
