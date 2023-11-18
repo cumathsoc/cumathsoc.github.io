@@ -29,18 +29,16 @@ let events = [
 },
 {
   "type": "news-poster",
-  "title": "Joint CUMATHSOC and WIM CGT Game Nights",
-  "presentor": "",
-  "date": "November 16, 2023 @6:00pm-8:30pm",
-  "location": "Herzberg (HP) 3422",
-  "desc": "Join us and learn math through playing or just have fun. Joint event with CUMATHSOC and WIM with our guest speaker Amanda Chafee.",
-  "img": "images/events/combintorial-poster-en.png",
-  "calendar": {
-      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20231116T230000Z%2F20231118T013000Z&details=Join%20us%20and%20learn%20math%20through%20playing%20or%20just%20have%20fun.%20Joint%20event%20with%20CUMATHSOC%20and%20WIM%20with%20our%20guest%20speaker%20Amanda%20Chafee.&location=HP3422&text=Joint%20CUMATHSOC%20and%20WIM%20CGT%20Game%20Nights",
-      "outlook": "https://outlook.office.com/calendar/0/action/compose?body=Join%20us%20and%20learn%20math%20through%20playing%20or%20just%20have%20fun.%20Joint%20event%20with%20CUMATHSOC%20and%20WIM%20with%20our%20guest%20speaker%20Amanda%20Chafee.&enddt=2023-11-18T01%3A30%3A00%2B00%3A00&location=HP3422&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-11-16T23%3A00%3A00%2B00%3A00&subject=Joint%20CUMATHSOC%20and%20WIM%20CGT%20Game%20Nights",
-      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART:20231116T230000Z%0ADTEND:20231118T013000Z%0ASUMMARY:Joint%20CUMATHSOC%20and%20WIM%20CGT%20Game%20Nights%0ADESCRIPTION:Join%20us%20and%20learn%20math%20through%20playing%20or%20just%20have%20fun.%20Joint%20event%20with%20CUMATHSOC%20and%20WIM%20with%20our%20guest%20speaker%20Amanda%20Chafee.%0ALOCATION:HP3422%0AEND:VEVENT%0AEND:VCALENDAR%0A"
-  }   
+  "title": "Math Soc Merch is coming this Fall!",
+  "desc": "MathSoc Merch are available for order. Embrace your passion for mathematics with our sleek and comfortable t-shirt, featuring the iconic MathSoc logo. Hoodies are for \\$45 and T-shirts for \\$30 with a \\$10 discount for MathSoc members.<p>Check out our merch order form on our website <a href = 'www.cumathsoc.ca' alt = 'link to merch site'>www.cumathsoc.ca</a></p><p><b>The deadline for ordering merch is November 29, 2023</b>",
+  "img": "images/merch/merch-2023.png",
 },
+{
+  "type": "news",
+  "title": "MathSoc Membership",
+  "desc": "At the start of Fall 2023, we will be accepting new members. Becoming a member supports club activities and encourages us to make Math @ CarletonU a better experience!<p>Not only does it help us, it comes with perks as well:</p><ul><li>Complementary Food at our events</li><li>Discount price for Books and Merchs</li><li>Recorded colloquia privilege</li></ul>To become a member, come to any MathSoc events and pay the yearly $5 membership fees."
+},
+
 /*{
   "type": "news-poster",
   "title": "The Powerhouse of Problem Solving: Why Computer Science Triumphs over Mathematics",

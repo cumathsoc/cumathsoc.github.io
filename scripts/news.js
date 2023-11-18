@@ -14,7 +14,7 @@ function creat_news_body(e) {
         html += "<a href='" + e.calendar.google + "'><i class='fa-brands fa-google'></i></a>";
         html += "<a href='" + e.calendar.outlook + "'><i class='fa-brands fa-microsoft'></i></a>";
         html += "<a href='" + e.calendar.apple + "'><i class='fa-brands fa-apple'></i></a>";
-        html += "<span /><br/>";
+        html += "</span><br/>";
     }
     html += e.desc;
     return html;
