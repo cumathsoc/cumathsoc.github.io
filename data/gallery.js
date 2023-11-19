@@ -21,7 +21,6 @@ let events = [
 {
   "type": "news-poster",
   "title": "November Pancake Breakfast Video",
-  "location": "Herzberg (HP) 3422",
   "desc": "Thanks for everyone who helped to make the event happen and for everyone who came to eat pancakes with us.",
   "video": "videos/2023-11-07-pancake.webm",
   "media_type": 'video/webm',
@@ -29,16 +28,8 @@ let events = [
 {
   "type": "news-poster",
   "title": "Celebrating 60th Anniversary of the Faculty of Science",
-  "presentor": "",
-  "date": "",
-  "location": "",
   "desc": "Happy 60th Anniversary of the Faculty of Science. Thanks for the invite.",
   "img": "images/events/60th-ann.jpg",
-  "calendar": {
-      "google": "",
-      "outlook": "",
-      "apple": ""
-  }
 },
 {
   "type": "news-finished",
