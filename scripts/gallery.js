@@ -59,8 +59,8 @@ function showSlides() {
   }
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].classList.add('active');
-  if(timeoutId) {
+/*  if(timeoutId) {
       clearTimeout(timeoutId);
    }
-  timeoutId = setTimeout(showSlides, 20000); // Change image every 5 seconds
+  timeoutId = setTimeout(showSlides, 20000); */// Change image every 5 seconds
 }
