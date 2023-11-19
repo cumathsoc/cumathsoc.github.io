@@ -14,6 +14,11 @@ let events = [
   }   
 },
 {
+  "type": "slideshow",
+  "title": "CGT Night",
+  "img": ['events/cgt/CGT01.jpg','events/cgt/CGT02.jpg', 'events/cgt/CGT03.jpg', 'events/cgt/CGT04.jpg'],
+},
+{
   "type": "news-poster",
   "title": "November Pancake Breakfast Video",
   "location": "Herzberg (HP) 3422",
