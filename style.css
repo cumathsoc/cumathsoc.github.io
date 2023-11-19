@@ -110,7 +110,8 @@ footer a:hover {
 
 .merch-main img, 
 .news-poster img,
-.news-poster video {
+.news-poster video,
+.slideshow img {
     object-fit: contain;
     max-width: 100%;
     min-width: 95%;
@@ -162,6 +163,7 @@ a#view-news-archive-link{
 .video-content,
 .news,
 .merch,
+.slideshow,
 #order,
 .news-finished {
     /*news with no poster*/

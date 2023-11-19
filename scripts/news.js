@@ -88,8 +88,10 @@ function populateEvents(events) {
           html += creat_news_finished(event);
         }
         else if (event.type == "news-video") {
-          console.log("pika");
           html += creat_news_finished_video(event);
+        }
+        else if (event.type == "slideshow") {
+          html += creat_slideshow(event); //defined in gallery.js
         }
     }
     console.log(html);
