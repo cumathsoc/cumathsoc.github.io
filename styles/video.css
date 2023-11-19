@@ -69,19 +69,4 @@
   padding: 15px;
 }
 
-.video-content,
-.news,
-.merch,
-#order,
-.news-finished {
-    /*news with no poster*/
-    background-color: white;
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 10px;
-    box-shadow: 4px 4px 5px;
-    margin-bottom: 20px;
-}
-
 
