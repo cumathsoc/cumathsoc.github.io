@@ -15,7 +15,7 @@ let events = [
 },
 {
   "type": "news-poster",
-  "title": "Joint CUMATHSOC and WIM CGT Game Nights",
+  "title": "Joint CUMATHSOC and WIM Combinatorial Game Nights",
   "presentor": "",
   "date": "November 16, 2023 @6:00pm-8:30pm",
   "location": "Herzberg (HP) 3422",

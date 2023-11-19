@@ -15,7 +15,7 @@ let events = [
 },
 {
   "type": "slideshow",
-  "title": "CGT Night",
+  "title": "Combinatorial Game Night",
   "img": ['events/cgt/CGT01.jpg','events/cgt/CGT02.jpg', 'events/cgt/CGT03.jpg', 'events/cgt/CGT04.jpg'],
 },
 {

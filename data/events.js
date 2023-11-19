@@ -30,7 +30,7 @@ let events = [
 {
   "type": "news-poster",
   "title": "Math Soc Merch is coming this Fall!",
-  "desc": "MathSoc Merch are available for order. Embrace your passion for mathematics with our sleek and comfortable t-shirt, featuring the iconic MathSoc logo. Hoodies are for \\$45 and T-shirts for \\$30 with a \\$10 discount for MathSoc members.<p>Check out our merch order form on our website <a href = 'www.cumathsoc.ca' alt = 'link to merch site'>www.cumathsoc.ca</a></p><p><b>The deadline for ordering merch is November 29, 2023</b>",
+  "desc": "MathSoc Merch are available for order. Embrace your passion for mathematics with our sleek and comfortable t-shirt, featuring the iconic MathSoc logo. Hoodies are for \\$45 and T-shirts for \\$30 with a \\$10 discount for MathSoc members.<p>Check out our merch order form on our website <a href = 'https://www.cumathsoc.ca/merch' alt = 'link to merch site'>www.cumathsoc.ca/merch</a></p><p><b>The deadline for ordering merch is November 29, 2023</b>",
   "img": "images/merch/merch-2023.png",
 },
 {
@@ -38,7 +38,6 @@ let events = [
   "title": "MathSoc Membership",
   "desc": "At the start of Fall 2023, we will be accepting new members. Becoming a member supports club activities and encourages us to make Math @ CarletonU a better experience!<p>Not only does it help us, it comes with perks as well:</p><ul><li>Complementary Food at our events</li><li>Discount price for Books and Merchs</li><li>Recorded colloquia privilege</li></ul>To become a member, come to any MathSoc events and pay the yearly $5 membership fees."
 },
-
 /*{
   "type": "news-poster",
   "title": "The Powerhouse of Problem Solving: Why Computer Science Triumphs over Mathematics",
