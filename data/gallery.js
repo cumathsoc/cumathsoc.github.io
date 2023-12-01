@@ -14,9 +14,9 @@ let events = [
   }   
 },
 {
-  "type": "collage",
+  "type": "slideshow",
   "title": "Combinatorial Game Night",
-  "img": ['events/cgt/CGT04.jpg','events/cgt/CGT02.jpg', 'events/cgt/CGT03.jpg', 'events/cgt/CGT01.jpg'],
+  "img": ['events/cgt/CGT01.jpg','events/cgt/CGT02.jpg', 'events/cgt/CGT03.jpg', 'events/cgt/CGT04.jpg'],
 },
 {
   "type": "news-poster",
