@@ -12,7 +12,7 @@ Copy google, outlook, and the link for ICS from [https://parcel.io/tools/calenda
 
 ## Posters
 
-Posters can be created using any photo editing software. For the Fall 2023 term, Gimp will be used as it is free and open source that runs well on Linux. 
+Posters can be created using any photo editing software. For the Fall 2023 term, Gimp and Google Slides are used as it is free and open source that runs well on Linux.
 
 QR code are created using: https://www.qrcode-monkey.com/
 No trackers can be utilized to gather metrics such as number of scans and the device OS as premium account would be required.
