@@ -118,7 +118,7 @@ img {
   }
 }
 
-/* title-font */
+/* Title-font */
 .title{
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
@@ -129,50 +129,101 @@ img {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 45px;
+  margin-bottom: 10px;
 }
 
-
-/* Create the format for the gallary */
+/* Format for to keep the images as image grid style*/
 * {
   box-sizing: border-box;
 }
 
-.vertical1 {
-  grid-area: vertical1;
+/* Format for the 1st year welcoming event*/
+.welcome1 {
+  grid-area: welcome1;
 }
 
-.vertical2 {
-  grid-area: vertical2;
+.welcome2 {
+  grid-area: welcome2;
 }
 
-.horizontal1 {
-  grid-area: horizontal1;
-}
-
-.horizontal2 {
-  grid-area: horizontal2;
-}
-
-.horizontal3 {
-  grid-area: horizontal3;
-}
-
-.horizontal4 {
-  grid-area: horizontal4;
-}
-
-.horizontal5 {
-  grid-area: horizontal5;
-}
-
-.boxCGN {
+.boxWelcome {
+  margin-top: 15px;
   display: grid;
   gap: 25px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
-    "horizontal3 horizontal3 horizontal2 horizontal2"
-    "vertical1 horizontal1 horizontal1 vertical2"
-    "horizontal4 horizontal4 horizontal5 horizontal5"
+    "welcome1 welcome1 welcome2 welcome2"
+}
+
+
+/* Format for the CGN event*/
+.verticalCGN1 {
+  grid-area: verticalCGN1;
+}
+
+.verticalCGN2 {
+  grid-area: verticalCGN2;
+}
+
+.horizontalCGN1 {
+  grid-area: horizontalCGN1;
+}
+
+.horizontalCGN2 {
+  grid-area: horizontalCGN2;
+}
+
+.horizontalCGN3 {
+  grid-area: horizontalCGN3;
+}
+
+.horizontalCGN4 {
+  grid-area: horizontalCGN4;
+}
+
+.horizontalCGN5 {
+  grid-area: horizontalCGN5;
+}
+
+.boxCGN img {
+  height: 100%;
+}
+
+.boxCGN {
+  margin-top: 15px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "horizontalCGN3 horizontalCGN3 horizontalCGN2 horizontalCGN2"
+    "verticalCGN1 horizontalCGN1 horizontalCGN1 verticalCGN2"
+    "horizontalCGN4 horizontalCGN4 horizontalCGN5 horizontalCGN5"
+}
+
+.eventsTitle1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.eventsTitle2{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.boxExpo {
+  margin-top: 15px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "eventsTitle1 eventsTitle1 eventsTitle2 eventsTitle2"
+    "horizontalCGN1 horizontalCGN1 horizontalCGN3 horizontalCGN3"
 }
 
