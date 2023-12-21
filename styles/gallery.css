@@ -118,7 +118,21 @@ img {
   }
 }
 
-/* Create two equal columns that floats next to each other */
+/* title-font */
+.title{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60px;
+}
+
+.eventsTitle{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+}
+
+
+/* Create the format for the gallary */
 * {
   box-sizing: border-box;
 }
@@ -157,10 +171,8 @@ img {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
-    ". horizontal1 horizontal1 ."
-    ". vertical1 vertical2 ."
-    ". horizontal2 horizontal2 ."
-    ". horizontal3 horizontal3 ."
-    ". horizontal4 horizontal4 ."
-    ". horizontal5 horizontal5 ."
+    "horizontal3 horizontal3 horizontal2 horizontal2"
+    "vertical1 horizontal1 horizontal1 vertical2"
+    "horizontal4 horizontal4 horizontal5 horizontal5"
 }
+
