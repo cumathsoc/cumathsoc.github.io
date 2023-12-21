@@ -117,3 +117,50 @@ img {
     font-size: 11px
   }
 }
+
+/* Create two equal columns that floats next to each other */
+* {
+  box-sizing: border-box;
+}
+
+.vertical1 {
+  grid-area: vertical1;
+}
+
+.vertical2 {
+  grid-area: vertical2;
+}
+
+.horizontal1 {
+  grid-area: horizontal1;
+}
+
+.horizontal2 {
+  grid-area: horizontal2;
+}
+
+.horizontal3 {
+  grid-area: horizontal3;
+}
+
+.horizontal4 {
+  grid-area: horizontal4;
+}
+
+.horizontal5 {
+  grid-area: horizontal5;
+}
+
+.boxCGN {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    ". horizontal1 horizontal1 ."
+    ". vertical1 vertical2 ."
+    ". horizontal2 horizontal2 ."
+    ". horizontal3 horizontal3 ."
+    ". horizontal4 horizontal4 ."
+    ". horizontal5 horizontal5 ."
+}
