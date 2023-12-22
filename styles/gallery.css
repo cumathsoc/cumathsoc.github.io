@@ -117,3 +117,161 @@ img {
     font-size: 11px
   }
 }
+
+/* Title-font */
+.title{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60px;
+}
+
+.eventsTitle{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+/* Format for to keep the images as image grid style*/
+* {
+  box-sizing: border-box;
+}
+
+/* Format for the 1st year welcoming event*/
+.welcome1 {
+  grid-area: welcome1;
+}
+
+.welcome2 {
+  grid-area: welcome2;
+}
+
+.boxWelcome {
+  margin-top: 15px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "welcome1 welcome2"
+}
+
+/* Format for the expo and BBQ events*/
+.titleExpo { 
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  margin-bottom: 10px;
+  grid-area: titleExpo;
+}
+
+.expo {
+  grid-area: expo;
+}
+
+.titleBBQ {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  margin-bottom: 10px;
+  grid-area: titleBBQ;
+}
+
+.BBQ {
+  grid-area: BBQ;
+}
+
+.boxExpoBBQ img {
+  height: 100%;
+}
+
+.boxExpoBBQ {
+  margin-top: 15px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "titleExpo titleBBQ"
+    "expo BBQ"
+}
+
+/* Format for the 60th annivesary event*/
+.anni {
+  grid-area: anni;
+}
+
+.boxAnni {
+  margin-top: 15px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 0.25fr 3.5fr 0.25fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    ". anni ."
+}
+
+/* Format for the CGN event*/
+.verticalCGN1 {
+  grid-area: verticalCGN1;
+}
+
+.verticalCGN2 {
+  grid-area: verticalCGN2;
+}
+
+.horizontalCGN1 {
+  grid-area: horizontalCGN1;
+}
+
+.horizontalCGN2 {
+  grid-area: horizontalCGN2;
+}
+
+.horizontalCGN3 {
+  grid-area: horizontalCGN3;
+}
+
+.horizontalCGN4 {
+  grid-area: horizontalCGN4;
+}
+
+.horizontalCGN5 {
+  grid-area: horizontalCGN5;
+}
+
+.boxCGN img {
+  height: 100%;
+}
+
+.boxCGN {
+  margin-top: 15px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "horizontalCGN3 horizontalCGN3 horizontalCGN2 horizontalCGN2"
+    "verticalCGN1 horizontalCGN1 horizontalCGN1 verticalCGN2"
+    "horizontalCGN4 horizontalCGN4 horizontalCGN5 horizontalCGN5"
+}
+
+/* Format for the calculus studying session event*/
+
+.studyCal1{
+  grid-area: studyCal1;
+}
+
+.studyCal2{
+  grid-area: studyCal2;
+}
+
+.boxStudyCal{
+  margin-top: 15px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+   "studyCal1 studyCal2"
+}
