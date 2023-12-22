@@ -150,12 +150,66 @@ img {
   margin-top: 15px;
   display: grid;
   gap: 25px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 2fr;
   grid-template-rows: auto;
   grid-template-areas:
-    "welcome1 welcome1 welcome2 welcome2"
+    "welcome1 welcome2"
 }
 
+/* Format for the expo and BBQ events*/
+.titleExpo { 
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  margin-bottom: 10px;
+  grid-area: titleExpo;
+}
+
+.expo {
+  grid-area: expo;
+}
+
+.titleBBQ {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  margin-bottom: 10px;
+  grid-area: titleBBQ;
+}
+
+.BBQ {
+  grid-area: BBQ;
+}
+
+.boxExpoBBQ img {
+  height: 100%;
+}
+
+.boxExpoBBQ {
+  margin-top: 15px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "titleExpo titleBBQ"
+    "expo BBQ"
+}
+
+/* Format for the 60th annivesary event*/
+.anni {
+  grid-area: anni;
+}
+
+.boxAnni {
+  margin-top: 15px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 0.25fr 3.5fr 0.25fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    ". anni ."
+}
 
 /* Format for the CGN event*/
 .verticalCGN1 {
@@ -202,28 +256,22 @@ img {
     "horizontalCGN4 horizontalCGN4 horizontalCGN5 horizontalCGN5"
 }
 
-.eventsTitle1{
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 45px;
-  margin-bottom: 10px;
+/* Format for the calculus studying session event*/
+
+.studyCal1{
+  grid-area: studyCal1;
 }
 
-.eventsTitle2{
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 45px;
-  margin-bottom: 10px;
+.studyCal2{
+  grid-area: studyCal2;
 }
 
-.boxExpo {
+.boxStudyCal{
   margin-top: 15px;
   display: grid;
   gap: 25px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 2fr;
   grid-template-rows: auto;
   grid-template-areas:
-    "eventsTitle1 eventsTitle1 eventsTitle2 eventsTitle2"
-    "horizontalCGN1 horizontalCGN1 horizontalCGN3 horizontalCGN3"
+   "studyCal1 studyCal2"
 }
-
