@@ -121,7 +121,7 @@ img {
 /* Title-font */
 .title{
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Garamond, Helvetica, sans-serif;
   font-size: 60px;
 }
 
@@ -196,19 +196,40 @@ img {
     "expo BBQ"
 }
 
-/* Format for the 60th annivesary event*/
+/* Format for the 60th annivesary and pancake events*/
+.titleAnni {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  margin-bottom: 10px;
+  grid-area: titleAnni;
+}
+
 .anni {
   grid-area: anni;
 }
 
-.boxAnni {
+.titlePancake {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  margin-bottom: 10px;
+  grid-area: titlePancake;
+}
+
+.pancake {
+  grid-area: pancake;
+}
+
+.boxAnniPancake {
   margin-top: 15px;
   display: grid;
   gap: 25px;
-  grid-template-columns: 0.25fr 3.5fr 0.25fr;
+  grid-template-columns: 2fr 2fr;
   grid-template-rows: auto;
   grid-template-areas:
-    ". anni ."
+    "titleAnni titlePancake"
+    "anni pancake"
 }
 
 /* Format for the CGN event*/
