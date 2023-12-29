@@ -214,10 +214,12 @@ img {
 /* Format for the CGN event*/
 .verticalCGN1 {
   grid-area: verticalCGN1;
+  width: 100%;
 }
 
 .verticalCGN2 {
   grid-area: verticalCGN2;
+  width: 100%;
 }
 
 .horizontalCGN1 {
@@ -256,6 +258,8 @@ img {
     "horizontalCGN4 horizontalCGN4 horizontalCGN5 horizontalCGN5"
 }
 
+
+
 /* Format for the calculus studying session event*/
 
 .studyCal1{
@@ -275,3 +279,49 @@ img {
   grid-template-areas:
    "studyCal1 studyCal2"
 }
+.verticalCGN1 {
+  grid-area: verticalCGN1;
+}
+
+.verticalCGN2 {
+  grid-area: verticalCGN2;
+}
+
+/*Format the images to fit on smaller screens*/
+@media (max-width: 500px) {
+.boxStudyCal{
+  margin-top: 15px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+   "studyCal1 studyCal1"
+   "studyCal2 studyCal2"
+ }
+
+  .boxCGN {
+    margin-top: 15px;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "horizontalCGN3 horizontalCGN3 horizontalCGN3 horizontalCGN3"
+      "horizontalCGN2 horizontalCGN2 horizontalCGN2 horizontalCGN2"
+      "verticalCGN1 verticalCGN1 verticalCGN2 verticalCGN2"
+      "horizontalCGN1 horizontalCGN1 horizontalCGN1 horizontalCGN1"
+      "horizontalCGN4 horizontalCGN4 horizontalCGN5 horizontalCGN5"
+  }
+  .verticalCGN1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .verticalCGN2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
