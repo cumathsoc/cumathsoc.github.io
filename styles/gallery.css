@@ -121,7 +121,7 @@ img {
 /* Title-font */
 .title{
   text-align: center;
-  font-family: Garamond, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 60px;
 }
 
@@ -310,6 +310,10 @@ img {
 
 /*Format the images to fit on smaller screens*/
 @media (max-width: 500px) {
+  .title {
+    font-size: 35px;
+  }
+
   .titleAnni, .titlePancake {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
