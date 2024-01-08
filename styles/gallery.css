@@ -289,6 +289,12 @@ img {
 
 /*Format the images to fit on smaller screens*/
 @media (max-width: 500px) {
+.boxAnni {
+  gap: 0px;
+  grid-template-columns: 1fr;
+  grid-template-areas: anni;
+}
+
 .boxStudyCal{
   margin-top: 15px;
   display: grid;
@@ -311,7 +317,8 @@ img {
       "horizontalCGN2 horizontalCGN2 horizontalCGN2 horizontalCGN2"
       "verticalCGN1 verticalCGN1 verticalCGN2 verticalCGN2"
       "horizontalCGN1 horizontalCGN1 horizontalCGN1 horizontalCGN1"
-      "horizontalCGN4 horizontalCGN4 horizontalCGN5 horizontalCGN5"
+      "horizontalCGN4 horizontalCGN4 horizontalCGN4 horizontalCGN4"
+      "horizontalCGN5 horizontalCGN5 horizontalCGN5 horizontalCGN5"
   }
 
   .boxExpoBBQ {
