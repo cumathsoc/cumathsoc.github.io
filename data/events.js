@@ -15,15 +15,15 @@ let events = [
 },
 {
   "type": "news-poster",
-  "title": "Calculus Study Session",
-  "date": "December 8 2023",
-  "location": "Herzberg (HP) 3422",
-  "desc": "The Math Society in partnership with the Computer Science Society will be holding a calculus study session.",
-  "img": "images/events/dec-2023-calc-study-session.png",
+  "title": "Undergraduate Summer Research Information Session",
+  "date": "Wednesday, January 10th, 2024 @ 12:00pm",
+  "location": "Herzberg (HP) 4351 - MacPhail",
+  "desc": "Are you curious about what it is like to do Mathematical Research? Want to make an impact <br/> in the realm of Mathematics as an undergrad? <br/> Lost on how to engage and find opportunities in academia? Come to the undergraduate panel <br/> and hear experiences from former participants and learn about: <br/> ● What research Carleton offers <br/> ● Their contributions to Mathematical Research <br/> ● How they contacted their research supervisor <br/> ● Their personal thoughts on undergraduate research",
+  "img": "images/events/undergrad-research-poster.png",
   "calendar": {
-      "google": "https://www.google.com/calendar/render?action=TEMPLATE&text=Calc+Study+Session&details=Come+and+practice+for+the+final+boss%21&location=Math+Tutorial+Centre+%28HP+3422%29&dates=20231213T180000Z%2F20231213T200000Z",
-      "outlook": "https://outlook.live.com/calendar/0/deeplink/compose?allday=false&body=Come+and+practice+for+the+final+boss%21&enddt=2023-12-13T20%3A00%3A00.000Z&location=Math+Tutorial+Centre+%28HP+3422%29&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-12-13T18%3A00%3A00.000Z&subject=Calc+Study+Session",
-      "apple": "blob:https://ccss.carleton.ca/4b0482c0-3fbc-4afb-96b1-727210400e35"
+      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240110T170000Z%2F20240110T183000Z&details=&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&text=Undergraduate%20Summer%20Research%20Information%20Session",
+      "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2024-01-10T13%3A30%3A00&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-01-10T12%3A00%3A00&subject=Undergraduate%20Summer%20Research%20Information%20Session",
+      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:Undergraduate%20Summer%20Research%20Information%20Session%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20240110T170000Z%0D%0ADTEND:20240110T183000Z%0D%0ADTSTAMP:20240108T152903Z%0D%0ASUMMARY:Undergraduate%20Summer%20Research%20Information%20Session%0D%0ALOCATION:Herzberg%20(HP)%204351%20-%20MacPhail%0D%0AUID:73441%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
   }   
 },
 {

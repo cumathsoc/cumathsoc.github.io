@@ -13,11 +13,55 @@ let events = [
       "apple": ""
   }   
 },
+
+{
+  "type": "news-poster",
+  "title": "Calculus Study Session",
+  "date": "Wednesday, December 8th, 2023 @ 1:00pm",
+  "location": "Herzberg (HP) 3422",
+  "desc": "<p> The Math Society in partnership with the Computer Science Society will be holding a calculus study session. </p>",
+  "img": "images/events/dec-2023-calc-study-session.png",
+  "calendar": {
+      "google": "https://www.google.com/calendar/render?action=TEMPLATE&text=Calc+Study+Session&details=Come+and+practice+for+the+final+boss%21&location=Math+Tutorial+Centre+%28HP+3422%29&dates=20231213T180000Z%2F20231213T200000Z",
+      "outlook": "https://outlook.live.com/calendar/0/deeplink/compose?allday=false&body=Come+and+practice+for+the+final+boss%21&enddt=2023-12-13T20%3A00%3A00.000Z&location=Math+Tutorial+Centre+%28HP+3422%29&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-12-13T18%3A00%3A00.000Z&subject=Calc+Study+Session",
+      "apple": "blob:https://ccss.carleton.ca/4b0482c0-3fbc-4afb-96b1-727210400e35"
+  }   
+},
+
+{
+  "type": "news-poster",
+  "presentor": "Shirley Mills",
+  "title": "Data Mining for Sports Analytics",
+  "date": "Tuesday, December 5th, 2023 @ 4:00pm",
+  "location": "Herzberg (HP) 3422",
+  "desc": "<b>Abstract:</b> Data mining is the process of extracting patterns and relationships from data. It is commonly used in a wide range of fields such as bioinformatics, engineering, business, social media and security. But it has also gained a foothold in sports, starting with baseball and moving to football, soccer, tennis, cricket, hockey, golf, skiing, F1 racing, etc.. It is even is used to examine fan engagement and detect hidden patterns in gaming and wagering. Statistical analysis jobs provide exciting opportunities to combine an interest in statistics and computing with a passion for sports and business.  This talk will present a glimpse into the world of sports analytics.",
+  "img": "images/talks/2023-12-05-mills.png",
+  "calendar": {
+      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20231205T210000Z%2F20231205T223000Z&details=&location=Herzberg%20%28HP%29%203422&text=Data%20Mining%20for%20Sports%20Analytics",
+      "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2023-12-05T17%3A30%3A00&location=Herzberg%20%28HP%29%203422&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-12-05T16%3A00%3A00&subject=Data%20Mining%20for%20Sports%20Analytics",
+      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:Data%20Mining%20for%20Sports%20Analytics%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20231205T210000Z%0D%0ADTEND:20231205T223000Z%0D%0ADTSTAMP:20240108T155032Z%0D%0ASUMMARY:Data%20Mining%20for%20Sports%20Analytics%0D%0ALOCATION:Herzberg%20(HP)%203422%0D%0AUID:21082%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
+  }   
+},
+
+{
+  "type": "news-poster",
+  "title": "December Pancake Breakfast",
+  "date": "Tuesday, December 5th, 2023 @ 10:00am",
+  "location": "Herzberg (HP) 3422",
+  "desc": "<p> We will also be holding our pancake breakfast next week on Tuesday December 5 from 10 AM to 2 PM right outside the Math Tutorial Centre (HP 3422). Come join us for some delicious pancakes with your friends and fellow members! </p>",
+  "img": "images/events/pancake-dec.png",
+  "calendar": {
+      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20231205T150000Z%2F20231205T190000Z&details=&location=Herzberg%20%28HP%29%203422&text=December%20Pancake%20Breakfast",
+      "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2023-12-05T14%3A00%3A00&location=Herzberg%20%28HP%29%203422&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-12-05T10%3A00%3A00&subject=December%20Pancake%20Breakfast",
+      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:December%20Pancake%20Breakfast%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20231205T150000Z%0D%0ADTEND:20231205T190000Z%0D%0ADTSTAMP:20240108T155608Z%0D%0ASUMMARY:December%20Pancake%20Breakfast%0D%0ALOCATION:Herzberg%20(HP)%203422%0D%0AUID:60228%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
+  }   
+},
+
 {
   "type": "news-poster",
   "title": "Some recent advances in cluster analysis",
   "presentor": "Sanjeena Dang",
-  "date": "November 28, 2023",
+  "date": "Tuesday, November 28th, 2023 @ 4:00pm",
   "location": "Herzberg (HP) 3422",
   "desc": "<b>Abstract:</b> With increasing size and complexity of biological datasets, there is a growing need for developing statistical models for large, complex datasets. Modeling such datasets requires ﬂexible statistical models that can capture the various characteristics of the data and the underlying data-generating mechanisms. My research has coalesced around developing efficient and scalable statistical models for clustering various types of biological data. Cluster analysis is an unsupervised approach (no group labels are known a priori for any observation) and, therefore more challenging than a supervised classiﬁcation approach, in which some group labels for observations are known a priori. Model-based clustering identiﬁes and learns underlying groups using ﬂexible statistical models in data where no group information is known. In this talk, I will give an overview of cluster analysis, statistical models my research group has developed for various datatypes, and a discussion of some challenges and what lies ahead.",
   "img": "images/talks/2023-11-28-dang.png",
@@ -32,7 +76,7 @@ let events = [
   "type": "news-poster",
   "title": "On Colouring Points in the Plane",
   "presentor": "Prosenjit Bose",
-  "date": "November 21, 2023",
+  "date": "Tuesday, November 21st, 2023 @ 4:00pm",
   "location": "Herzberg (HP) 3422",
   "desc": "<b>Abstract:</b> You might be surprised to hear that the technologies behind everyday items like cell phones, maps, security systems, and even the game of Sudoku, rely on colouring points in the plane. A famous theorem about colour is the 4-colour theorem. The theorem states that, given a separation of a plane into adjoining regions (for example, think of a map), only four colours are needed to colour the regions of the map so that no two adjacent regions have the same colour. The applications for this notion are extensive. We will review a few examples of colouring in different contexts and give a flavour of some algorithms and proofs in this area.",
   "img": "images/talks/2023-11-21-bose.png",
@@ -46,9 +90,9 @@ let events = [
   "type": "news-poster",
   "title": "Joint CUMATHSOC and WIM Combinatorial Game Nights",
   "presentor": "",
-  "date": "November 16, 2023 @6:00pm-8:30pm",
+  "date": "Thursday, November 16th, 2023 @6:00pm",
   "location": "Herzberg (HP) 3422",
-  "desc": "Join us and learn math through playing or just have fun. Joint event with CUMATHSOC and WIM with our guest speaker Amanda Chafee.",
+  "desc": "<p> Join us and learn math through playing or just have fun. Joint event with CUMATHSOC and WIM with our guest speaker Amanda Chafee. </p>",
   "img": "images/events/combintorial-poster-en.png",
   "calendar": {
       "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20231116T230000Z%2F20231118T013000Z&details=Join%20us%20and%20learn%20math%20through%20playing%20or%20just%20have%20fun.%20Joint%20event%20with%20CUMATHSOC%20and%20WIM%20with%20our%20guest%20speaker%20Amanda%20Chafee.&location=HP3422&text=Joint%20CUMATHSOC%20and%20WIM%20CGT%20Game%20Nights",
@@ -66,9 +110,9 @@ let events = [
   "type": "news-poster",
   "title": "Iterating functions over finite sets",
   "presentor": "Daniel Panario",
-  "date": "November 14 2023",
+  "date": "Tuesday, November 14th, 2023 @ 4:00pm",
   "location": "Herzberg (HP) 3422",
-  "desc": "Let $f$ be a function defined over a finite set $X$. For any $x_0 \\in X$, consider successive compositions of $f$ with itself: $$ x_0, f(x_0), f(f(x_0)), f(f(f(x_0))), \\ldots.$$ When this is done for every element of $X$, a natural underlying graph, called the \"functional graph\" of $f$, emerges. This graph has as vertices the elements of $X$, and it has an edge from $a$ to $b$, $a,b \\in X$, if $f(a)=b$. We give examples showing the general structure of functional graphs. Then, we comment on applications of this area to computational algebra and cryptography. If time allows, we comment on some important parameters that have been studied in this area including periodic and pre-periodic points, average rho'' length, conditions for being a permutation function, and so on.",
+  "desc": "<b>Abstract:</b> Let $f$ be a function defined over a finite set $X$. For any $x_0 \\in X$, consider successive compositions of $f$ with itself: $$ x_0, f(x_0), f(f(x_0)), f(f(f(x_0))), \\ldots.$$ When this is done for every element of $X$, a natural underlying graph, called the \"functional graph\" of $f$, emerges. This graph has as vertices the elements of $X$, and it has an edge from $a$ to $b$, $a,b \\in X$, if $f(a)=b$. We give examples showing the general structure of functional graphs. Then, we comment on applications of this area to computational algebra and cryptography. If time allows, we comment on some important parameters that have been studied in this area including periodic and pre-periodic points, average rho'' length, conditions for being a permutation function, and so on.",
   "img": "images/talks/2023-11-14-panario.png",
   "calendar": {
       "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20231114T210000Z%2F20231114T223000Z&details=Let%20f%20be%20a%20function%20defined%20over%20a%20finite%20set%20X.%20For%20any%20x%E2%88%88X%2C%20consider%20successive%20compositions%20of%20f%20with%20itself%3A%0Ax%2Cf%28x%29%2Cf%28f%28x%29%29%2Cf%28f%28f%28x%29%29%29%2C%E2%80%A6.%0AWhen%20this%20is%20done%20for%20every%20element%20of%20X%2C%20a%20natural%20underlying%20graph%2C%20called%20the%20functional%20graph%27%27%20of%20f%2C%20emerges.%20This%20graph%20has%20as%20vertices%20the%20elements%20of%20X%2C%20and%20it%20has%20an%20edge%20from%20a%20to%20b%2C%20a%2Cb%E2%88%88X%2C%20if%20f%28a%29%3Db.%20We%20give%20examples%20showing%20the%20general%20structure%20of%20functional%20graphs.%20Then%2C%20we%20comment%20on%20applications%20of%20this%20area%20to%20computational%20algebra%20and%20cryptography.%20If%20time%20allows%2C%20we%20comment%20on%20some%20important%20parameters%20that%20have%20been%20studied%20in%20this%20area%20including%20periodic%20and%20pre-periodic%20points%2C%20average%20rho%27%27%20length%2C%20conditions%20for%20being%20a%20permutation%20function%2C%20and%20so%20on.&location=HP3422&text=Iterating%20functions%20over%20finite%20sets",
@@ -80,9 +124,9 @@ let events = [
   "type": "news-poster",
   "title": "November Pancake Breakfast",
   "presentor": "",
-  "date": "November 7 2023",
+  "date": "Tuesday, November 7th, 2023 @ 10:00am",
   "location": "Herzberg (HP) 3422",
-  "desc": "We will also be holding our pancake breakfast next week on Tuesday November 7 from 10 AM to 2 PM right outside the Math Tutorial Centre (HP 3422). Come join us for some delicious pancakes with your friends and fellow members!",
+  "desc": "<p> We will also be holding our pancake breakfast next week on Tuesday November 7 from 10 AM to 2 PM right outside the Math Tutorial Centre (HP 3422). Come join us for some delicious pancakes with your friends and fellow members! </p>",
   "img": "images/events/pancake-nov.png",
   "calendar": {
       "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20231107T150000Z%2F20231107T190000Z&details=We%20will%20also%20be%20holding%20our%20pancake%20breakfast%20next%20week%20on%20Tuesday%20November%207%20from%2010%20AM%20to%202%20PM%20right%20outside%20the%20Math%20Tutorial%20Centre%20%28HP%203422%29.%20Come%20join%20us%20for%20some%20delicious%20pancakes%20with%20your%20friends%20and%20fellow%20members%21&location=HP3422&text=November%20Pancake%20Breakfast",
@@ -94,7 +138,7 @@ let events = [
   "type": "news-poster",
   "title": "On Working as a Mathematician in Government*",
   "presentor": "Megan Dewar",
-  "date": "November 7 2023",
+  "date": "Tuesday, November 7th, 2023 @ 4:00pm",
   "location": "Herzberg (HP) 3422",
   "desc": "<b>Abstract:</b> In this presentation I’ll talk about my experience working in government; first as a research mathematician, and now as a leader of a research organization. I’ll introduce you to the Tutte Institute for Mathematics and Computing (TIMC), as well as the larger organization (Communications Security Establishment) it supports – and talk a little more broadly about what you can expect from a career in the federal government. In addition (because this is, after all, the Carleton Math Society’s undergraduate colloquium series), I’ll give you an overview of the research work we do at TIMC.</br><p><b>Biography:</b> Megan Dewar leads the Tutte Institute for Mathematics and Computing (TIMC), a Canadian Government research institute whose mission is to deliver fundamental research results in mathematics and computer science that impact the most important scientific challenges facing the security and intelligence community. TIMC’s research program is focused on cryptography and data science.  Megan joined TIMC as a researcher at the time of its inception a decade ago and took on the role of Head in 2020. Megan completed her PhD in discrete mathematics at Carleton University in 2010 under the supervision of Dr Brett Stevens. She is a co-author of Ordering Block Designs:  Gray codes, universal cycles and configuration orderings, a book based on her thesis.  Her previous masters and undergraduate studies -- completed at Dalhousie University -- focused on graph theory and game theory.</p>",
   "img": "images/talks/2023-11-07-dewar.png",
@@ -109,7 +153,7 @@ let events = [
   "type": "news-poster",
   "title": "The Product Structure of Planar Graphs",
   "presentor": "Pat Morin",
-  "date": "October 31 2023",
+  "date": "Tuesday, October 31st, 2023 @ 4:00pm",
   "location": "Herzberg (HP) 3422",
   "desc": "<b>Abstract:</b> Planar graphs have been the subject of intense study for over 300 years. This talk will present a recent structural result on planar graphs, which is now known as the Product Structure Theorem. It states that any planar graph G is contained in the product of two very simple graphs: a graph H that is tree-like and a path P. Since its appearance in 2020, the Product Structure Theorem has been used to resolve a number of longstanding open problems on planar graphs. This talk is aimed at a broad audience without any particular background in graph theory. It will include everything needed to understand the statement of the result, give a sketch of its proof, and describe some of its applications.",
   "img": "images/talks/2023-10-31-morin.png",
@@ -123,7 +167,7 @@ let events = [
   "type": "news-poster",
   "title": "Where Algebra and Analysis Meet",
   "presentor": "Joseph Gondek",
-  "date": "October 17 2023",
+  "date": "Tuesday, October 17th, 2023 @ 4:00pm",
   "location": "Herzberg (HP) 3422",
   "desc": "<b>Abstract:</b> In MATH 1052, you learn about sequences, limits, and continuity on the real line. In MATH 1152, you learn about vector spaces, matrices, and dimension. One course contains many ε’s and δ’s, while the other has row reduction and matrix-vector multiplication. What do they have in common? This talk will give an exposition of an area of higher mathematics which uses tools from both sides of the MATH 1052/1152 coin. We will explore the ideas of this area in a few different levels of generality, and witness how analytic/topological data (such as compactness and connectedness) can be converted into algebraic data.",
   "img": "images/talks/2023-10-17-gondek.png",
@@ -137,7 +181,7 @@ let events = [
   "type": "news-poster",
   "title": "Infinite Cycles in Graph Theory",
   "presentor": "Bobby Miraftab",
-  "date": "October 10 2023",
+  "date": "Tuesday, October 10th, 2023 @ 4:00pm",
   "location": "Herzberg (HP) 3422",
   "desc": "<b>Abstract:</b> Hamiltonicity is a well-known and popular topic in graph theory. In a finite graph, a cycle is considered hamiltonian if it visits each vertex exactly once. However, when we shift our focus to infinite graphs, defining a cycle becomes less straightforward within an infinite setting. In this talk, we explore various approaches to define infinite cycles in infinite graphs. Additionally, we provide a concise summary of the results we have obtained concerning infinite hamiltonian cycles in graphs with a certain level of symmetries.",
   "img": "images/talks/2023-10-10-miraftab.png",
@@ -151,7 +195,7 @@ let events = [
   "type": "news-poster",
   "title": "Solving Matrix Problems with Quivers",
   "presentor": "Colin Ingalls",
-  "date": "October 03 2023",
+  "date": "Tuesday, October 3rd, 2023 @ 4:00pm",
   "location": "Herzberg (HP) 3422",
   "desc": "<b>Abstract:</b> Often we have a situation where we have some matrices that we can write in a nicer way by different choosing bases. We will show how quivers (directed graphs) and their path algebras can be used to solve some of these problems.",
   "img": "images/talks/2023-10-03-ingalls.png",
@@ -165,9 +209,9 @@ let events = [
   "type": "news-poster",
   "title": "October Pancake Breakfast",
   "presentor": "",
-  "date": "Tuesday October 3 2023",
+  "date": "Tuesday, October 3rd, 2023 @ 10:00am",
   "location": "Outside Herzberg (HP) 3422",
-  "desc": "We will also be holding our first pancake breakfast next week on Tuesday October 3rd from 10 AM to 2 PM right outside the Math Tutorial Centre (HP 3422). Come join us for some delicious pancakes with your friends and fellow members!",
+  "desc": "<p> We will also be holding our first pancake breakfast next week on Tuesday October 3rd from 10 AM to 2 PM right outside the Math Tutorial Centre (HP 3422). Come join us for some delicious pancakes with your friends and fellow members! </p>",
   "img": "images/events/pancake-oct.png",
   "calendar": {
       "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20231003T140000Z%2F20231003T180000Z&details=We%20will%20also%20be%20holding%20our%20first%20pancake%20breakfast%20next%20week%20on%20Tuesday%20October%203rd%20from%2010%20AM%20to%202%20PM%20right%20outside%20the%20Math%20Tutorial%20Centre%20%28HP%203422%29.%20Come%20join%20us%20for%20some%20delicious%20pancakes%20with%20your%20friends%20and%20fellow%20members%21&location=Outside%20of%20HP3422&text=MathSoc%20Talk%202%20-%20October%20Pancake%20Breakfast",
@@ -179,7 +223,7 @@ let events = [
   "type": "news-poster",
   "title": "Chaos: Finding Order in Disorder",
   "presentor": "Dave Amundsen",
-  "date": "Tuesday September 26 2023",
+  "date": "Tuesday, September 26th, 2023 @ 4:00pm",
   "location": "Herzberg (HP) 3422",
   "desc": "<b>Abstract:</b> From the \"butterfly effect\" of weather prediction, to the vagaries of the stock market and the intricate beauty of snowflakes, examples of chaotic behavior surround us. But what is chaos? Is it a manifestation of some underlying random process? Is it a \"catch all\" for effects which we do not know or cannot resolve? In this presentation, I will talk about the mathematical notions behind chaos, and how it applies to a wide range of everyday phenomena. You will learn that behind the mysterious, seemingly random nature of chaos can lie a rich, intricate structure.  With this comes deeper understanding but such complexity also brings limitations. Through various examples we will explore how order emerges from disorder!",
   "img": "images/talks/2023-09-26-amundsen.png",
@@ -199,9 +243,9 @@ let events = [
   "type": "news-poster",
   "title": "The Pigeonhole Principle: Pigeons, Prime NUmbers and Old Socks: What Do They Have In Common?",
   "presentor": "Dr. James Bondar",
-  "date": "Tuesday September 19 2023",
+  "date": "Tuesday, September 19th, 2023 @ 4:00pm",
   "location": "Herzberg (HP) 3422",
-  "desc": "It is often said that the best mathematics starts with very simple ideas. This is true of the pigeonhole principle which we first encounter as a riddle which can be solved by elementary school students. The applications of this simple principle lead in many directions: graph theory, the behaviour of billards balls, prime numbers, ... Some of these applications are deep and difficult and others are light and entertaining puzzles. We shall spend most of our time with the latter. Everyone is welcome!",
+  "desc": "<b>Abstract:</b> It is often said that the best mathematics starts with very simple ideas. This is true of the pigeonhole principle which we first encounter as a riddle which can be solved by elementary school students. The applications of this simple principle lead in many directions: graph theory, the behaviour of billards balls, prime numbers, ... Some of these applications are deep and difficult and others are light and entertaining puzzles. We shall spend most of our time with the latter. Everyone is welcome!",
   "img": "images/talks/2023-09-19-bondar.jpg",
   "calendar": {
       "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230919T200000Z%2F20230919T213000Z&details=It%20is%20often%20said%20that%20the%20best%20mathematics%20starts%20with%20very%20simple%20ideas.%20This%20is%20true%20of%20the%20pigeonhole%20principle%20which%20we%20first%20encounter%20as%20a%20riddle%20which%20can%20be%20solved%20by%20elementary%20school%20students.%20The%20applications%20of%20this%20simple%20principle%20lead%20in%20many%20directions%3A%20graph%20theory%2C%20the%20behaviour%20of%20billards%20balls%2C%20prime%20numbers%2C%20...%20Some%20of%20these%20applications%20are%20deep%20and%20difficult%20and%20others%20are%20light%20and%20entertaining%20puzzles.%20We%20shall%20spend%20most%20of%20our%20time%20with%20the%20latter.%20Everyone%20is%20welcome%21%0A%0ADr.%20James%20Bondar&location=HP3422&text=MathSoc%20Colloquium%3A%20Pigeonhole%20Principle",
@@ -213,9 +257,9 @@ let events = [
   "type": "news-poster",
   "title": "BBQ & Book SALE",
   "presentor": "",
-  "date": "Thursday September 7 2023 (10am-5:30pm)",
+  "date": "Thursday, September 7th, 2023 @ 10:00am",
   "location": "In front of Herzberg (HP)",
-  "desc": "Come to our student BBQ and buy math books. You can also get your Math & Stat Society membership which comes with free food.",
+  "desc": "<p> Come to our student BBQ and buy math books. You can also get your Math & Stat Society membership which comes with free food. </p>",
   "img": "images/events/bbq-poster.png",
   "calendar": {
       "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230907T140000Z%2F20230907T213000Z&details=%2A%20BBQ%20from%2011am-4pm%0A%2A%20Purchase%20membership%0A%2A%20Buy%20Math%20books&location=Outside%20of%20Herzberg&text=MathSoc%20-%20BBQ%20%26%20Book%20Sale",
@@ -227,7 +271,7 @@ let events = [
   "type": "news-poster",
   "title": "MathSoc @ Club Expo",
   "presentor": "",
-  "date": "Tuesday September 5 2023 (11am-4pm)",
+  "date": "Tuesday, September 5th, 2023 @ 11:00am",
   "location": "Fieldhouse",
   "desc": "<p>Come to Club Expo and connect with the Math Society and learn about us.</p>Membership can be purchased for $5.",
   "img": "images/events/club-expo-2023.png",
@@ -236,7 +280,7 @@ let events = [
       "outlook": "https://outlook.live.com/calendar/0/action/compose?body=Come%20and%20connect%20with%20us.%20Merch%20and%20membership%20can%20be%20purchase.&enddt=2023-09-05T20%3A00%3A00%2B00%3A00&location=Fieldhouse&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-09-05T15%3A00%3A00%2B00%3A00&subject=Math%20Soc%20%40%20Club%20Expo",
       "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART:20230905T150000Z%0ADTEND:20230905T200000Z%0ASUMMARY:Math%20Soc%20%40%20Club%20Expo%0ADESCRIPTION:Come%20and%20connect%20with%20us.%20Merch%20and%20membership%20can%20be%20purchase.%0ALOCATION:Fieldhouse%0AEND:VEVENT%0AEND:VCALENDAR%0A"
   }   
-},
+}
 /*{
   "type": "news-poster",
   "title": "The Powerhouse of Problem Solving: Why Computer Science Triumphs over Mathematics",
@@ -250,7 +294,7 @@ let events = [
       "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART:20230918T203000Z%0ADTEND:20230918T213000Z%0ASUMMARY:A%20Unique%20Closed-Form%20Solution%20to%20the%20External%20Grazing%20Problem%0ADESCRIPTION:Speaker%3A%20Nwxt--%0ALOCATION:HP4351%0AEND:VEVENT%0AEND:VCALENDAR%0A"
   },
   "img": "images/events/troll-poster2.png"
-},*/
+},
 {
   "type": "news",
   "title": "A Unique Closed-Form Solution to the External Grazing Problem",
@@ -263,5 +307,5 @@ let events = [
       "outlook": "https://outlook.live.com/calendar/0/action/compose?body=Speaker%3A%20C.%20L&enddt=2023-04-12T21%3A30%3A00%2B00%3A00&location=HP4351&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2023-04-12T20%3A30%3A00%2B00%3A00&subject=A%20Unique%20Closed-Form%20Solution%20to%20the%20External%20Grazing%20Problem",
       "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART:20230412T203000Z%0ADTEND:20230412T213000Z%0ASUMMARY:A%20Unique%20Closed-Form%20Solution%20to%20the%20External%20Grazing%20Problem%0ADESCRIPTION:Speaker%3A%20C.%20L%0ALOCATION:HP4351%0AEND:VEVENT%0AEND:VCALENDAR%0A"
   }
-}
+}*/
 ]
