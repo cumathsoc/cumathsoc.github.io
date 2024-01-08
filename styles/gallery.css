@@ -310,22 +310,32 @@ img {
 
 /*Format the images to fit on smaller screens*/
 @media (max-width: 500px) {
-.boxAnni {
-  gap: 0px;
-  grid-template-columns: 1fr;
-  grid-template-areas: anni;
-}
+  .titleAnni, .titlePancake {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
 
-.boxStudyCal{
-  margin-top: 15px;
-  display: grid;
-  gap: 25px;
-  grid-template-columns: 2fr 2fr;
-  grid-template-rows: auto;
-  grid-template-areas:
-   "studyCal1 studyCal1"
-   "studyCal2 studyCal2"
- }
+  .boxAnniPancake {
+    gap: 25px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "titleAnni"
+      "anni"
+      "titlePancake"
+      "pancake";
+  }
+
+  .boxStudyCal{
+    margin-top: 15px;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+     "studyCal1 studyCal1"
+     "studyCal2 studyCal2"
+   }
 
   .boxCGN {
     margin-top: 15px;
@@ -371,7 +381,7 @@ img {
     margin-bottom: 5px;
   }
 
-    .titleExpo { 
+  .titleExpo { 
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
@@ -379,7 +389,7 @@ img {
     grid-area: titleExpo;
   }
 
-    .titleBBQ {
+  .titleBBQ {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
