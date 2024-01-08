@@ -313,6 +313,52 @@ img {
       "horizontalCGN1 horizontalCGN1 horizontalCGN1 horizontalCGN1"
       "horizontalCGN4 horizontalCGN4 horizontalCGN5 horizontalCGN5"
   }
+
+  .boxExpoBBQ {
+    margin-top: 15px;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "titleExpo titleExpo"
+      "expo expo"
+      "titleBBQ titleBBQ"
+      "BBQ BBQ"
+  }
+  .boxWelcome {
+    margin-top: 15px;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "welcome1 welcome1"
+      "welcome2 welcome2"
+}
+  .eventsTitle{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+
+    .titleExpo { 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+    grid-area: titleExpo;
+  }
+
+    .titleBBQ {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+    grid-area: titleBBQ;
+  }
+
   .verticalCGN1 img {
     width: 100%;
     height: 100%;
