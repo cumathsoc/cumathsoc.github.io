@@ -16,6 +16,20 @@ let events = [
 
 {
   "type": "news-poster",
+  "title": "January Pancake Breakfast",
+  "date": "Monday, January 15th, 2024 @ 10:00am",
+  "location": "Herzberg (HP) 3422",
+  "desc": "<p> We will also be holding our pancake breakfast next week on Monday January 15 from 10 AM to 2 PM right outside the Math Tutorial Centre (HP 3422). Come join us for some delicious pancakes with your friends and fellow members! </p>",
+  "img": "images/events/pancake-poster/pancake-jan.png",
+  "calendar": {
+      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240115T150000Z%2F20240115T190000Z&details=&location=Herzberg%20%28HP%29%203422&text=January%20Pancake%20Breakfast",
+      "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2024-01-15T14%3A00%3A00&location=Herzberg%20%28HP%29%203422&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-01-15T10%3A00%3A00&subject=January%20Pancake%20Breakfast",
+      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:January%20Pancake%20Breakfast%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20240115T150000Z%0D%0ADTEND:20240115T190000Z%0D%0ADTSTAMP:20240110T003130Z%0D%0ASUMMARY:January%20Pancake%20Breakfast%0D%0ALOCATION:Herzberg%20(HP)%203422%0D%0AUID:85107%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
+  }   
+},
+
+{
+  "type": "news-poster",
   "title": "Undergraduate Summer Research Information Session",
   "date": "Wednesday, January 10th, 2024 @ 12:00pm",
   "location": "Herzberg (HP) 4351 - MacPhail",
@@ -286,7 +300,7 @@ let events = [
   "title": "MathSoc @ Club Expo",
   "presentor": "",
   "date": "Tuesday, September 5th, 2023 @ 11:00am",
-  "location": "Fieldhouse",
+  "location": "Fieldhouse (FH)",
   "desc": "<p>Come to Club Expo and connect with the Math Society and learn about us.</p>Membership can be purchased for $5.",
   "img": "images/events/club-expo-2023.png",
   "calendar": {
