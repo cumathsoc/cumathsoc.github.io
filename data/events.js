@@ -16,20 +16,6 @@ let events = [
 
 {
   "type": "news-poster",
-  "title": "January Pancake Breakfast",
-  "date": "Monday, January 15th, 2024 @ 10:00am",
-  "location": "Herzberg (HP) 3422",
-  "desc": "<p> We will also be holding our pancake breakfast next week on Monday January 15 from 10 AM to 2 PM right outside the Math Tutorial Centre (HP 3422). Come join us for some delicious pancakes with your friends and fellow members! </p>",
-  "img": "images/events/pancake-poster/pancake-jan.png",
-  "calendar": {
-      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240115T150000Z%2F20240115T190000Z&details=&location=Herzberg%20%28HP%29%203422&text=January%20Pancake%20Breakfast",
-      "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2024-01-15T14%3A00%3A00&location=Herzberg%20%28HP%29%203422&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-01-15T10%3A00%3A00&subject=January%20Pancake%20Breakfast",
-      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:January%20Pancake%20Breakfast%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20240115T150000Z%0D%0ADTEND:20240115T190000Z%0D%0ADTSTAMP:20240110T003130Z%0D%0ASUMMARY:January%20Pancake%20Breakfast%0D%0ALOCATION:Herzberg%20(HP)%203422%0D%0AUID:85107%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
-  }   
-},
-
-{
-  "type": "news-poster",
   "presentor": "Paul Mezo",
   "title": "There are Exactly 17 Different Ways to Fill a Wall with a Symmetric Pattern",
   "date": "Wednesday, January 17th, 2024 @ 12:00pm",
@@ -40,6 +26,20 @@ let events = [
       "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240117T170000Z%2F20240117T183000Z&details=&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&text=There%20are%20Exactly%2017%20Different%20Ways%20to%20Fill%20a%20Wall%20with%20a%20Symmetric%20Pattern",
       "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2024-01-17T13%3A30%3A00&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-01-17T12%3A00%3A00&subject=There%20are%20Exactly%2017%20Different%20Ways%20to%20Fill%20a%20Wall%20with%20a%20Symmetric%20Pattern",
       "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:There%20are%20Exactly%2017%20Different%20Ways%20to%20Fill%20a%20Wall%20with%20a%20Symmetric%20Pattern%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20240117T170000Z%0D%0ADTEND:20240117T183000Z%0D%0ADTSTAMP:20240110T211248Z%0D%0ASUMMARY:There%20are%20Exactly%2017%20Different%20Ways%20to%20Fill%20a%20Wall%20with%20a%20Symmetric%20Pattern%0D%0ALOCATION:Herzberg%20(HP)%204351%20-%20MacPhail%0D%0AUID:43853%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
+  }   
+},
+
+{
+  "type": "news-poster",
+  "title": "Potluck & Games Night",
+  "date": "Monday, January 22nd, 2024 @ 5:00pm",
+  "location": "Southam Hall (SA) 306",
+  "desc": "<p> We will be hosting a massive potluck and board game night with 4 other clubs/societies here at Carleton! This big event is a 5 way collaboration between the Carleton Computer Science Society, Tabletop Gaming Club, Game Dev Club, Chess Club and of course the Carleton Math & Stats Society. There will be lots of board games and food, so bring your friends along for a fun gaming night! The event will take place next week on Monday January 22nd from 5:00pm to 8:00pm in Southam Hall 306 (SA 306) </p>",
+  "img": "images/events/potluck-board-games-night-poster.jpg",
+  "calendar": {
+      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240122T220000Z%2F20240123T010000Z&details=&location=Southam%20Hall%20%28SA%29%20306&text=Potluck%20%26%20Games%20Night",
+      "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2024-01-22T20%3A00%3A00&location=Southam%20Hall%20%28SA%29%20306&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-01-22T17%3A00%3A00&subject=Potluck%20%26%20Games%20Night",
+      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:Potluck%20%26%20Games%20Night%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20240122T220000Z%0D%0ADTEND:20240123T010000Z%0D%0ADTSTAMP:20240115T125530Z%0D%0ASUMMARY:Potluck%20%26%20Games%20Night%0D%0ALOCATION:Southam%20Hall%20(SA)%20306%0D%0AUID:54451%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
   }   
 },
 
