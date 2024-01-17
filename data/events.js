@@ -16,21 +16,6 @@ let events = [
 
 {
   "type": "news-poster",
-  "presentor": "Paul Mezo",
-  "title": "There are Exactly 17 Different Ways to Fill a Wall with a Symmetric Pattern",
-  "date": "Wednesday, January 17th, 2024 @ 12:00pm",
-  "location": "Herzberg (HP) 4351 - MacPhail",
-  "desc": "<b>Abstract:</b> It used to be fashionable to wallpaper a living room or tile a bathroom floor with an elaborate design. You've probably been in a building with these things and stared at the patterns. It's not hard to see that there can be some fundamental differences in them. Sometimes they have mirror symmetry. Sometimes they don't. What is amazing is that there are only 17 fundamentally different patterns, and that you can prove this fact using a bit of linear algebra and group theory. I will present the ideas for this proof and support the results with spectacular examples.",
-  "img": "images/talks/2024-01-17-mezo.png",
-  "calendar": {
-      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240117T170000Z%2F20240117T183000Z&details=&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&text=There%20are%20Exactly%2017%20Different%20Ways%20to%20Fill%20a%20Wall%20with%20a%20Symmetric%20Pattern",
-      "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2024-01-17T13%3A30%3A00&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-01-17T12%3A00%3A00&subject=There%20are%20Exactly%2017%20Different%20Ways%20to%20Fill%20a%20Wall%20with%20a%20Symmetric%20Pattern",
-      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:There%20are%20Exactly%2017%20Different%20Ways%20to%20Fill%20a%20Wall%20with%20a%20Symmetric%20Pattern%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20240117T170000Z%0D%0ADTEND:20240117T183000Z%0D%0ADTSTAMP:20240110T211248Z%0D%0ASUMMARY:There%20are%20Exactly%2017%20Different%20Ways%20to%20Fill%20a%20Wall%20with%20a%20Symmetric%20Pattern%0D%0ALOCATION:Herzberg%20(HP)%204351%20-%20MacPhail%0D%0AUID:43853%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
-  }   
-},
-
-{
-  "type": "news-poster",
   "title": "Potluck & Games Night",
   "date": "Monday, January 22nd, 2024 @ 5:00pm",
   "location": "Southam Hall (SA) 306",
@@ -40,6 +25,21 @@ let events = [
       "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240122T220000Z%2F20240123T010000Z&details=&location=Southam%20Hall%20%28SA%29%20306&text=Potluck%20%26%20Games%20Night",
       "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2024-01-22T20%3A00%3A00&location=Southam%20Hall%20%28SA%29%20306&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-01-22T17%3A00%3A00&subject=Potluck%20%26%20Games%20Night",
       "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:Potluck%20%26%20Games%20Night%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20240122T220000Z%0D%0ADTEND:20240123T010000Z%0D%0ADTSTAMP:20240115T125530Z%0D%0ASUMMARY:Potluck%20%26%20Games%20Night%0D%0ALOCATION:Southam%20Hall%20(SA)%20306%0D%0AUID:54451%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
+  }   
+},
+
+{
+  "type": "news-poster",
+  "presentor": "Inna Bumagin",
+  "title": "Straightedge, compass, and tools from algebra",
+  "date": "Wednesday, January 24th, 2024 @ 12:00pm",
+  "location": "Herzberg (HP) 4351 - MacPhail",
+  "desc": "<b>Abstract:</b> Can one construct a proper n-gon only using straightedge (aruler with no marks) and compass? It turns out that the answer depends on the number n. There is a sufficient and necessary algebraic condition on n telling us for what n-gons such a construction exists. We shall discuss how construction goes, if it is possible. I will state the condition on n and explain why it is sufficient. However, it takes three full year courses in Abstract Algebra to understand why the condition is also necessary.",
+  "img": "images/talks/2024-01-24-bumagin.png",
+  "calendar": {
+      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240124T170000Z%2F20240124T183000Z&details=&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&text=Straightedge%2C%20compass%2C%20and%20tools%20from%20algebra",
+      "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2024-01-24T13%3A30%3A00&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-01-24T12%3A00%3A00&subject=Straightedge%2C%20compass%2C%20and%20tools%20from%20algebra",
+      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:Straightedge%2C%20compass%2C%20and%20tools%20from%20algebra%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20240124T170000Z%0D%0ADTEND:20240124T183000Z%0D%0ADTSTAMP:20240117T154508Z%0D%0ASUMMARY:Straightedge%2C%20compass%2C%20and%20tools%20from%20algebra%0D%0ALOCATION:Herzberg%20(HP)%204351%20-%20MacPhail%0D%0AUID:22845%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
   }   
 },
 
