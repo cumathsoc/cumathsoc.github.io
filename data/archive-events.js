@@ -16,6 +16,21 @@ let events = [
 
 {
   "type": "news-poster",
+  "presentor": "Paul Mezo",
+  "title": "There are Exactly 17 Different Ways to Fill a Wall with a Symmetric Pattern",
+  "date": "Wednesday, January 17th, 2024 @ 12:00pm",
+  "location": "Herzberg (HP) 4351 - MacPhail",
+  "desc": "<b>Abstract:</b> It used to be fashionable to wallpaper a living room or tile a bathroom floor with an elaborate design. You've probably been in a building with these things and stared at the patterns. It's not hard to see that there can be some fundamental differences in them. Sometimes they have mirror symmetry. Sometimes they don't. What is amazing is that there are only 17 fundamentally different patterns, and that you can prove this fact using a bit of linear algebra and group theory. I will present the ideas for this proof and support the results with spectacular examples.",
+  "img": "images/talks/2024-01-17-mezo.png",
+  "calendar": {
+      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240117T170000Z%2F20240117T183000Z&details=&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&text=There%20are%20Exactly%2017%20Different%20Ways%20to%20Fill%20a%20Wall%20with%20a%20Symmetric%20Pattern",
+      "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2024-01-17T13%3A30%3A00&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-01-17T12%3A00%3A00&subject=There%20are%20Exactly%2017%20Different%20Ways%20to%20Fill%20a%20Wall%20with%20a%20Symmetric%20Pattern",
+      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:There%20are%20Exactly%2017%20Different%20Ways%20to%20Fill%20a%20Wall%20with%20a%20Symmetric%20Pattern%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20240117T170000Z%0D%0ADTEND:20240117T183000Z%0D%0ADTSTAMP:20240110T211248Z%0D%0ASUMMARY:There%20are%20Exactly%2017%20Different%20Ways%20to%20Fill%20a%20Wall%20with%20a%20Symmetric%20Pattern%0D%0ALOCATION:Herzberg%20(HP)%204351%20-%20MacPhail%0D%0AUID:43853%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
+  }   
+},
+
+{
+  "type": "news-poster",
   "title": "January Pancake Breakfast",
   "date": "Monday, January 15th, 2024 @ 10:00am",
   "location": "Herzberg (HP) 3422",
