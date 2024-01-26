@@ -162,7 +162,7 @@ let events = [
   "type": "news-poster",
   "title": "Joint CUMATHSOC and WIM Combinatorial Game Nights",
   "presentor": "",
-  "date": "Thursday, November 16th, 2023 @6:00pm",
+  "date": "Thursday, November 16th, 2023 @ 6:00pm",
   "location": "Herzberg (HP) 3422",
   "desc": "<p> Join us and learn math through playing or just have fun. Joint event with CUMATHSOC and WIM with our guest speaker Amanda Chafee. </p>",
   "img": "images/events/combintorial-poster-en.png",
