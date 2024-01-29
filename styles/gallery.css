@@ -133,7 +133,78 @@ img {
 
 /* DESKTOP VERSIONS */
 /* Order like show up on the website (html file): latest events coming up */
-/*Format for the summer research event */
+/*Format for the potluck event*/
+.titlePotluck {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  margin-bottom: 10px;
+  grid-area: titlePotluck;
+}
+
+.horizontalPLmain1 {
+  grid-area: horizontalPLmain1;
+}
+
+.horizontalPLmain2 {
+  grid-area: horizontalPLmain2;
+}
+
+.horizontalPLmain3 {
+  grid-area: horizontalPLmain3;
+}
+
+.horizontalPL1 {
+  grid-area: horizontalPL1;
+}
+
+.horizontalPL2 {
+  grid-area: horizontalPL2;
+}
+
+.horizontalPL3 {
+  grid-area: horizontalPL3;
+}
+
+.horizontalPL4 {
+  grid-area: horizontalPL4;
+}
+
+.verticalPL1 {
+  grid-area: verticalPL1;
+}
+
+.verticalPL2 {
+  grid-area: verticalPL2;
+}
+
+.verticalPL3 {
+  grid-area: verticalPL3;
+}
+
+.verticalPL4 {
+  grid-area: verticalPL4;
+}
+
+.boxPotluck img {
+  height: 100%;
+}
+
+.boxPotluck {
+  margin-top: 15px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+   "titlePotluck titlePotluck titlePotluck titlePotluck"
+   "horizontalPLmain1 horizontalPLmain1 horizontalPLmain2 horizontalPLmain2"
+   "verticalPL1 horizontalPLmain3 horizontalPLmain3 verticalPL3"
+   "horizontalPL2 horizontalPL2 horizontalPL3 horizontalPL3"
+   "verticalPL2 verticalPL4 horizontalPL4 horizontalPL4";
+}
+
+/*Format for the summer research event*/
 .titleSummerResearch {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -401,7 +472,33 @@ img {
     font-size: 35px;
   }
 
-  /*Format for the summer research event */
+  /*Format for the potluck event*/
+  .titlePotluck {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+
+  .boxPotluck {
+    margin-top: 10px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+     "titlePotluck titlePotluck"
+     "horizontalPLmain1 horizontalPLmain1"
+     "horizontalPLmain2 horizontalPLmain2"
+     "horizontalPLmain3 horizontalPLmain3"
+     "verticalPL1 verticalPL3"
+     "horizontalPL2 horizontalPL2"
+     "horizontalPL3 horizontalPL3"
+     "verticalPL2 verticalPL4"
+     "horizontalPL4 horizontalPL4";
+  }
+
+  /*Format for the summer research event*/
   .titleSummerResearch {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
