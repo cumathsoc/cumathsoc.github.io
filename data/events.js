@@ -18,12 +18,12 @@ let events = [
 
 {
   "type": "news-poster",
-  "presentor": "Brandon Fodden",
-  "title": "Hilbert's Tenth Problem",
-  "date": "Wednesday, January 31st, 2024 @ 12:00pm",
+  "presentor": "Jason Nielson",
+  "title": "A Light Introduction to Smoothing: with an emphasis on splines",
+  "date": "Wednesday, Feburary 07th, 2024 @ 12:00pm",
   "location": "Herzberg (HP) 4351 - MacPhail",
-  "desc": "<b>Abstract:</b> In 1900, Hilbert asked for a general algorithm that would determine if a given Diophantine (i.e. polynomial) equation has integer solutions. The work of Robinson, Davis, Putnam, and Matiyasevich, showed that no such algorithm may exist. It turns out that such an algorithm would have been considerably more powerful than Hilbert likely imagined, as it would have allowed many open problems, such as the Riemann Hypothesis, to be solved by merely applying an algorithm. We explore some of the ideas used in the negative solution of Hilbert's Tenth Problem, as well as some of the consequences of this result. Students of all levels are welcome.",
-  "img": "images/poster/talks/2024-01-31-fodden.png",
+  "desc": "<b>Abstract:</b> Smoothing methods are used to estimate underlying functional forms in noisy data. They have broad applications and are very useful for exploratory data analysis. This talk will give an overview of the prevailing techniques for approaching this problem with an emphasis on splines. The focus of this presentation will be on the estimation of one-dimensional functions subject to uncertainty often referred to as scatter plot smoothing. Students of all levels are welcome.",
+  "img": "images/poster/talks/2024-02-07-nielson.png",
   "calendar": {
       "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240131T170000Z%2F20240131T183000Z&details=&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&text=Hilbert%27s%20Tenth%20Problem",
       "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2024-01-31T13%3A30%3A00&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-01-31T12%3A00%3A00&subject=Hilbert%27s%20Tenth%20Problem",

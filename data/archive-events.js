@@ -16,6 +16,20 @@ let events = [
 
 {
   "type": "news-poster",
+  "presentor": "Brandon Fodden",
+  "title": "Hilbert's Tenth Problem",
+  "date": "Wednesday, January 31st, 2024 @ 12:00pm",
+  "location": "Herzberg (HP) 4351 - MacPhail",
+  "desc": "<b>Abstract:</b> In 1900, Hilbert asked for a general algorithm that would determine if a given Diophantine (i.e. polynomial) equation has integer solutions. The work of Robinson, Davis, Putnam, and Matiyasevich, showed that no such algorithm may exist. It turns out that such an algorithm would have been considerably more powerful than Hilbert likely imagined, as it would have allowed many open problems, such as the Riemann Hypothesis, to be solved by merely applying an algorithm. We explore some of the ideas used in the negative solution of Hilbert's Tenth Problem, as well as some of the consequences of this result. Students of all levels are welcome.",
+  "img": "images/poster/talks/2024-01-31-fodden.png",
+  "calendar": {
+      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240131T170000Z%2F20240131T183000Z&details=&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&text=Hilbert%27s%20Tenth%20Problem",
+      "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2024-01-31T13%3A30%3A00&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-01-31T12%3A00%3A00&subject=Hilbert%27s%20Tenth%20Problem",
+      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:Hilbert's%20Tenth%20Problem%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20240131T170000Z%0D%0ADTEND:20240131T183000Z%0D%0ADTSTAMP:20240124T133908Z%0D%0ASUMMARY:Hilbert's%20Tenth%20Problem%0D%0ALOCATION:Herzberg%20(HP)%204351%20-%20MacPhail%0D%0AUID:53440%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
+  }   
+},
+{
+  "type": "news-poster",
   "presentor": "Inna Bumagin",
   "title": "Straightedge, compass, and tools from algebra",
   "date": "Wednesday, January 24th, 2024 @ 12:00pm",
