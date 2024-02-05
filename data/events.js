@@ -20,7 +20,7 @@ let events = [
   "date": "Monday, February 5th, 2024 @ 10:00am",
   "location": "Herzberg (HP) 3422",
   "desc": "<p> We will also be holding our pancake breakfast next week on Monday January 15 from 10 AM to 2 PM right outside the Math Tutorial Centre (HP 3422). Come join us for some delicious pancakes with your friends and fellow members! </p>",
-  "img": "images/poster/pancake/pancake-jan.png",
+  "img": "images/poster/pancake/pancake-feb.png",
   "calendar": {
       "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240205T150000Z%2F20240205T190000Z&details=&location=Herzberg%20%28HP%29%203422&text=February%20Pancake%20Breakfast",
       "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2024-02-05T14%3A00%3A00&location=Herzberg%20%28HP%29%203422&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-02-05T10%3A00%3A00&subject=February%20Pancake%20Breakfast",
