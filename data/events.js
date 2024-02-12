@@ -14,32 +14,20 @@ let events = [
   }   
 },
 
-{
-  "type": "news-poster",
-  "title": "February Pancake Breakfast",
-  "date": "Monday, February 5th, 2024 @ 10:00am",
-  "location": "Herzberg (HP) 3422",
-  "desc": "<p> We will also be holding our pancake breakfast next week on Monday January 15 from 10 AM to 2 PM right outside the Math Tutorial Centre (HP 3422). Come join us for some delicious pancakes with your friends and fellow members! </p>",
-  "img": "images/poster/pancake/pancake-feb.png",
-  "calendar": {
-      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240205T150000Z%2F20240205T190000Z&details=&location=Herzberg%20%28HP%29%203422&text=February%20Pancake%20Breakfast",
-      "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2024-02-05T14%3A00%3A00&location=Herzberg%20%28HP%29%203422&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-02-05T10%3A00%3A00&subject=February%20Pancake%20Breakfast",
-      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:February%20Pancake%20Breakfast%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20240205T150000Z%0D%0ADTEND:20240205T190000Z%0D%0ADTSTAMP:20240203T215331Z%0D%0ASUMMARY:February%20Pancake%20Breakfast%0D%0ALOCATION:Herzberg%20(HP)%203422%0D%0AUID:53362%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
-  }   
-},
+
 
 {
   "type": "news-poster",
-  "presentor": "Jason Nielson",
-  "title": "A Light Introduction to Smoothing: with an emphasis on splines",
-  "date": "Wednesday, Feburary 07th, 2024 @ 12:00pm",
+  "presentor": "Jason Crann",
+  "title": "Dissecting the Banach-Tarski Paradox",
+  "date": "Wednesday, Feburary 14th, 2024 @ 12:00pm",
   "location": "Herzberg (HP) 4351 - MacPhail",
-  "desc": "<b>Abstract:</b> Smoothing methods are used to estimate underlying functional forms in noisy data. They have broad applications and are very useful for exploratory data analysis. This talk will give an overview of the prevailing techniques for approaching this problem with an emphasis on splines. The focus of this presentation will be on the estimation of one-dimensional functions subject to uncertainty often referred to as scatter plot smoothing. Students of all levels are welcome.",
-  "img": "images/poster/talks/2024-02-07-nielson.png",
+  "desc": "<b>Abstract:</b> Given a solid ball in three-dimensional space, there exists a decomposition of the ball into a finite number of disjoint subsets, which can then be reassembled using volume preserving transformations to yield two identical copies of the original ball. This may sound like science fiction, but it is a mathematical fact, proven by Banach and Tarski in 1924 (based on previous work of Vitali and Hausdorff). We will go through their argument and try to unravel the mystery of this paradox.",
+  "img": "images/poster/talks/2024-02-14-crann.png",
   "calendar": {
-      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240207T170000Z%2F20240207T183000Z&details=&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&text=A%20Light%20Introduction%20to%20Smoothing%3A%20with%20an%20emphasis%20on%20splines",
-      "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2024-02-07T13%3A30%3A00&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-02-07T12%3A00%3A00&subject=A%20Light%20Introduction%20to%20Smoothing%3A%20with%20an%20emphasis%20on%20splines",
-      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:A%20Light%20Introduction%20to%20Smoothing%3A%20with%20an%20emphasis%20on%20splines%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20240207T170000Z%0D%0ADTEND:20240207T183000Z%0D%0ADTSTAMP:20240131T170404Z%0D%0ASUMMARY:A%20Light%20Introduction%20to%20Smoothing%3A%20with%20an%20emphasis%20on%20splines%0D%0ALOCATION:Herzberg%20(HP)%204351%20-%20MacPhail%0D%0AUID:87398%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
+      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240214T170000Z%2F20240214T183000Z&details=&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&text=Dissecting%20the%20Banach%E2%80%93Tarski%20Paradox",
+      "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2024-02-14T13%3A30%3A00&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-02-14T12%3A00%3A00&subject=Dissecting%20the%20Banach%E2%80%93Tarski%20Paradox",
+      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:Dissecting%20the%20Banach%E2%80%93Tarski%20Paradox%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20240214T170000Z%0D%0ADTEND:20240214T183000Z%0D%0ADTSTAMP:20240207T035543Z%0D%0ASUMMARY:Dissecting%20the%20Banach%E2%80%93Tarski%20Paradox%0D%0ALOCATION:Herzberg%20(HP)%204351%20-%20MacPhail%0D%0AUID:67360%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
   }   
 },
 
