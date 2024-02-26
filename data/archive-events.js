@@ -16,6 +16,21 @@ let events = [
 
 {
   "type": "news-poster",
+  "presentor": "Jason Crann",
+  "title": "Dissecting the Banach-Tarski Paradox",
+  "date": "Wednesday, Feburary 14th, 2024 @ 12:00pm",
+  "location": "Herzberg (HP) 4351 - MacPhail",
+  "desc": "<b>Abstract:</b> Given a solid ball in three-dimensional space, there exists a decomposition of the ball into a finite number of disjoint subsets, which can then be reassembled using volume preserving transformations to yield two identical copies of the original ball. This may sound like science fiction, but it is a mathematical fact, proven by Banach and Tarski in 1924 (based on previous work of Vitali and Hausdorff). We will go through their argument and try to unravel the mystery of this paradox.",
+  "img": "images/poster/talks/2024-02-14-crann.png",
+  "calendar": {
+      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240214T170000Z%2F20240214T183000Z&details=&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&text=Dissecting%20the%20Banach%E2%80%93Tarski%20Paradox",
+      "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2024-02-14T13%3A30%3A00&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-02-14T12%3A00%3A00&subject=Dissecting%20the%20Banach%E2%80%93Tarski%20Paradox",
+      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:Dissecting%20the%20Banach%E2%80%93Tarski%20Paradox%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20240214T170000Z%0D%0ADTEND:20240214T183000Z%0D%0ADTSTAMP:20240207T035543Z%0D%0ASUMMARY:Dissecting%20the%20Banach%E2%80%93Tarski%20Paradox%0D%0ALOCATION:Herzberg%20(HP)%204351%20-%20MacPhail%0D%0AUID:67360%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
+  }   
+},
+
+{
+  "type": "news-poster",
   "presentor": "Jason Nielson",
   "title": "A Light Introduction to Smoothing: with an emphasis on splines",
   "date": "Wednesday, Feburary 7th, 2024 @ 12:00pm",
