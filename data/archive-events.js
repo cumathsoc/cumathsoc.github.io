@@ -16,6 +16,21 @@ let events = [
 
 {
   "type": "news-poster",
+  "presentor": "Daniel Dallaire",
+  "title": "Catalan-like counting sequences and a surprising mathematical connection",
+  "date": "Wednesday, Feburary 28th, 2024 @ 12:00pm",
+  "location": "Herzberg (HP) 4351 - MacPhail",
+  "desc": "<b>Abstract:</b> When a counting sequence appears in two different contexts, how do we know if this is a coincidence or something deeper? The Catalan numbers are a well-known integer sequence which shows up in many different counting problems in mathematics. In this talk, I will discuss the Catalan numbers and some lesser-known related sequences, as well as the relationships between these sequences. One of these Catalan-like sequences hints at an interesting connection between two seemingly unrelated areas of mathematics, which we will explore.",
+  "img": "images/poster/talks/2024-02-28-dallaire.png",
+  "calendar": {
+      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240228T170000Z%2F20240304T183000Z&details=&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&text=Catalan-like%20counting%20sequences%20and%20a%20surprising%20mathematical%20connection",
+      "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2024-03-04T13%3A30%3A00&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-02-28T12%3A00%3A00&subject=Catalan-like%20counting%20sequences%20and%20a%20surprising%20mathematical%20connection",
+      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:Catalan-like%20counting%20sequences%20and%20a%20surprising%20mathematical%20connection%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20240228T170000Z%0D%0ADTEND:20240304T183000Z%0D%0ADTSTAMP:20240226T041957Z%0D%0ASUMMARY:Catalan-like%20counting%20sequences%20and%20a%20surprising%20mathematical%20connection%0D%0ALOCATION:Herzberg%20(HP)%204351%20-%20MacPhail%0D%0AUID:21319%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
+  }   
+},
+
+{
+  "type": "news-poster",
   "presentor": "Jason Crann",
   "title": "Dissecting the Banach-Tarski Paradox",
   "date": "Wednesday, Feburary 14th, 2024 @ 12:00pm",
