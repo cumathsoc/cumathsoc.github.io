@@ -16,6 +16,20 @@ let events = [
 
 {
   "type": "news-poster",
+  "title": "Pi Day",
+  "date": "Wednesday, March 13th, 2024 @ 11:00am",
+  "location": "Herzberg (HP) 3422",
+  "desc": "<p> 🐧 We are celebrating this year's Pi day on Wednesday March 13th, rather than the 14th due to scheduling. We have planned a series of events throughout the day including activities hosted by our alumnus Alice and Grad student Yuliya, as well as a pi recital contest, finishing the day with a talk by Dr. Brett Stevens! Come and bring your friends to the Math Tutorial Centre on Wednesday March 13th and enjoy fun math! 👀 (See full schedule on the poster). </p>",
+  "img": "images/poster/pi-day.png",
+  "calendar": {
+      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240310T150000Z%2F20240310T200000Z&details=&location=Herzberg%20%28HP%29%203422&text=Pi%20Day",
+      "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2024-03-10T16%3A00%3A00&location=Herzberg%20%28HP%29%203422&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-03-10T11%3A00%3A00&subject=Pi%20Day",
+      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:Pi%20Day%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20240310T150000Z%0D%0ADTEND:20240310T200000Z%0D%0ADTSTAMP:20240311T015415Z%0D%0ASUMMARY:Pi%20Day%0D%0ALOCATION:Herzberg%20(HP)%203422%0D%0AUID:57791%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
+  }   
+},
+
+{
+  "type": "news-poster",
   "presentor": "Natalia Stepanova",
   "title": "Selected Paradoxes in Mathematical Statistics",
   "date": "Wednesday, March 6th, 2024 @ 12:00pm",
