@@ -19,7 +19,7 @@ let events = [
   "title": "Pi Day",
   "date": "Wednesday, March 13th, 2024 @ 11:00am",
   "location": "Herzberg (HP) 3422",
-  "desc": "<p> 🐧 We are celebrating this year's Pi day on Wednesday March 13th, rather than the 14th due to scheduling. We have planned a series of events throughout the day including activities hosted by our alumnus Alice and Grad student Yuliya, as well as a pi recital contest, finishing the day with a talk by Dr. Brett Stevens! Come and bring your friends to the Math Tutorial Centre on Wednesday March 13th and enjoy fun math! 👀 (See full schedule on the poster). </p>",
+  "desc": "<p> 🐧 We are celebrating this year's Pi day on Wednesday March 13th, rather than the 14th due to scheduling. We have planned a series of events throughout the day including activities hosted by our alumnus Alice and Grad student Yuliya, as well as a pi recital contest, finishing the day with a talk by Dr. Steven Rayan! Come and bring your friends to the Math Tutorial Centre on Wednesday March 13th and enjoy fun math! 👀 (See full schedule on the poster). </p>",
   "img": "images/poster/pi-day.png",
   "calendar": {
       "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240310T150000Z%2F20240310T200000Z&details=&location=Herzberg%20%28HP%29%203422&text=Pi%20Day",
