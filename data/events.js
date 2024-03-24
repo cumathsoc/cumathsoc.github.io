@@ -16,30 +16,16 @@ let events = [
 
 {
   "type": "news-poster",
-  "title": "Careers in Mathematics and Statistics",
-  "date": "Monday, March 18th, 2024 @ 2:05pm",
-  "location": "Herzberg (HP) 5345",
-  "desc": "<p> Join us for an insightful exploration into the world of mathematics and statistics! Our event will feature two seasoned actuaries who will share their unique career journeys, experiences, and valuable insights. Whether you’re a student, a recent graduate, or simply curious about the field, this event is an excellent opportunity to learn about the exciting paths that mathematics and statistics can lead you down. </p>",
-  "img": "images/poster/career.png",
-  "calendar": {
-      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240318T180000Z%2F20240318T200000Z&details=&location=Herzberg%20%28HP%29%205345&text=Careers%20in%20Mathematics%20and%20Statistics",
-      "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2024-03-18T16%3A00%3A00&location=Herzberg%20%28HP%29%205345&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-03-18T14%3A00%3A00&subject=Careers%20in%20Mathematics%20and%20Statistics",
-      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:Careers%20in%20Mathematics%20and%20Statistics%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20240318T180000Z%0D%0ADTEND:20240318T200000Z%0D%0ADTSTAMP:20240318T023319Z%0D%0ASUMMARY:Careers%20in%20Mathematics%20and%20Statistics%0D%0ALOCATION:Herzberg%20(HP)%205345%0D%0AUID:10725%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
-  }   
-},
-
-{
-  "type": "news-poster",
-  "presentor": "Alice Rigg",
-  "title": "Looking inside a Neural Network's Hidden Layers",
-  "date": "Wednesday, March 20th, 2024 @ 12:00pm",
+  "presentor": "Yuly Billig",
+  "title": "Eigenvalue methods in Data Science",
+  "date": "Wednesday, March 27th, 2024 @ 12:00pm",
   "location": "Herzberg (HP) 4351 - MacPhail",
-  "desc": "<b>Abstract:</b> Most work on interpretability aims to give simple explanations of an entire neural network’s behavior. But what if instead we take an approach inspired by neuroscience and cellular biology - an approach of zooming in? What if we treated individual neurons, individual cells and its constituents, as being worthy of serious investigation? What if we were willing to spend thousands of hours tracing through every neuron and its connections? What kind of mechanistic understanding of neural networks would emerge? In this talk, I’ll motivate this field of mechanistic interpretability. We’ll see how this endeavor might not only be tractable, but also beautiful and approachable, in contrast to the typical depiction of neural networks as a black box.",
-  "img": "images/poster/talks/2024-03-20-rigg.png",
+  "desc": "<b>Abstract:</b> In this talk, we will discuss how eigenvalue techniques from linear algebra may be applied to data science. We will begin with the PageRank algorithm which was at the core of Google's search engine. Google came relatively late to the market of search engines. Yet, the founders of Google saw how to use linear algebra for web search, and the algorithm they designed was far better than anything that previously existed. Linear algebra helped them to create a trillion-dollar company. The second method that we will review in this talk is the Singular Value Decomposition (SVD). SVD is the analogue of matrix diagonalization for rectangular matrices. It is an extremely powerful tool, with a multitude of applications from topic classification of texts to the analysis of DNA to data compression. Finally, I will talk about my own work on clustering in large hypergraphs.",
+  "img": "images/poster/talks/2024-03-27-billig.png",
   "calendar": {
-      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240320T160000Z%2F20240320T173000Z&details=&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&text=Looking%20inside%20a%20Neural%20Network%27s%20Hidden%20Layers",
-      "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2024-03-20T13%3A30%3A00&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-03-20T12%3A00%3A00&subject=Looking%20inside%20a%20Neural%20Network%27s%20Hidden%20Layers",
-      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:Looking%20inside%20a%20Neural%20Network's%20Hidden%20Layers%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20240320T160000Z%0D%0ADTEND:20240320T173000Z%0D%0ADTSTAMP:20240318T023424Z%0D%0ASUMMARY:Looking%20inside%20a%20Neural%20Network's%20Hidden%20Layers%0D%0ALOCATION:Herzberg%20(HP)%204351%20-%20MacPhail%0D%0AUID:11501%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
+      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240327T160000Z%2F20240327T173000Z&details=&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&text=Eigenvalue%20methods%20in%20Data%20Science",
+      "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2024-03-27T13%3A30%3A00&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-03-27T12%3A00%3A00&subject=Eigenvalue%20methods%20in%20Data%20Science",
+      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:Eigenvalue%20methods%20in%20Data%20Science%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20240327T160000Z%0D%0ADTEND:20240327T173000Z%0D%0ADTSTAMP:20240324T012119Z%0D%0ASUMMARY:Eigenvalue%20methods%20in%20Data%20Science%0D%0ALOCATION:Herzberg%20(HP)%204351%20-%20MacPhail%0D%0AUID:35180%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
   }   
 },
 
