@@ -1,0 +1,23 @@
+table {
+    margin:auto;
+    text-align: center;
+    width: 50%
+}
+td {
+    height: 2.5em;
+}
+
+.integration {
+    font-size: 1.25em;
+}
+
+.no-bullet {
+    list-style-type: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
