@@ -16,16 +16,31 @@ let events = [
 
 {
   "type": "news-poster",
-  "presentor": "Yuly Billig",
-  "title": "Eigenvalue methods in Data Science",
-  "date": "Wednesday, March 27th, 2024 @ 12:00pm",
-  "location": "Herzberg (HP) 4351 - MacPhail",
-  "desc": "<b>Abstract:</b> In this talk, we will discuss how eigenvalue techniques from linear algebra may be applied to data science. We will begin with the PageRank algorithm which was at the core of Google's search engine. Google came relatively late to the market of search engines. Yet, the founders of Google saw how to use linear algebra for web search, and the algorithm they designed was far better than anything that previously existed. Linear algebra helped them to create a trillion-dollar company. The second method that we will review in this talk is the Singular Value Decomposition (SVD). SVD is the analogue of matrix diagonalization for rectangular matrices. It is an extremely powerful tool, with a multitude of applications from topic classification of texts to the analysis of DNA to data compression. Finally, I will talk about my own work on clustering in large hypergraphs.",
-  "img": "images/poster/talks/2024-03-27-billig.png",
+  "title": "April Pancake Breakfast",
+  "presentor": "",
+  "date": "Monday, April 1st, 2024 @ 10:00am",
+  "location": "Outside Herzberg (HP) 3422",
+  "desc": "<p> We will also be holding our first pancake breakfast next week on Monday April 1st from 10 AM to 2 PM right outside the Math Tutorial Centre (HP 3422). Come join us for some delicious pancakes with your friends and fellow members! This is not a joke!!! </p>",
+  "img": "images/poster/pancake/pancake-apr.png",
   "calendar": {
-      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240327T160000Z%2F20240327T173000Z&details=&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&text=Eigenvalue%20methods%20in%20Data%20Science",
-      "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2024-03-27T13%3A30%3A00&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-03-27T12%3A00%3A00&subject=Eigenvalue%20methods%20in%20Data%20Science",
-      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:Eigenvalue%20methods%20in%20Data%20Science%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20240327T160000Z%0D%0ADTEND:20240327T173000Z%0D%0ADTSTAMP:20240324T012119Z%0D%0ASUMMARY:Eigenvalue%20methods%20in%20Data%20Science%0D%0ALOCATION:Herzberg%20(HP)%204351%20-%20MacPhail%0D%0AUID:35180%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
+      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240401T140000Z%2F20240401T180000Z&details=&location=Outside%20Herzberg%20%28HP%29%203422&text=April%20Pancake%20Breakfast",
+      "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2024-04-01T14%3A00%3A00&location=Outside%20Herzberg%20%28HP%29%203422&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-04-01T10%3A00%3A00&subject=April%20Pancake%20Breakfast",
+      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:April%20Pancake%20Breakfast%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20240401T140000Z%0D%0ADTEND:20240401T180000Z%0D%0ADTSTAMP:20240401T023231Z%0D%0ASUMMARY:April%20Pancake%20Breakfast%0D%0ALOCATION:Outside%20Herzberg%20(HP)%203422%0D%0AUID:91200%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
+  }
+},
+
+{
+  "type": "news-poster",
+  "presentor": "Stephen Wang",
+  "title": "The Picard Jump in Finite Fields",
+  "date": "Wednesday, April 3rd, 2024 @ 12:00pm",
+  "location": "Herzberg (HP) 4351 - MacPhail",
+  "desc": "<b>Abstract:</b> Little Picard Theorem says that an entire non-constant function $f : \\mathbb{C} → \\mathbb{C}$ takes the values of whole complex plane or the plane minus a single point. This means that an analytic function over the complex field misses all but one values if it misses two values. This kind of behaviour is called the Picard jump by Lipton. In this talk, we discuss the similar behaviour of polynomials over finite fields.",
+  "img": "images/poster/talks/2024-04-03-wang.png",
+  "calendar": {
+      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240403T160000Z%2F20240403T173000Z&details=&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&text=The%20Picard%20Jump%20in%20Finite%20Fields",
+      "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=&enddt=2024-04-03T13%3A30%3A00&location=Herzberg%20%28HP%29%204351%20-%20MacPhail&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-04-03T12%3A00%3A00&subject=The%20Picard%20Jump%20in%20Finite%20Fields",
+      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:The%20Picard%20Jump%20in%20Finite%20Fields%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20240403T160000Z%0D%0ADTEND:20240403T173000Z%0D%0ADTSTAMP:20240401T022854Z%0D%0ASUMMARY:The%20Picard%20Jump%20in%20Finite%20Fields%0D%0ALOCATION:Herzberg%20(HP)%204351%20-%20MacPhail%0D%0AUID:84946%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
   }   
 },
 
