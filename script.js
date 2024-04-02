@@ -61,7 +61,7 @@ function hideLinuxText() {
 
 function piTime() {
   let date = new Date();
-  if (1==1 || (date.getHours() == 3 || date.getHours() == 15) && date.getMinutes() == 14) {
+  if ((date.getHours() == 3 || date.getHours() == 15) && date.getMinutes() == 14) {
     let tux = document.getElementById("tux");
     tux.style.display = "block";
     tux.style.animation = "walk 60s linear";
