@@ -13,7 +13,20 @@ let events = [
       "apple": ""
   }   
 },
-
+{
+  "type": "news",
+  "title": "Math and Statistics Society 2024 Elections",
+  "presentor": "",
+  "date": "",
+  "location": "",
+  "desc": "We are excited to announce the commencement of elections for next year's executives. The nominations have been published and the campaign period has begun! There is a total of 8 candidates running for 4 positions. For more detailed campaign, head to our <a href = 'https://discord.gg/JQRqkQQG'>discord</a> server and ask your candidates any questions in #cu-math-and-stat-elections-2024. One can view the list of candidates and their platform on the <a href = 'election-platform.html'>website</a> as well (To ask and view questions, please head over to the Discord Server). The voting period will begin on <b>April 11th 09:00 EDT</b> and end on <b>April 11th 23:59 EDT</b>. You will receive an email with the voting link once the voting period begins.",
+  "img": "",
+  "calendar": {
+      "google": "",
+      "outlook": "",
+      "apple": ""
+  }   
+},
 {
   "type": "news-poster",
   "title": "April Pancake Breakfast",
