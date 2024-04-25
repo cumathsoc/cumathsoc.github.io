@@ -27,20 +27,6 @@ let events = [
       "apple": ""                                                   
   }                                                                 
 },
-{
-  "type": "news-poster",
-  "title": "Linear Algebra Study Sessions",
-  "presentor": "",
-  "date": "Friday, April 19 2024 @ 2:00PM",
-  "location": "Herzberg (HP) 3422",
-  "desc": "Prepare for your linear algebra exam by studying with us.",
-  "img": "images/poster/study-session/april-2024-1104-study-session.png",
-  "calendar": {
-      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240419T180000Z%2F20240419T210000Z&details=Prepare%20for%20the%20exam%20by%20studying%20with%20us.&location=HP3422&text=Linear%20Algebra%20Study%20Session",
-      "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=Prepare%20for%20the%20exam%20by%20studying%20with%20us.&enddt=2024-04-19T17%3A00%3A00&location=HP3422&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-04-19T14%3A00%3A00&subject=Linear%20Algebra%20Study%20Session",
-      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:Linear%20Algebra%20Study%20Session%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20240419T180000Z%0D%0ADTEND:20240419T210000Z%0D%0ADTSTAMP:20240413T021757Z%0D%0ASUMMARY:Linear%20Algebra%20Study%20Session%0D%0ADESCRIPTION:Prepare%20for%20the%20exam%20by%20studying%20with%20us.%0D%0ALOCATION:HP3422%0D%0AUID:85047%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"
-  }
-},
 /*{
   "type": "news-poster",
   "title": "The Powerhouse of Problem Solving: Why Computer Science Triumphs over Mathematics",
