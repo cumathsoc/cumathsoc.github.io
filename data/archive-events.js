@@ -43,6 +43,20 @@ let events = [
 },
 {
   "type": "news-poster",
+  "title": "Undergraduate Integration Bee",
+  "presentor": "",
+  "date": "Friday, April 5th, 2024 @ 4:00pm",
+  "location": "Loeb Building (LA) C264",
+  "desc": "<p> Excitement is in the air as the Carleton Math Society proudly unveils its inaugural Integration Bee! Get ready for a thrilling competition that will put your integration skills to the ultimate test. It's not just about the glory; we've got fantastic prizes too. Brace yourself for an epic contest that transcends the boundaries of integration. Join us in making history as Carleton's first great integrator! Are you up for the challenge? </p> We would like to thank you to Nathan for hosting this event.",
+  "img": "images/poster/int-bee.png",
+  "calendar": {
+    "google": "",
+    "outlook": "",
+    "apple": ""
+  }   
+},
+{
+  "type": "news-poster",
   "title": "April Pancake Breakfast",
   "presentor": "",
   "date": "Monday, April 1st, 2024 @ 10:00am",
