@@ -133,6 +133,268 @@ img {
 
 /* DESKTOP VERSIONS */
 /* Order like show up on the website (html file): latest events coming up */
+
+/*Format for comp1905 session*/
+.titleComp1805 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  margin-bottom: 10px;
+  grid-area: titleComp1805;
+}
+
+.comp1805-1 {
+  grid-area: comp1805-1;
+}
+
+.comp1805-2 {
+  grid-area: comp1805-2;
+}
+
+.comp1805-3 {
+  grid-area: comp1805-3;
+}
+
+.comp1805-4 {
+  grid-area: comp1805-4;
+}
+
+.comp1805-5 {
+  grid-area: comp1805-5;
+}
+
+.comp1805-v1 {
+  grid-area: comp1805-v1;
+}
+
+.comp1805-v2 {
+  grid-area: comp1805-v2;
+}
+
+.boxComp1805 img {
+  height: 100%;
+}
+
+.boxComp1805 {
+  margin-top: 15px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+   "titleComp1805 titleComp1805 titleComp1805 titleComp1805"
+   "comp1805-v1 comp1805-5 comp1805-5 comp1805-v2"
+   "comp1805-2 comp1805-2 comp1805-3 comp1805-3"
+   "comp1805-1 comp1805-1 comp1805-4 comp1805-4";
+}
+
+/*Format for Lin Alg session*/
+.titleLinAlg {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  margin-bottom: 10px;
+  grid-area: titleLinAlg;
+}
+
+.LinAlg-1 {
+  grid-area: LinAlg-1;
+}
+
+.LinAlg-2 {
+  grid-area: LinAlg-2;
+}
+
+.boxLinAlg img {
+  height: 100%;
+}
+
+.boxLinAlg {
+  margin-top: 15px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+   "titleLinAlg titleLinAlg titleLinAlg titleLinAlg"
+   "LinAlg-1 LinAlg-1 LinAlg-2 LinAlg-2";
+}
+
+/*Format for Int Bee*/
+.titleIntBee {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  margin-bottom: 10px;
+  grid-area: titleIntBee;
+}
+
+.IntBeeV1 {
+  grid-area: IntBeeV1;
+}
+
+.IntBeeV2 {
+  grid-area: IntBeeV2;
+}
+
+.IntBeeH1 {
+  grid-area: IntBeeH1;
+}
+
+.IntBeeH2 {
+  grid-area: IntBeeH2;
+}
+
+.IntBeeH3 {
+  grid-area: IntBeeH3;
+}
+
+.IntBeeH4 {
+  grid-area: IntBeeH4;
+}
+
+.IntBeeH5 {
+  grid-area: IntBeeH5;
+}
+
+.IntBeeH6 {
+  grid-area: IntBeeH6;
+}
+
+.IntBeeH7 {
+  grid-area: IntBeeH7;
+}
+
+.IntBeeH8 {
+  grid-area: IntBeeH8;
+}
+
+.IntBeeH9 {
+  grid-area: IntBeeH9;
+}
+
+.boxIntBee img {
+  height: 100%;
+}
+
+.boxIntBee {
+  margin-top: 15px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+   "titleIntBee titleIntBee titleIntBee titleIntBee"
+   "IntBeeH9 IntBeeH9 IntBeeH5 IntBeeH5"
+   "IntBeeH4 IntBeeH4 IntBeeH1 IntBeeH1"
+   "IntBeeV2 IntBeeH6 IntBeeH6 IntBeeV1"
+   "IntBeeH8 IntBeeH8 IntBeeH7 IntBeeH7"
+   "IntBeeH3 IntBeeH3 IntBeeH2 IntBeeH2";
+}
+
+/*Format for colloquia*/
+.titleColloquia {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  margin-bottom: 10px;
+  grid-area: titleColloquia;
+}
+
+.Dewar {
+  grid-area: Dewar;
+}
+
+.Mezo {
+  grid-area: Mezo;
+}
+
+.Bumagin {
+  grid-area: Bumagin;
+}
+
+.Fodden {
+  grid-area: Fodden;
+}
+
+.Nielson {
+  grid-area: Nielson;
+}
+
+.Dallaire {
+  grid-area: Dallaire;
+}
+
+.Stepanova {
+  grid-area: Stepanova;
+}
+
+.Rigg {
+  grid-area: Rigg;
+}
+
+.Billig {
+  grid-area: Billig;
+}
+
+.boxColloquia img {
+  height: 100%;
+}
+
+.boxColloquia {
+  margin-top: 15px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+   "titleColloquia titleColloquia titleColloquia titleColloquia"
+   "Billig Stepanova Stepanova Rigg"
+   "Fodden Fodden Nielson Dallaire"
+   "Dewar Mezo Bumagin Bumagin";
+}
+
+/*Format for Pi Day*/
+.titlePiDay {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  margin-bottom: 10px;
+  grid-area: titlePiDay;
+}
+
+.pi-game {
+  grid-area: pi-game;
+}
+
+.pi-group {
+  grid-area: pi-group;
+}
+
+.pi-hang-over {
+  grid-area: pi-hang-over;
+}
+
+.pi-pie {
+  grid-area: pi-pie;
+}
+
+.boxPiDay img {
+  height: 100%;
+}
+
+.boxPiDay {
+  margin-top: 15px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+   "titlePiDay titlePiDay titlePiDay titlePiDay"
+   "pi-group pi-group pi-pie pi-pie"
+   "pi-game pi-game pi-hang-over pi-hang-over";
+}
+
 /*Format for the potluck event*/
 .titlePotluck {
   text-align: center;
@@ -470,6 +732,123 @@ img {
 @media (max-width: 500px) {
   .title {
     font-size: 35px;
+  }
+  /*Format for comp1805 session*/
+  .titleComp1805 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  
+  .boxComp1805 {
+    margin-top: 10px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+     "titleComp1805 titleComp1805"
+     "comp1805-5 comp1805-5"
+     "comp1805-v1 comp1805-v2"
+     "comp1805-2 comp1805-2"
+     "comp1805-3 comp1805-3"
+     "comp1805-1 comp1805-1"
+     "comp1805-4 comp1805-4";
+  }
+  
+  /*Format for Lin Alg session*/
+  .titleLinAlg {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  
+  .boxLinAlg {
+    margin-top: 10px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+     "titleLinAlg titleLinAlg"
+     "LinAlg-1 LinAlg-1"
+     "LinAlg-2 LinAlg-2";
+  }
+  
+  /*Format for Int Bee*/
+  .titleIntBee {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  
+  .boxIntBee {
+    margin-top: 10px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+     "titleIntBee titleIntBee"
+     "IntBeeH9 IntBeeH9"
+     "IntBeeH5 IntBeeH5"
+     "IntBeeH4 IntBeeH4"
+     "IntBeeH1 IntBeeH1"
+     "IntBeeV2 IntBeeV1"
+     "IntBeeH6 IntBeeH6"
+     "IntBeeH8 IntBeeH8"
+     "IntBeeH7 IntBeeH7"
+     "IntBeeH3 IntBeeH3"
+     "IntBeeH2 IntBeeH2";
+  }
+  
+  /*Format for colloquia*/
+  .titleColloquia {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  
+  .boxColloquia {
+    margin-top: 10px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+     "titleColloquia titleColloquia"
+     "Billig Rigg"
+     "Stepanova Stepanova"
+     "Nielson Dallaire"
+     "Fodden Fodden"
+     "Dewar Mezo"
+     "Bumagin Bumagin";
+  }
+  
+  /*Format for Pi Day */
+  .titlePiDay {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+
+  .boxPiDay {
+    margin-top: 10px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+     "titlePiDay titlePiDay"
+     "pi-group pi-group"
+     "pi-pie pi-pie"
+     "pi-game pi-game"
+     "pi-hang-over pi-hang-over";
   }
 
   /*Format for the potluck event*/
