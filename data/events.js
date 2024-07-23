@@ -27,6 +27,20 @@ let events = [
       "apple": ""                                                   
   }                                                                 
 },
+{
+  "type": "news",                                                       
+  "title": "MathSoc Community Event",                                                      
+  "presentor": "MathSoc President",                                                  
+  "date": "April 26 2024",                                                       
+  "location": "Herzberg (HP) 3422 from 10am to 4pm",                                 
+  "desc": "Come and meet the new administration",                                                       
+  "img": "",                                                        
+  "calendar": {                                                     
+      "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240426T140000Z%2F20240426T200000Z&details=Come%20and%20meet%20the%20new%20administration&location=Herzberg%20%28HP%29%203422&text=MathSoc%20Comunity%20Event",                             
+      "outlook": "https://outlook.office.com/calendar/0/action/compose?allday=false&body=Come%20and%20meet%20the%20new%20administration&enddt=2024-04-26T16%3A00%3A00&location=Herzberg%20%28HP%29%203422&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-04-26T10%3A00%3A00&subject=MathSoc%20Comunity%20Event",                                               
+      "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0D%0AVERSION:2.0%0D%0APRODID:MathSoc%20Comunity%20Event%0D%0ABEGIN:VEVENT%0D%0ADTSTART:20240426T140000Z%0D%0ADTEND:20240426T200000Z%0D%0ADTSTAMP:20240425T182517Z%0D%0ASUMMARY:MathSoc%20Comunity%20Event%0D%0ADESCRIPTION:Come%20and%20meet%20the%20new%20administration%0D%0ALOCATION:Herzberg%20(HP)%203422%0D%0AUID:25720%0D%0AEND:VEVENT%0D%0AEND:VCALENDAR%0D%0A"                                                   
+  }                                                                 
+},
 /*{
   "type": "news-poster",
   "title": "The Powerhouse of Problem Solving: Why Computer Science Triumphs over Mathematics",
