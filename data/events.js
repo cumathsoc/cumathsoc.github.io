@@ -14,12 +14,12 @@ let events = [
   }   
 },
 {
-  "type": "",                                                       
-  "title": "",                                                      
-  "presentor": "",                                                  
-  "date": "",                                                       
-  "location": "Herzberg (HP) 3422",                                 
-  "desc": "",                                                       
+  "type": "news",                                                       
+  "title": "Site is Defunct",                                                      
+  "presentor": "Site Administrator",                                                  
+  "date": "July 05 2025",                                                       
+  "location": "",                                 
+  "desc": "Website has been defunct since summer 2024. Please join the <a href = 'https://discord.gg/4ttYNMWkVw'>Discord Group</a> to learn of any future activities from the Math Society.<p>If any future administration wishes to revive the website, the <a href = 'https://github.com/cumathsoc'>Github repository</a> is associated with the society's email. If you have any issues, please open a ticket (an issue) on the website repository and the former website administrator can assist you.</p>",    
   "img": "",                                                        
   "calendar": {                                                     
       "google": "",                                                 
