@@ -4,7 +4,7 @@ const { data: event } = await useAsyncData(`event-${slug}`, async () => {
   if (slug === undefined) {
     return null
   }
-  return queryCollection('events').path(`/events/${slug.join("/")}`).first()
+  return queryCollection('events').path(`/events/${((typeof slug) === 'string') ? slug : slug.join("/")}`).first()
 })
 
 definePageMeta({

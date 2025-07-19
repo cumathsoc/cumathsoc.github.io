@@ -6,7 +6,7 @@
         <div class="flex-none">
             <ul class="menu menu-horizontal px-1">
                 <li><a href="/events">Events</a></li>
-                <li><a href="/">Resources</a></li>
+                <li><a href="/resources">Resources</a></li>
                 <li><a href="/about">About</a></li>
             </ul>
         </div>

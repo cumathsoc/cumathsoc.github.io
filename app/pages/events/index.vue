@@ -11,6 +11,5 @@ const { data: events } = await useAsyncData("events", () => {
     <div v-for="event in events" :key="event.id" class="event-item">
       <EventPreview :event="event" />
     </div>
-    {{ events }}
   </div>
 </template>
