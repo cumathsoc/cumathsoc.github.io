@@ -11,7 +11,7 @@
             </ul>
         </div>
         <div class="navbar-end">
-            <a href="/" class="btn">Videos</a>
+            <a href="/videos" class="btn">Recordings</a>
         </div>
     </div>
 </template>

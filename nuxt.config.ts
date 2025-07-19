@@ -17,5 +17,11 @@ export default defineNuxtConfig({
   ],
   content: {
 
+  },
+  runtimeConfig: {
+    clientEmail: '',
+    privateKey: '',
+    googleSheetId: '',
+    youtubePlaylist: '',
   }
 })
