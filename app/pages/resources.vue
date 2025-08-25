@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { data: post } = await useAsyncData(`about`, () => {
+const { data: post } = await useAsyncData(`resources`, () => {
   return queryCollection('misc').path(`/misc/resources`).first()
 })
 
