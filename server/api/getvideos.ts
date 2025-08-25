@@ -22,7 +22,7 @@ export default defineEventHandler<Promise<{status: 'ok' | 'error'; url: string, 
     const sheet = doc.sheetsByIndex[0];
     const rows = await sheet.getRows();
 
-    const ids = rows.map(row => row.get('Student ID'));
+    const ids = rows.map(row => row.get('Student No. / Carleton I.D.'));
 
     if (ids.includes(studentID)) {
         return {

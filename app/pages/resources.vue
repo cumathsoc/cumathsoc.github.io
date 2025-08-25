@@ -10,3 +10,11 @@ definePageMeta({
 <template>
   <ContentRenderer :value="post" />
 </template>
+<style>
+h2 a {
+  text-decoration: none;
+}
+h3 a {
+  text-decoration: none;
+}
+</style>
