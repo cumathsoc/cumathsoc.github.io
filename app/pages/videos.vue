@@ -6,7 +6,7 @@ const message = ref<string>('')
 const url = ref<string>('')
 
 const getPlaylist = async () => {
-    const res = await $fetch<{status: 'ok' | 'error'; url: string, message: string}>('/api/getvideos', {
+    const res = await $fetch<{ status: 'ok' | 'error'; url: string, message: string }>('/api/getvideos', {
         query: {
             studentID: studentId.value,
         },
@@ -33,7 +33,11 @@ const getPlaylist = async () => {
             </div>
         </div>
     </div>
-    <div v-else class="flex">
-        <p>Paragraph: {{ url }}</p>
+    <div v-else class="flex flex-col items-center justify-center min-h-screen">
+        <div class="card bg-base-100 w-6xl shadow-sm">
+            <div class="card-body">
+                <p>You can see the videos here: <a class="link" href="{{ url }}">{{ url }}</a></p>
+            </div>
+        </div>
     </div>
 </template>
