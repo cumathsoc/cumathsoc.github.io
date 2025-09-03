@@ -3,7 +3,7 @@
         <div class="hero-content flex-col lg:flex-row">
             <NuxtImg src="mathsoc-logo.png" class="max-w-sm rounded-lg"
                 alt="Carleton University Mathematics and Statistics Society Logo" />
-            <div class="ml-48 max-w-2xl">
+            <div class="md:ml-48 sm:ml-auto max-w-2xl">
                 <h1 class="text-5xl font-bold">
                     Welcome to Carleton University's <span class="text-red-600">Mathematics and Statistics</span>
                     Society

@@ -8,5 +8,7 @@ definePageMeta({
 })
 </script>
 <template>
-  <ContentRenderer :value="post" />
+  <div class="p-2">
+    <ContentRenderer :value="post" />
+  </div>
 </template>

@@ -10,7 +10,7 @@ const props = defineProps<{
 }>();
 </script>
 <template>
-    <div class="card bg-base-100 shadow-sm min-w-3xl">
+    <div class="card bg-base-100 shadow-sm lg:min-w-3xl sm:p-2">
         <div class="card-body">
             <div class="flex">
                 <h2 class="card-title">{{ props.event.title }}</h2>
