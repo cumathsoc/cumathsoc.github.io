@@ -5,7 +5,7 @@ title: "About Us"
 
 ## What are we?
 
-We are the **[Carleton University Mathematics and Statistics Society]{.text-red-600}**. We are registered as an academic society under CUSA and are affiliated with the School of Mathematics and Statistics. We strives to represent and advocate the interests and concerns of Math & Stat students before the university administration, the faculty, and CUSA.
+We are the **[Carleton University Mathematics and Statistics Society]{.text-red-600}**. We are registered as an academic society under CUSA and are affiliated with the School of Mathematics and Statistics. We strive to represent and advocate the interests and concerns of Math & Stat students before the university administration, the faculty, and CUSA.
 
 ## Who are we?
 
@@ -13,8 +13,8 @@ We are a group of undergraduate students in Math & Stat. We are committed in bui
 
 ## Where & When are We
 
-We host and run numerous events on the campus of Carleton University during school days through the entire academic year. Majority of our events are located in Herzberg Laboratory. Some highlights include Annual Welcoming Barbecue, Weekly Colloquia Series, Monthly Breakfast Forum, and most important of all, Pi Day celebration.
+We host and run numerous events on the campus of Carleton University during school days through the entire academic year. The majority of our events are located in Herzberg Laboratory. Some highlights include Annual Welcoming Barbecue, Weekly Colloquia Series, Monthly Breakfast Forum, and most important of all, Pi Day celebration.
 
 ## How & Why are We
 
-Becoming a member comes with many benefits, for instance all members are entitled to complementary food at our events, discount price for Books and Merch, and exclusive video recording to our Colloquia Series. To join the society, simply attend one of our events and sign up on the spot. Also, don't forget to join our Discord Server in order to stay up to date with all our exciting upcoming events.
+Becoming a member comes with many benefits, for instance all members are entitled to complementary food at our events, discount prices for Books and Merch, and exclusive video recordings to our Colloquia Series. To join the society, simply attend one of our events and sign up on the spot. Also, don't forget to join our [Discord Server](https://discord.com/invite/YfuYfjwxEW) in order to stay up to date with all our exciting upcoming events.
