@@ -17,4 +17,4 @@ We host and run numerous events on the campus of Carleton University during scho
 
 ## How & Why are We
 
-Becoming a member comes with many benefits, for instance all members are entitled to complementary food at our events, discount prices for Books and Merch, and exclusive video recordings to our Colloquia Series. To join the society, simply attend one of our events and sign up on the spot. Also, don't forget to join our Discord Server in order to stay up to date with all our exciting upcoming events.
+Becoming a member comes with many benefits, for instance all members are entitled to complementary food at our events, discount prices for Books and Merch, and exclusive video recordings to our Colloquia Series. To join the society, simply attend one of our events and sign up on the spot. Also, don't forget to join our [Discord Server]([https://discord.com/invite/YfuYfjwxEW]) in order to stay up to date with all our exciting upcoming events.
